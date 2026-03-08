@@ -232,6 +232,9 @@ jobs:
           echo "mcp: $CHANGED_MCP"
           echo "react: $CHANGED_REACT"
 
+      - name: Sync lockfile after version bumps
+        run: pnpm install --no-frozen-lockfile
+
       # --- Build changed packages ---
       - name: Build thesvg wrapper
         working-directory: packages/thesvg
@@ -318,8 +321,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          # Stage only package.json files that were bumped
-          git add packages/icons/package.json packages/thesvg/package.json
+          # Stage package.json files that were bumped + updated lockfile
+          git add packages/icons/package.json packages/thesvg/package.json pnpm-lock.yaml
 
           CHANGED_CLI="${{ needs.detect-release.outputs.changed_cli }}"
           CHANGED_MCP="${{ needs.detect-release.outputs.changed_mcp }}"

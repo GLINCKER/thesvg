@@ -140,9 +140,9 @@ importers:
 
   packages/thesvg:
     dependencies:
-      '@the-svg/icons':
-        specifier: 0.2.0
-        version: 0.2.0
+      '@thesvg/icons':
+        specifier: 0.3.0
+        version: 0.3.0
 
 packages:
 
@@ -1287,8 +1287,8 @@ packages:
   '@tailwindcss/postcss@4.2.1':
     resolution: {integrity: sha512-OEwGIBnXnj7zJeonOh6ZG9woofIjGrd2BORfvE5p9USYKDCZoQmfqLcfNiRWoJlRWLdNPn2IgVZuWAOM4iTYMw==}
 
-  '@the-svg/icons@0.2.0':
-    resolution: {integrity: sha512-hWmPEeIVUJBqj25Z9waNnPVtNhM9GuwzJdtvzNhHiWQCDs+4uR/W3urxs65QIKfiSVgihgPvE/WwhXT3lKxdEA==}
+  '@thesvg/icons@0.3.0':
+    resolution: {integrity: sha512-LId/ObmEPIpsFp/XBuJYj1KkU2e5BDRk5J35NwySmJpaEK5cUZW7VBjxH5ZCkmACT1F5STUX5g7sbDvtNaerfg==}
     engines: {node: '>=18'}
 
   '@ts-morph/common@0.27.0':
@@ -4884,7 +4884,7 @@ snapshots:
       postcss: 8.5.8
       tailwindcss: 4.2.1
 
-  '@the-svg/icons@0.2.0': {}
+  '@thesvg/icons@0.3.0': {}
 
   '@ts-morph/common@0.27.0':
     dependencies:
