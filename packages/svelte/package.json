@@ -1,0 +1,62 @@
+{
+  "name": "@thesvg/svelte",
+  "version": "0.8.0",
+  "description": "Typed Svelte SVG components for all 4000+ brand icons from thesvg.org",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "author": "thesvg.org",
+  "homepage": "https://thesvg.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GLINCKER/thesvg.git",
+    "directory": "packages/svelte"
+  },
+  "bugs": {
+    "url": "https://github.com/GLINCKER/thesvg/issues"
+  },
+  "keywords": [
+    "svg",
+    "icons",
+    "brand",
+    "logos",
+    "svelte",
+    "components",
+    "tree-shakeable",
+    "esm",
+    "typescript"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./*": {
+      "types": "./dist/*.svelte.d.ts",
+      "svelte": "./dist/*.svelte",
+      "default": "./dist/*.svelte"
+    }
+  },
+  "svelte": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsx scripts/build-components.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "svelte": ">=4"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

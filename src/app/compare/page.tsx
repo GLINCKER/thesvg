@@ -72,7 +72,7 @@ const LIBRARIES: LibInfo[] = [
     url: "https://thesvg.org",
     icons: "4,000+",
     focus: "Brand logos",
-    desc: "Largest brand SVG library with multi-variant support (light/dark/wordmark/mono). Full toolchain: npm, React, CLI, API, MCP server.",
+    desc: "Largest brand SVG library with multi-variant support (light/dark/wordmark/mono). Full toolchain: npm, React/Vue/Svelte, CLI, API, MCP server.",
     highlight: true,
   },
   {
@@ -155,8 +155,8 @@ const FEATURES: {
     items: [
       { feature: "npm package", thesvg: "yes", simpleicons: "yes", svgl: "no", lucide: "yes", fontawesome: "yes", iconify: "yes", devicon: "yes" },
       { feature: "React components", thesvg: "yes", simpleicons: "partial", svgl: "no", lucide: "yes", fontawesome: "yes", iconify: "yes", devicon: "no", note: "Simple Icons: community wrapper" },
-      { feature: "Vue components", thesvg: "no", simpleicons: "no", svgl: "no", lucide: "yes", fontawesome: "yes", iconify: "yes", devicon: "no" },
-      { feature: "Svelte components", thesvg: "no", simpleicons: "no", svgl: "partial", lucide: "yes", fontawesome: "no", iconify: "yes", devicon: "no" },
+      { feature: "Vue components", thesvg: "yes", simpleicons: "no", svgl: "no", lucide: "yes", fontawesome: "yes", iconify: "yes", devicon: "no" },
+      { feature: "Svelte components", thesvg: "yes", simpleicons: "no", svgl: "partial", lucide: "yes", fontawesome: "no", iconify: "yes", devicon: "no" },
       { feature: "CLI tool", thesvg: "yes", simpleicons: "no", svgl: "no", lucide: "no", fontawesome: "no", iconify: "no", devicon: "no" },
       { feature: "Tree-shakeable", thesvg: "yes", simpleicons: "yes", svgl: "no", lucide: "yes", fontawesome: "partial", iconify: "yes", devicon: "no" },
       { feature: "CDN URLs", thesvg: "yes", simpleicons: "yes", svgl: "yes", lucide: "yes", fontawesome: "yes", iconify: "yes", devicon: "yes" },
