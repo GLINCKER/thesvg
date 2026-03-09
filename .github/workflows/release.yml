@@ -141,11 +141,27 @@ jobs:
             echo "Manual dispatch: releasing all packages"
           fi
 
+          # Summary: did any package change?
+          ICONS=$(grep -c "icons=true" "$GITHUB_OUTPUT" 2>/dev/null || echo 0)
+          CLI=$(grep -c "cli=true" "$GITHUB_OUTPUT" 2>/dev/null || echo 0)
+          MCP=$(grep -c "mcp=true" "$GITHUB_OUTPUT" 2>/dev/null || echo 0)
+          REACT=$(grep -c "react=true" "$GITHUB_OUTPUT" 2>/dev/null || echo 0)
+          if [ "$ICONS" = "0" ] && [ "$CLI" = "0" ] && [ "$MCP" = "0" ] && [ "$REACT" = "0" ]; then
+            echo "No packages changed - Vercel handles web-only deployment"
+          fi
+
   release:
     name: Release
     runs-on: ubuntu-latest
     needs: detect-release
-    if: needs.detect-release.outputs.should_release == 'true'
+    # Only release if commit type warrants it AND at least one package changed
+    # Web-only changes (src/, components, pages) are handled by Vercel automatically
+    if: |
+      needs.detect-release.outputs.should_release == 'true' &&
+      (needs.detect-release.outputs.changed_icons == 'true' ||
+       needs.detect-release.outputs.changed_cli == 'true' ||
+       needs.detect-release.outputs.changed_mcp == 'true' ||
+       needs.detect-release.outputs.changed_react == 'true')
     environment: npm-publish
 
     steps:
