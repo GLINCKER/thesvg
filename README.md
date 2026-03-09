@@ -79,6 +79,8 @@ npm install @thesvg/icons
 | [`thesvg`](https://www.npmjs.com/package/thesvg) | All icons in one package | [![npm](https://img.shields.io/npm/v/thesvg?style=flat-square&color=F97316)](https://www.npmjs.com/package/thesvg) |
 | [`@thesvg/icons`](https://www.npmjs.com/package/@thesvg/icons) | Core icon data, tree-shakeable | [![npm](https://img.shields.io/npm/v/@thesvg/icons?style=flat-square&color=F97316)](https://www.npmjs.com/package/@thesvg/icons) |
 | [`@thesvg/react`](https://www.npmjs.com/package/@thesvg/react) | Typed React components | [![npm](https://img.shields.io/npm/v/@thesvg/react?style=flat-square&color=F97316)](https://www.npmjs.com/package/@thesvg/react) |
+| [`@thesvg/vue`](https://www.npmjs.com/package/@thesvg/vue) | Typed Vue 3 components | [![npm](https://img.shields.io/npm/v/@thesvg/vue?style=flat-square&color=F97316)](https://www.npmjs.com/package/@thesvg/vue) |
+| [`@thesvg/svelte`](https://www.npmjs.com/package/@thesvg/svelte) | Typed Svelte components | [![npm](https://img.shields.io/npm/v/@thesvg/svelte?style=flat-square&color=F97316)](https://www.npmjs.com/package/@thesvg/svelte) |
 | [`@thesvg/cli`](https://www.npmjs.com/package/@thesvg/cli) | CLI tool (`npx @thesvg/cli add github`) | [![npm](https://img.shields.io/npm/v/@thesvg/cli?style=flat-square&color=F97316)](https://www.npmjs.com/package/@thesvg/cli) |
 | [`@thesvg/mcp-server`](https://www.npmjs.com/package/@thesvg/mcp-server) | MCP server for AI assistants | [![npm](https://img.shields.io/npm/v/@thesvg/mcp-server?style=flat-square&color=F97316)](https://www.npmjs.com/package/@thesvg/mcp-server) |
 
@@ -101,38 +103,39 @@ Use any icon directly without installing:
 ### React
 
 ```tsx
-import { svg } from "thesvg/github";
+import { Github, Figma } from "@thesvg/react";
 
-export function GitHubLogo() {
-  return <div dangerouslySetInnerHTML={{ __html: svg }} />;
-}
-```
-
-### React (CDN)
-
-```tsx
-export function BrandIcon({ slug, size = 32 }: { slug: string; size?: number }) {
-  return (
-    <img
-      src={`https://thesvg.org/icons/${slug}/default.svg`}
-      width={size}
-      height={size}
-      alt={slug}
-    />
-  );
+export function Logos() {
+  return <Github width={24} height={24} className="text-white" />;
 }
 ```
 
 ### Vue
 
 ```vue
-<template>
-  <img :src="`https://thesvg.org/icons/${slug}/default.svg`" :width="size" :alt="slug" />
-</template>
-
 <script setup>
-defineProps({ slug: String, size: { type: Number, default: 32 } });
+import { Github, Figma } from "@thesvg/vue";
 </script>
+
+<template>
+  <Github width="24" height="24" />
+</template>
+```
+
+### Svelte
+
+```svelte
+<script>
+  import { Github, Figma } from "@thesvg/svelte";
+</script>
+
+<Github width="24" height="24" />
+```
+
+### CDN
+
+```html
+<img src="https://thesvg.org/icons/github/default.svg" width="32" height="32" alt="GitHub" />
 ```
 
 ### CLI

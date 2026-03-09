@@ -230,8 +230,8 @@ function main(): void {
 
     // Write .svelte component
     writeFileSync(join(DIST, `${icon.slug}.svelte`), generateSvelteComponent(icon) + "\n");
-    // Write type declarations
-    writeFileSync(join(DIST, `${icon.slug}.d.ts`), generateDtsComponent(icon) + "\n");
+    // Write type declarations (*.svelte.d.ts so TS resolves types for .svelte imports)
+    writeFileSync(join(DIST, `${icon.slug}.svelte.d.ts`), generateDtsComponent(icon) + "\n");
 
     const svgExists = Boolean(primarySvg(icon.slug, icon.variants));
     if (!svgExists) skipped++;
