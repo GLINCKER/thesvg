@@ -201,7 +201,7 @@ function parseSvgElements(inner: string): SvgElement[] {
       const closeTag = `</${tagName}>`;
       let depth = 1;
       let searchPos = matchEnd;
-      let innerStart = matchEnd;
+      const innerStart = matchEnd;
 
       while (depth > 0 && searchPos < remaining.length) {
         const nextOpen = remaining.indexOf(`<${tagName}`, searchPos);
