@@ -447,8 +447,8 @@
     "aliases": [],
     "hex": "191A1B",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/abstract/default.svg",
@@ -591,8 +591,8 @@
     "aliases": [],
     "hex": "3499FE",
     "categories": [
-      "Devtool",
-      "Community"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/acode/default.svg",
@@ -1047,8 +1047,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/affinity-photo/default.svg"
@@ -1062,8 +1062,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/affinity-publisher/default.svg"
@@ -1671,8 +1671,8 @@
     "aliases": [],
     "hex": "0096D6",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/akamai/default.svg",
@@ -1752,8 +1752,8 @@
     "aliases": [],
     "hex": "F46D01",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/alacritty/default.svg",
@@ -2438,8 +2438,8 @@
     "aliases": [],
     "hex": "3DDC84",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/android-studio/default.svg",
@@ -2584,7 +2584,7 @@
     "aliases": [],
     "hex": "EE0000",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -2816,8 +2816,8 @@
     "aliases": [],
     "hex": "FF6A7B",
     "categories": [
-      "Devtool",
-      "Community"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/anytype/default.svg",
@@ -3479,8 +3479,8 @@
     "aliases": [],
     "hex": "F44A53",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/apifox/default.svg",
@@ -3542,8 +3542,8 @@
     "aliases": [],
     "hex": "6236FF",
     "categories": [
-      "Devtool",
-      "Community"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/apostrophe/default.svg",
@@ -3840,8 +3840,8 @@
     "aliases": [],
     "hex": "1904DA",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/aqua/default.svg",
@@ -3958,8 +3958,8 @@
     "aliases": [],
     "hex": "2D50A5",
     "categories": [
-      "Software",
-      "Linux"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/archicad/default.svg",
@@ -4263,8 +4263,8 @@
     "aliases": [],
     "hex": "F06A6A",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/asana/default.svg",
@@ -4331,8 +4331,8 @@
     "aliases": [],
     "hex": "7D929E",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/aseprite/default.svg",
@@ -4619,8 +4619,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/atom/default.svg"
@@ -4889,8 +4889,8 @@
     "aliases": [],
     "hex": "E51050",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/autocad/default.svg",
@@ -4921,8 +4921,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/autodesk/default.svg",
@@ -4938,8 +4938,8 @@
     "aliases": [],
     "hex": "37A5CC",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/autodesk-maya/default.svg",
@@ -4954,8 +4954,8 @@
     "aliases": [],
     "hex": "186BFF",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/autodesk-revit/default.svg",
@@ -6492,7 +6492,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Compiler",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -6539,8 +6539,8 @@
     "aliases": [],
     "hex": "0052CC",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/bitbucket/default.svg",
@@ -6848,8 +6848,8 @@
     "aliases": [],
     "hex": "E87D0D",
     "categories": [
-      "Software",
-      "Design"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/blender/default.svg",
@@ -7904,8 +7904,8 @@
     "aliases": [],
     "hex": "14CC80",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/buildkite/default.svg",
@@ -9361,8 +9361,8 @@
     "aliases": [],
     "hex": "F09820",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/chef/default.svg",
@@ -9523,8 +9523,8 @@
     "aliases": [],
     "hex": "80B5E3",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/chocolatey/default.svg",
@@ -9539,8 +9539,8 @@
     "aliases": [],
     "hex": "FC521F",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/chromatic/default.svg",
@@ -9649,8 +9649,8 @@
     "aliases": [],
     "hex": "011A6A",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/cinema-4d/default.svg",
@@ -9697,7 +9697,7 @@
     "aliases": [],
     "hex": "343434",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -10045,8 +10045,8 @@
     "aliases": [],
     "hex": "7B68EE",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/clickup/default.svg",
@@ -10077,8 +10077,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Devtool",
-      "Software"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/clion/default.svg",
@@ -10239,8 +10239,8 @@
     "aliases": [],
     "hex": "F38020",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/cloudflare/default.svg",
@@ -10612,8 +10612,8 @@
     "aliases": [],
     "hex": "F46A54",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/coda/default.svg",
@@ -10628,8 +10628,8 @@
     "aliases": [],
     "hex": "222F29",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/codacy/default.svg",
@@ -10644,8 +10644,8 @@
     "aliases": [],
     "hex": "41AD48",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/code-blocks/default.svg",
@@ -10741,8 +10741,8 @@
     "aliases": [],
     "hex": "F01F7A",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/codecov/default.svg",
@@ -11017,8 +11017,8 @@
     "aliases": [],
     "hex": "151515",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/codesandbox/default.svg",
@@ -11669,7 +11669,7 @@
     "aliases": [],
     "hex": "F24C53",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -12174,8 +12174,8 @@
     "aliases": [],
     "hex": "3F5767",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/coveralls/default.svg",
@@ -12808,8 +12808,8 @@
     "aliases": [],
     "hex": "000",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/cursor/default.svg",
@@ -12894,7 +12894,7 @@
     "aliases": [],
     "hex": "69D3A7",
     "categories": [
-      "Framework",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -13301,8 +13301,8 @@
     "aliases": [],
     "hex": "632CA6",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/datadog/default.svg",
@@ -13334,8 +13334,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Devtool",
-      "Software"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/datagrip/default.svg",
@@ -13984,8 +13984,8 @@
     "aliases": [],
     "hex": "025E8C",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/dependabot/default.svg",
@@ -14832,8 +14832,8 @@
     "aliases": [],
     "hex": "2496ED",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/docker/default.svg",
@@ -15966,8 +15966,8 @@
     "aliases": [],
     "hex": "2C2255",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/eclipse-ide/default.svg",
@@ -16273,8 +16273,8 @@
     "aliases": [],
     "hex": "005571",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/elastic/default.svg",
@@ -16596,8 +16596,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/emacs/default.svg"
@@ -17017,7 +17017,7 @@
     "aliases": [],
     "hex": "4B32C3",
     "categories": [
-      "Library",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -17923,8 +17923,8 @@
     "aliases": [],
     "hex": "FF282D",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/fastly/default.svg",
@@ -18827,8 +18827,8 @@
     "aliases": [],
     "hex": "4A90D9",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/flatpak/default.svg",
@@ -19621,8 +19621,8 @@
     "aliases": [],
     "hex": "0055FF",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/framer/default.svg",
@@ -20821,8 +20821,8 @@
     "aliases": [],
     "hex": "F05032",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/git/default.svg",
@@ -20981,8 +20981,8 @@
     "aliases": [],
     "hex": "181717",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/github/default.svg",
@@ -21085,8 +21085,8 @@
     "aliases": [],
     "hex": "179287",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/gitkraken/default.svg",
@@ -21101,8 +21101,8 @@
     "aliases": [],
     "hex": "FC6D26",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/gitlab/default.svg",
@@ -21118,8 +21118,8 @@
     "aliases": [],
     "hex": "FFAE33",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/gitpod/default.svg",
@@ -21671,8 +21671,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Devtool",
-      "Software"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/goland/default.svg",
@@ -22903,8 +22903,8 @@
     "aliases": [],
     "hex": "F46800",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/grafana/default.svg",
@@ -22985,7 +22985,7 @@
     "aliases": [],
     "hex": "E10098",
     "categories": [
-      "Language",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -24307,8 +24307,8 @@
     "aliases": [],
     "hex": "281733",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/helix/default.svg",
@@ -24355,7 +24355,7 @@
     "aliases": [],
     "hex": "0F1689",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -24785,8 +24785,8 @@
     "aliases": [],
     "hex": "FBB040",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/homebrew/default.svg",
@@ -24964,8 +24964,8 @@
     "aliases": [],
     "hex": "09090B",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/hoppscotch/default.svg",
@@ -25470,8 +25470,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/hyper/default.svg",
@@ -26669,8 +26669,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/inkscape/default.svg",
@@ -26735,8 +26735,8 @@
     "aliases": [],
     "hex": "4000BF",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/insomnia/default.svg",
@@ -27515,7 +27515,7 @@
     "aliases": [],
     "hex": "8A4182",
     "categories": [
-      "Framework",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -27675,7 +27675,7 @@
     "aliases": [],
     "hex": "D24939",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -27692,7 +27692,7 @@
     "aliases": [],
     "hex": "C21325",
     "categories": [
-      "Framework",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -27740,8 +27740,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/jetbrains/default.svg",
@@ -28009,8 +28009,8 @@
     "aliases": [],
     "hex": "0052CC",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/jira/default.svg",
@@ -28449,8 +28449,8 @@
     "aliases": [],
     "hex": "F37626",
     "categories": [
-      "Devtool",
-      "Community"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/jupyter/default.svg",
@@ -29249,8 +29249,8 @@
     "aliases": [],
     "hex": "005571",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/kibana/default.svg",
@@ -30042,8 +30042,8 @@
     "aliases": [],
     "hex": "3BABFF",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/krita/default.svg",
@@ -30108,8 +30108,8 @@
     "aliases": [],
     "hex": "326CE5",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/kubernetes/default.svg",
@@ -30501,8 +30501,8 @@
     "aliases": [],
     "hex": "3B82F6",
     "categories": [
-      "Devtool",
-      "Community"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/lapce/default.svg",
@@ -30664,8 +30664,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/lazarus/default.svg",
@@ -31581,8 +31581,8 @@
     "aliases": [],
     "hex": "5E6AD2",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/linear/default.svg",
@@ -32309,8 +32309,8 @@
     "aliases": [],
     "hex": "85C8C8",
     "categories": [
-      "Devtool",
-      "Community"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/logseq/default.svg",
@@ -32770,8 +32770,8 @@
     "aliases": [],
     "hex": "179DE3",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/lunacy/default.svg",
@@ -35723,7 +35723,7 @@
     "aliases": [],
     "hex": "8D6748",
     "categories": [
-      "AI",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -37282,8 +37282,8 @@
     "aliases": [],
     "hex": "57A143",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/neovim/default.svg",
@@ -37347,7 +37347,7 @@
     "aliases": [],
     "hex": "1B6AC6",
     "categories": [
-      "Software",
+      "Editor",
       "Devtool"
     ],
     "variants": {
@@ -37481,8 +37481,8 @@
     "aliases": [],
     "hex": "00C7B7",
     "categories": [
-      "Hosting",
-      "Cloud"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/netlify/default.svg",
@@ -37599,8 +37599,8 @@
     "aliases": [],
     "hex": "1CE783",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/new-relic/default.svg",
@@ -37900,8 +37900,8 @@
     "aliases": [],
     "hex": "1F1E37",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/ngrok/default.svg",
@@ -38212,7 +38212,7 @@
     "aliases": [],
     "hex": "00CA8E",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -38359,8 +38359,8 @@
     "aliases": [],
     "hex": "90E59A",
     "categories": [
-      "Devtool",
-      "Community"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/notepadplusplus/default.svg",
@@ -38390,8 +38390,8 @@
     "aliases": [],
     "hex": "fff",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/notion/default.svg",
@@ -39069,8 +39069,8 @@
     "aliases": [],
     "hex": "7C3AED",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/obsidian/default.svg",
@@ -40931,8 +40931,8 @@
     "aliases": [],
     "hex": "47A141",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/overleaf/default.svg",
@@ -41091,7 +41091,7 @@
     "aliases": [],
     "hex": "02A8EF",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -42054,8 +42054,8 @@
     "aliases": [],
     "hex": "9E66BF",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/percy/default.svg",
@@ -42445,8 +42445,8 @@
     "aliases": [],
     "hex": "18A497",
     "categories": [
-      "Devtool",
-      "Community"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/photopea/default.svg",
@@ -42541,8 +42541,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Devtool",
-      "Software"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/phpstorm/default.svg",
@@ -43030,8 +43030,8 @@
     "aliases": [],
     "hex": "3EBBDF",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/pixlr/default.svg",
@@ -43421,7 +43421,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Framework",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -43654,8 +43654,8 @@
     "aliases": [],
     "hex": "892CA0",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/podman/default.svg",
@@ -44087,8 +44087,8 @@
     "aliases": [],
     "hex": "FF6C37",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/postman/default.svg",
@@ -44375,7 +44375,7 @@
     "aliases": [],
     "hex": "F7B93E",
     "categories": [
-      "Library",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -44753,7 +44753,7 @@
     "aliases": [],
     "hex": "E6522C",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -45110,7 +45110,7 @@
     "aliases": [],
     "hex": "FFAE1A",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -45271,8 +45271,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/pycharm/default.svg",
@@ -46352,8 +46352,8 @@
     "aliases": [],
     "hex": "0B0D0E",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/railway/default.svg",
@@ -46467,8 +46467,8 @@
     "aliases": [],
     "hex": "0075A8",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/rancher/default.svg",
@@ -47522,8 +47522,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Cloud",
-      "Hosting"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/render/default.svg",
@@ -47592,8 +47592,8 @@
     "aliases": [],
     "hex": "F26207",
     "categories": [
-      "AI",
-      "Software"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/replit/default.svg",
@@ -47943,8 +47943,8 @@
     "aliases": [],
     "hex": "801010",
     "categories": [
-      "Devtool",
-      "Community"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/rhinoceros/default.svg",
@@ -47975,8 +47975,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Devtool",
-      "Software"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/rider/default.svg",
@@ -48138,8 +48138,8 @@
     "aliases": [],
     "hex": "1D1D1D",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/rive/default.svg",
@@ -48919,8 +48919,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Devtool",
-      "Software"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/rubymine/default.svg",
@@ -50351,8 +50351,8 @@
     "aliases": [],
     "hex": "362D59",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/sentry/default.svg",
@@ -51258,8 +51258,8 @@
     "aliases": [],
     "hex": "005F9E",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/sketchup/default.svg",
@@ -51598,8 +51598,8 @@
     "aliases": [],
     "hex": "E95420",
     "categories": [
-      "Software",
-      "Linux"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/snapcraft/default.svg",
@@ -51713,8 +51713,8 @@
     "aliases": [],
     "hex": "4C4A73",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/snyk/default.svg",
@@ -52316,8 +52316,8 @@
     "aliases": [],
     "hex": "0052CC",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/sourcetree/default.svg",
@@ -52657,8 +52657,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/splunk/default.svg",
@@ -53055,8 +53055,8 @@
     "aliases": [],
     "hex": "1269D3",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/stackblitz/default.svg",
@@ -53265,8 +53265,8 @@
     "aliases": [],
     "hex": "DD0B78",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/starship/default.svg",
@@ -53721,8 +53721,8 @@
     "aliases": [],
     "hex": "FF4785",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/storybook/default.svg",
@@ -54029,8 +54029,8 @@
     "aliases": [],
     "hex": "FF9800",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/sublime-text/default.svg",
@@ -54491,8 +54491,8 @@
     "aliases": [],
     "hex": "85EA2D",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/swagger/default.svg",
@@ -54932,8 +54932,8 @@
     "aliases": [],
     "hex": "242424",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/tailscale/default.svg",
@@ -55666,8 +55666,8 @@
     "aliases": [],
     "hex": "844FBA",
     "categories": [
-      "Software",
-      "Language"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/terraform/default.svg",
@@ -55736,10 +55736,15 @@
     ],
     "variants": {
       "default": "/icons/tesla/default.svg",
-      "mono": "/icons/tesla/mono.svg"
+      "mono": "/icons/tesla/mono.svg",
+      "light": "/icons/tesla/light.svg",
+      "dark": "/icons/tesla/dark.svg",
+      "wordmark": "/icons/tesla/wordmark.svg",
+      "wordmarkDark": "/icons/tesla/wordmark-dark.svg",
+      "wordmarkLight": "/icons/tesla/wordmark-light.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://www.tesla.com/tesla-gallery"
+    "url": "https://www.tesla.com"
   },
   {
     "slug": "testcafe",
@@ -56809,8 +56814,8 @@
     "aliases": [],
     "hex": "E44332",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/todoist/default.svg",
@@ -57185,8 +57190,8 @@
     "aliases": [],
     "hex": "00CAF4",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/tower/default.svg",
@@ -57530,8 +57535,8 @@
     "aliases": [],
     "hex": "0052CC",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/trello/default.svg",
@@ -58464,8 +58469,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Editor"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/typora/default.svg"
@@ -59555,7 +59560,7 @@
     "aliases": [],
     "hex": "1868F2",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -59687,7 +59692,7 @@
     "aliases": [],
     "hex": "FFEC6E",
     "categories": [
-      "DevOps",
+      "Devtool",
       "Software"
     ],
     "variants": {
@@ -59962,8 +59967,8 @@
     "aliases": [],
     "hex": "000",
     "categories": [
-      "Hosting",
-      "Vercel"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/vercel/default.svg",
@@ -60296,8 +60301,8 @@
     "aliases": [],
     "hex": "019733",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/vim/default.svg",
@@ -60572,8 +60577,8 @@
     "aliases": [],
     "hex": "00FF74",
     "categories": [
-      "Framework",
-      "VoidZero"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/vitest/default.svg",
@@ -61342,8 +61347,8 @@
     "aliases": [],
     "hex": "01A4FF",
     "categories": [
-      "Software",
-      "Platform"
+      "Devtool",
+      "Software"
     ],
     "variants": {
       "default": "/icons/warp/default.svg",
@@ -61833,8 +61838,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Devtool",
-      "Software"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/webstorm/default.svg",
@@ -62419,8 +62424,8 @@
     ],
     "hex": "0B100F",
     "categories": [
-      "Software",
-      "AI"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/windsurf/default.svg",
@@ -63067,8 +63072,8 @@
     "aliases": [],
     "hex": "147EFB",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/xcode/default.svg",
@@ -64187,8 +64192,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Editor",
+      "Devtool"
     ],
     "variants": {
       "default": "/icons/zed/default.svg",
@@ -65036,5 +65041,93 @@
     },
     "license": "Fair Use",
     "url": "https://www.kroger.com"
+  },
+  {
+    "slug": "matrix-org",
+    "title": "Matrix",
+    "aliases": [
+      "Matrix.org",
+      "Element"
+    ],
+    "hex": "0DBD8B",
+    "categories": [
+      "Communication"
+    ],
+    "variants": {
+      "default": "/icons/matrix-org/default.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://matrix.org"
+  },
+  {
+    "slug": "traefik",
+    "title": "Traefik",
+    "aliases": [
+      "Traefik Proxy",
+      "Traefik Labs"
+    ],
+    "hex": "24A1C1",
+    "categories": [
+      "Cloud",
+      "Devtool"
+    ],
+    "variants": {
+      "default": "/icons/traefik/default.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://traefik.io"
+  },
+  {
+    "slug": "fly-io",
+    "title": "Fly.io",
+    "aliases": [
+      "Fly",
+      "Flyio"
+    ],
+    "hex": "7B36ED",
+    "categories": [
+      "Cloud",
+      "Hosting"
+    ],
+    "variants": {
+      "default": "/icons/fly-io/default.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://fly.io"
+  },
+  {
+    "slug": "weights-and-biases",
+    "title": "Weights & Biases",
+    "aliases": [
+      "W&B",
+      "wandb",
+      "WandB"
+    ],
+    "hex": "FFBE00",
+    "categories": [
+      "AI"
+    ],
+    "variants": {
+      "default": "/icons/weights-and-biases/default.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://wandb.ai"
+  },
+  {
+    "slug": "cal-com",
+    "title": "Cal.com",
+    "aliases": [
+      "Cal",
+      "Calendso"
+    ],
+    "hex": "292929",
+    "categories": [
+      "SaaS"
+    ],
+    "variants": {
+      "default": "/icons/cal-com/default.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://cal.com"
   }
 ]
