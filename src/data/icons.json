@@ -1114,7 +1114,8 @@
     ],
     "variants": {
       "default": "/icons/afterpay/default.svg",
-      "mono": "/icons/afterpay/mono.svg"
+      "mono": "/icons/afterpay/mono.svg",
+      "dark": "/icons/afterpay/dark.svg"
     },
     "license": "CC0-1.0",
     "url": "https://www.afterpay.com/en-AU/business/resources/marketing/logos",
@@ -2268,7 +2269,7 @@
       "mono": "/icons/american-express/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://commons.wikimedia.org/wiki/File:American_Express_logo_(2018).svg"
+    "url": "https://www.americanexpress.com"
   },
   {
     "slug": "ameriprise-financial",
@@ -8543,7 +8544,10 @@
       "Software"
     ],
     "variants": {
-      "default": "/icons/canva/default.svg"
+      "default": "/icons/canva/default.svg",
+      "wordmark": "/icons/canva/wordmark.svg",
+      "wordmarkDark": "/icons/canva/wordmark-dark.svg",
+      "wordmarkLight": "/icons/canva/wordmark-light.svg"
     },
     "license": "MIT",
     "url": "https://www.canva.com/"
@@ -8757,7 +8761,7 @@
       "mono": "/icons/cash-app/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://cash.app/press"
+    "url": "https://cash.app"
   },
   {
     "slug": "castbox",
@@ -10540,7 +10544,7 @@
       "mono": "/icons/coca-cola/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://commons.wikimedia.org/wiki/File:Coca-Cola_logo.svg"
+    "url": "https://www.coca-cola.com"
   },
   {
     "slug": "cockpit",
@@ -12517,7 +12521,9 @@
     ],
     "variants": {
       "default": "/icons/crunchyroll/default.svg",
-      "mono": "/icons/crunchyroll/mono.svg"
+      "mono": "/icons/crunchyroll/mono.svg",
+      "wordmark": "/icons/crunchyroll/wordmark.svg",
+      "wordmarkLight": "/icons/crunchyroll/wordmark-light.svg"
     },
     "license": "CC0-1.0",
     "url": "https://www.crunchyroll.com"
@@ -13489,7 +13495,8 @@
     ],
     "variants": {
       "default": "/icons/dazn/default.svg",
-      "mono": "/icons/dazn/mono.svg"
+      "mono": "/icons/dazn/mono.svg",
+      "wordmark": "/icons/dazn/wordmark.svg"
     },
     "license": "CC0-1.0",
     "url": "https://media.dazn.com/en/assets/"
@@ -21696,7 +21703,7 @@
       "mono": "/icons/goldman-sachs/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://design.gs.com/brand/goldman-sachs-logo",
+    "url": "https://www.goldmansachs.com",
     "guidelines": "https://design.gs.com/brand/goldman-sachs-logo"
   },
   {
@@ -25363,7 +25370,9 @@
     "variants": {
       "default": "/icons/hulu/default.svg",
       "light": "/icons/hulu/light.svg",
-      "dark": "/icons/hulu/dark.svg"
+      "dark": "/icons/hulu/dark.svg",
+      "wordmark": "/icons/hulu/wordmark.svg",
+      "wordmarkLight": "/icons/hulu/wordmark-light.svg"
     },
     "license": "MIT",
     "url": "https://www.hulu.com/"
@@ -35500,7 +35509,11 @@
     ],
     "variants": {
       "default": "/icons/miro/default.svg",
-      "mono": "/icons/miro/mono.svg"
+      "mono": "/icons/miro/mono.svg",
+      "dark": "/icons/miro/dark.svg",
+      "light": "/icons/miro/light.svg",
+      "wordmark": "/icons/miro/wordmark.svg",
+      "wordmarkLight": "/icons/miro/wordmark-light.svg"
     },
     "license": "CC0-1.0",
     "url": "https://miro.com"
@@ -46570,7 +46583,7 @@
       "mono": "/icons/raspberry-pi/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://www.raspberrypi.com/",
+    "url": "https://www.raspberrypi.com",
     "guidelines": "https://www.raspberrypi.org/trademark-rules"
   },
   {
@@ -48440,7 +48453,7 @@
       "mono": "/icons/rolls-royce/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://www.rolls-roycemotorcars.com"
+    "url": "https://www.rolls-royce.com"
   },
   {
     "slug": "rollupdotjs",
@@ -49745,7 +49758,7 @@
       "mono": "/icons/scikit-learn/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://github.com/scikit-learn/scikit-learn/blob/c5ef2e985c13119001aa697e446ebb3dbcb326e5/doc/logos/scikit-learn-logo.svg"
+    "url": "https://scikit-learn.org"
   },
   {
     "slug": "scilab",
@@ -58528,7 +58541,7 @@
       "mono": "/icons/uber-eats/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/150",
+    "url": "https://www.ubereats.com",
     "guidelines": "https://assets.uber.com/d/k4nuxdZ8MC7E/user-guide#/user-guide/terms-of-use"
   },
   {
@@ -62583,7 +62596,9 @@
     ],
     "variants": {
       "default": "/icons/wix/default.svg",
-      "mono": "/icons/wix/mono.svg"
+      "mono": "/icons/wix/mono.svg",
+      "wordmark": "/icons/wix/wordmark.svg",
+      "wordmarkLight": "/icons/wix/wordmark-light.svg"
     },
     "license": "CC0-1.0",
     "url": "https://www.wix.com/about/design-assets",
@@ -65129,5 +65144,683 @@
     },
     "license": "CC0-1.0",
     "url": "https://cal.com"
+  },
+  {
+    "slug": "affirm",
+    "title": "Affirm",
+    "aliases": [
+      "Affirm Holdings"
+    ],
+    "hex": "4A4AF4",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/affirm/default.svg",
+      "light": "/icons/affirm/light.svg",
+      "dark": "/icons/affirm/dark.svg",
+      "mono": "/icons/affirm/mono.svg",
+      "wordmark": "/icons/affirm/wordmark.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.affirm.com"
+  },
+  {
+    "slug": "chime",
+    "title": "Chime",
+    "aliases": [
+      "Chime Financial"
+    ],
+    "hex": "1FC64E",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/chime/default.svg",
+      "light": "/icons/chime/light.svg",
+      "mono": "/icons/chime/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.chime.com"
+  },
+  {
+    "slug": "dokku",
+    "title": "Dokku",
+    "aliases": [],
+    "hex": "1B6AC6",
+    "categories": [
+      "Cloud",
+      "Devtool"
+    ],
+    "variants": {
+      "default": "/icons/dokku/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://dokku.com"
+  },
+  {
+    "slug": "funimation",
+    "title": "Funimation",
+    "aliases": [
+      "Funimation Global Group"
+    ],
+    "hex": "5B0BB5",
+    "categories": [
+      "Entertainment"
+    ],
+    "variants": {
+      "default": "/icons/funimation/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.funimation.com"
+  },
+  {
+    "slug": "honeycomb",
+    "title": "Honeycomb",
+    "aliases": [
+      "Honeycomb.io"
+    ],
+    "hex": "F5A623",
+    "categories": [
+      "Devtool",
+      "Cloud"
+    ],
+    "variants": {
+      "default": "/icons/honeycomb/default.svg",
+      "light": "/icons/honeycomb/light.svg",
+      "dark": "/icons/honeycomb/dark.svg",
+      "mono": "/icons/honeycomb/mono.svg",
+      "wordmark": "/icons/honeycomb/wordmark.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.honeycomb.io"
+  },
+  {
+    "slug": "kamal",
+    "title": "Kamal",
+    "aliases": [
+      "Kamal Deploy"
+    ],
+    "hex": "2B6CB0",
+    "categories": [
+      "Devtool",
+      "Cloud"
+    ],
+    "variants": {
+      "default": "/icons/kamal/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://kamal-deploy.org"
+  },
+  {
+    "slug": "kraken",
+    "title": "Kraken",
+    "aliases": [
+      "Kraken Exchange"
+    ],
+    "hex": "7B33E5",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/kraken/default.svg",
+      "light": "/icons/kraken/light.svg",
+      "dark": "/icons/kraken/dark.svg",
+      "mono": "/icons/kraken/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.kraken.com"
+  },
+  {
+    "slug": "marqeta",
+    "title": "Marqeta",
+    "aliases": [],
+    "hex": "2D6ADF",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/marqeta/default.svg",
+      "dark": "/icons/marqeta/dark.svg",
+      "light": "/icons/marqeta/light.svg",
+      "mono": "/icons/marqeta/mono.svg",
+      "wordmark": "/icons/marqeta/wordmark.svg",
+      "wordmarkLight": "/icons/marqeta/wordmark-light.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.marqeta.com"
+  },
+  {
+    "slug": "monday",
+    "title": "Monday.com",
+    "aliases": [
+      "monday.com",
+      "Monday"
+    ],
+    "hex": "FF3D57",
+    "categories": [
+      "SaaS"
+    ],
+    "variants": {
+      "default": "/icons/monday/default.svg",
+      "light": "/icons/monday/light.svg",
+      "mono": "/icons/monday/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://monday.com"
+  },
+  {
+    "slug": "nintendo",
+    "title": "Nintendo",
+    "aliases": [
+      "Nintendo Co."
+    ],
+    "hex": "E60012",
+    "categories": [
+      "Gaming"
+    ],
+    "variants": {
+      "default": "/icons/nintendo/default.svg",
+      "light": "/icons/nintendo/light.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.nintendo.com"
+  },
+  {
+    "slug": "paramount",
+    "title": "Paramount+",
+    "aliases": [
+      "Paramount Plus",
+      "Paramount"
+    ],
+    "hex": "0064FF",
+    "categories": [
+      "Entertainment"
+    ],
+    "variants": {
+      "default": "/icons/paramount/default.svg",
+      "light": "/icons/paramount/light.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.paramountplus.com"
+  },
+  {
+    "slug": "peacock",
+    "title": "Peacock",
+    "aliases": [
+      "Peacock TV",
+      "NBC Peacock"
+    ],
+    "hex": "000000",
+    "categories": [
+      "Entertainment"
+    ],
+    "variants": {
+      "default": "/icons/peacock/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.peacocktv.com"
+  },
+  {
+    "slug": "plaid",
+    "title": "Plaid",
+    "aliases": [],
+    "hex": "0A85EA",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/plaid/default.svg",
+      "light": "/icons/plaid/light.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://plaid.com"
+  },
+  {
+    "slug": "postmark",
+    "title": "Postmark",
+    "aliases": [
+      "Postmark App"
+    ],
+    "hex": "FFDE00",
+    "categories": [
+      "SaaS",
+      "Devtool"
+    ],
+    "variants": {
+      "default": "/icons/postmark/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://postmarkapp.com"
+  },
+  {
+    "slug": "productboard",
+    "title": "Productboard",
+    "aliases": [],
+    "hex": "FF6347",
+    "categories": [
+      "SaaS"
+    ],
+    "variants": {
+      "default": "/icons/productboard/default.svg",
+      "light": "/icons/productboard/light.svg",
+      "mono": "/icons/productboard/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.productboard.com"
+  },
+  {
+    "slug": "sezzle",
+    "title": "Sezzle",
+    "aliases": [],
+    "hex": "382757",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/sezzle/default.svg",
+      "light": "/icons/sezzle/light.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://sezzle.com"
+  },
+  {
+    "slug": "tooljet",
+    "title": "ToolJet",
+    "aliases": [],
+    "hex": "3E63DD",
+    "categories": [
+      "Devtool",
+      "SaaS"
+    ],
+    "variants": {
+      "default": "/icons/tooljet/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.tooljet.com"
+  },
+  {
+    "slug": "nordpass",
+    "title": "NordPass",
+    "aliases": [
+      "Nord Pass"
+    ],
+    "hex": "4BB543",
+    "categories": [
+      "Security"
+    ],
+    "variants": {
+      "default": "/icons/nordpass/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://nordpass.com"
+  },
+  {
+    "slug": "walmart",
+    "title": "Walmart",
+    "aliases": [
+      "Walmart Inc."
+    ],
+    "hex": "0071CE",
+    "categories": [
+      "Shopping"
+    ],
+    "variants": {
+      "default": "/icons/walmart/default.svg",
+      "wordmarkDark": "/icons/walmart/wordmark-dark.svg",
+      "wordmarkLight": "/icons/walmart/wordmark-light.svg",
+      "mono": "/icons/walmart/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.walmart.com"
+  },
+  {
+    "slug": "austrian-airlines",
+    "title": "Austrian Airlines",
+    "aliases": [
+      "AUA"
+    ],
+    "hex": "E20A16",
+    "categories": [
+      "Aviation"
+    ],
+    "variants": {
+      "default": "/icons/austrian-airlines/default.svg",
+      "mono": "/icons/austrian-airlines/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.austrian.com"
+  },
+  {
+    "slug": "ben-and-jerrys",
+    "title": "Ben & Jerry's",
+    "aliases": [
+      "Ben Jerry's",
+      "BJ"
+    ],
+    "hex": "1F5AA7",
+    "categories": [
+      "Food"
+    ],
+    "variants": {
+      "default": "/icons/ben-and-jerrys/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.benjerry.com"
+  },
+  {
+    "slug": "haldiram",
+    "title": "Haldiram's",
+    "aliases": [
+      "Haldiram"
+    ],
+    "hex": "D4212B",
+    "categories": [
+      "Food"
+    ],
+    "variants": {
+      "default": "/icons/haldiram/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.haldirams.com"
+  },
+  {
+    "slug": "nab",
+    "title": "NAB",
+    "aliases": [
+      "National Australia Bank"
+    ],
+    "hex": "C4161C",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/nab/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.nab.com.au"
+  },
+  {
+    "slug": "nbk",
+    "title": "National Bank of Kuwait",
+    "aliases": [
+      "NBK"
+    ],
+    "hex": "006272",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/nbk/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.nbk.com"
+  },
+  {
+    "slug": "bikanervala",
+    "title": "Bikanervala",
+    "aliases": [],
+    "hex": "C82B38",
+    "categories": [
+      "Food"
+    ],
+    "variants": {
+      "default": "/icons/bikanervala/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.bfrgroups.com"
+  },
+  {
+    "slug": "minnesota-wild",
+    "title": "Minnesota Wild",
+    "aliases": [
+      "MN Wild"
+    ],
+    "hex": "154734",
+    "categories": [
+      "Sports"
+    ],
+    "variants": {
+      "default": "/icons/minnesota-wild/default.svg",
+      "mono": "/icons/minnesota-wild/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.nhl.com/wild"
+  },
+  {
+    "slug": "oporto",
+    "title": "Oporto",
+    "aliases": [],
+    "hex": "D4262E",
+    "categories": [
+      "Food"
+    ],
+    "variants": {
+      "default": "/icons/oporto/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.oporto.com.au"
+  },
+  {
+    "slug": "upsales",
+    "title": "Upsales",
+    "aliases": [],
+    "hex": "3D3D3D",
+    "categories": [
+      "SaaS"
+    ],
+    "variants": {
+      "default": "/icons/upsales/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.upsales.com"
+  },
+  {
+    "slug": "inprs",
+    "title": "Indiana Public Retirement System",
+    "aliases": [
+      "INPRS"
+    ],
+    "hex": "1B3A5C",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/inprs/default.svg",
+      "mono": "/icons/inprs/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.in.gov/inprs"
+  },
+  {
+    "slug": "anb",
+    "title": "American National Bank of Texas",
+    "aliases": [
+      "ANB"
+    ],
+    "hex": "004B87",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/anb/default.svg",
+      "mono": "/icons/anb/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.anbtx.com"
+  },
+  {
+    "slug": "citroen",
+    "title": "Citroen",
+    "aliases": [
+      "Citroeën"
+    ],
+    "hex": "8B8B8B",
+    "categories": [
+      "Automotive"
+    ],
+    "variants": {
+      "default": "/icons/citroen/default.svg",
+      "mono": "/icons/citroen/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.citroen.com"
+  },
+  {
+    "slug": "skoda",
+    "title": "Skoda",
+    "aliases": [
+      "Škoda Auto"
+    ],
+    "hex": "4BA82E",
+    "categories": [
+      "Automotive"
+    ],
+    "variants": {
+      "default": "/icons/skoda/default.svg",
+      "mono": "/icons/skoda/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.skoda-auto.com"
+  },
+  {
+    "slug": "dassault-systemes",
+    "title": "Dassault Systemes",
+    "aliases": [
+      "3DS"
+    ],
+    "hex": "005386",
+    "categories": [
+      "Software"
+    ],
+    "variants": {
+      "default": "/icons/dassault-systemes/default.svg",
+      "mono": "/icons/dassault-systemes/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.3ds.com"
+  },
+  {
+    "slug": "aero",
+    "title": "Aero",
+    "aliases": [
+      "Aero App"
+    ],
+    "hex": "5856D6",
+    "categories": [
+      "Design",
+      "SaaS"
+    ],
+    "variants": {
+      "default": "/icons/aero/default.svg",
+      "dark": "/icons/aero/dark.svg",
+      "wordmark": "/icons/aero/wordmark.svg",
+      "wordmarkDark": "/icons/aero/wordmark-dark.svg",
+      "mono": "/icons/aero/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://aero.ai"
+  },
+  {
+    "slug": "alaska-airlines",
+    "title": "Alaska Airlines",
+    "aliases": [
+      "Alaska Air"
+    ],
+    "hex": "00205B",
+    "categories": [
+      "Aviation"
+    ],
+    "variants": {
+      "default": "/icons/alaska-airlines/default.svg",
+      "light": "/icons/alaska-airlines/light.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.alaskaair.com"
+  },
+  {
+    "slug": "avid",
+    "title": "Avid",
+    "aliases": [
+      "Avid Technology"
+    ],
+    "hex": "3E33FF",
+    "categories": [
+      "Software",
+      "Media"
+    ],
+    "variants": {
+      "default": "/icons/avid/default.svg",
+      "light": "/icons/avid/light.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.avid.com"
+  },
+  {
+    "slug": "bmg",
+    "title": "BMG",
+    "aliases": [
+      "BMG Rights Management"
+    ],
+    "hex": "FF6600",
+    "categories": [
+      "Music",
+      "Entertainment"
+    ],
+    "variants": {
+      "default": "/icons/bmg/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.bmg.com"
+  },
+  {
+    "slug": "native-instruments",
+    "title": "Native Instruments",
+    "aliases": [
+      "NI"
+    ],
+    "hex": "000000",
+    "categories": [
+      "Music",
+      "Software"
+    ],
+    "variants": {
+      "default": "/icons/native-instruments/default.svg",
+      "light": "/icons/native-instruments/light.svg",
+      "mono": "/icons/native-instruments/mono.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.native-instruments.com"
+  },
+  {
+    "slug": "network-rail",
+    "title": "Network Rail",
+    "aliases": [],
+    "hex": "E21836",
+    "categories": [
+      "Platform"
+    ],
+    "variants": {
+      "default": "/icons/network-rail/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.networkrail.co.uk"
+  },
+  {
+    "slug": "russian-railways",
+    "title": "Russian Railways",
+    "aliases": [
+      "RZD"
+    ],
+    "hex": "E21A1A",
+    "categories": [
+      "Platform"
+    ],
+    "variants": {
+      "default": "/icons/russian-railways/default.svg",
+      "light": "/icons/russian-railways/light.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://eng.rzd.ru"
   }
 ]
