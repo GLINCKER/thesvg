@@ -9075,7 +9075,9 @@
     "title": "Coder",
     "aliases": [],
     "hex": "090B0B",
-    "categories": [],
+    "categories": [
+      "AI"
+    ],
     "variants": {
       "default": "/icons/coder/default.svg",
       "mono": "/icons/coder/mono.svg"
