@@ -1,0 +1,64 @@
+# theSVG
+
+> The largest open-source brand SVG icon library for developers, designers, and AI agents.
+
+## About
+
+theSVG provides 4,000+ brand SVG icons with multi-variant support (color, mono, light, dark, wordmark). Available as npm packages, React components, CLI, REST API, CDN, and MCP server.
+
+## Links
+
+- Website: https://thesvg.org
+- API Docs: https://thesvg.org/api-docs
+- Compare Libraries: https://thesvg.org/compare
+- GitHub: https://github.com/GLINCKER/thesvg
+- npm: https://www.npmjs.com/package/thesvg
+- Submit Icon: https://thesvg.org/submit
+- Extensions: https://thesvg.org/extensions
+- Contact: https://thesvg.org/contact
+- Full LLM context: https://thesvg.org/llms-full.txt
+
+## Packages
+
+- `thesvg` - All icons in one package
+- `@thesvg/icons` - Core icon data, tree-shakeable ESM
+- `@thesvg/react` - Typed React components with forwardRef
+- `@thesvg/cli` - CLI tool (`npx @thesvg/cli add github`)
+- `@thesvg/mcp-server` - MCP server for AI assistants (Claude, Cursor, Windsurf)
+
+## API
+
+Base URL: https://thesvg.org
+
+- `GET /icons/{slug}/{variant}.svg` - Direct SVG file (CDN)
+- `GET /api/registry?q={query}&category={cat}&limit={n}` - Search icons
+- `GET /api/registry/{slug}` - Full icon metadata with inline SVG
+- `GET /api/categories` - List all categories with counts
+
+No authentication required. CORS enabled.
+
+## Icon Variants
+
+Each icon can have up to 7 variants:
+- `default` - Primary brand color (always present)
+- `mono` - Single color, inherits text color
+- `light` - White, for dark backgrounds
+- `dark` - Black, for light backgrounds
+- `wordmark` - Full text logo
+- `wordmarkLight` - White text logo
+- `wordmarkDark` - Dark text logo
+
+## CDN Usage
+
+```
+https://thesvg.org/icons/{slug}/{variant}.svg
+https://cdn.jsdelivr.net/gh/GLINCKER/thesvg@main/public/icons/{slug}/{variant}.svg
+```
+
+## Categories
+
+56 categories including: AI, Analytics, Authentication, Automotive, Aviation, Browser, Cloud, CMS, Community, Crypto, Database, Design, Devtool, Education, Entertainment, Finance, Food, Framework, Gaming, Hardware, Hosting, IoT, Language, Library, Linux, Media, Music, Payment, Platform, Privacy, Security, Self-Hosted, Shopping, Social, Software, and more.
+
+## Legal
+
+All brand icons are property of their respective owners. Provided for identification and development purposes under nominative fair use. See https://thesvg.org/legal and TRADEMARK.md.

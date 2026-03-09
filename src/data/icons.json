@@ -7703,7 +7703,7 @@
       "default": "/icons/broadcom/default.svg",
       "mono": "/icons/broadcom/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://www.broadcom.com/support"
   },
   {
@@ -9469,7 +9469,7 @@
       "default": "/icons/chia-network/default.svg",
       "mono": "/icons/chia-network/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://www.chia.net/branding/",
     "guidelines": "https://www.chia.net/wp-content/uploads/2022/08/Guidelines-for-Using-Chia-Network.pdf"
   },
@@ -11794,7 +11794,7 @@
       "default": "/icons/contentstack/default.svg",
       "mono": "/icons/contentstack/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://www.contentstack.com"
   },
   {
@@ -12025,7 +12025,7 @@
       "default": "/icons/coreboot/default.svg",
       "mono": "/icons/coreboot/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://coreboot.org/assets/images/banner.svg"
   },
   {
@@ -13680,7 +13680,8 @@
       "default": "/icons/deepai/mono.svg",
       "mono": "/icons/deepai/mono.svg"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "url": "https://deepai.org"
   },
   {
     "slug": "deepcool",
@@ -15218,7 +15219,7 @@
       "default": "/icons/douban/default.svg",
       "mono": "/icons/douban/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://www.douban.com/about"
   },
   {
@@ -15234,7 +15235,7 @@
       "default": "/icons/douban-read/default.svg",
       "mono": "/icons/douban-read/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://read.douban.com"
   },
   {
@@ -16174,7 +16175,7 @@
       "default": "/icons/effect/default.svg",
       "mono": "/icons/effect/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://effect.website"
   },
   {
@@ -18004,7 +18005,7 @@
       "default": "/icons/fcc/default.svg",
       "mono": "/icons/fcc/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://www.fcc.gov/logos",
     "guidelines": "https://apps.fcc.gov/oetcf/kdb/forms/FTSSearchResultPage.cfm?id=27980&switch=P"
   },
@@ -18069,7 +18070,7 @@
       "default": "/icons/fedora/default.svg",
       "mono": "/icons/fedora/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://docs.fedoraproject.org/en-US/project/brand/",
     "guidelines": "https://fedoraproject.org/wiki/Legal:Trademark_guidelines"
   },
@@ -19100,7 +19101,7 @@
       "default": "/icons/flux/default.svg",
       "mono": "/icons/flux/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://github.com/cncf/artwork/blob/c2e619cdf85e8bac090ceca7c0834c5cfedf9426/projects/flux/icon/black/flux-icon-black.svg",
     "guidelines": "https://www.cncf.io/brand-guidelines/"
   },
@@ -21255,6 +21256,27 @@
     "license": "CC0-1.0",
     "url": "https://www.glideapps.com/",
     "guidelines": "https://brand.glide.page/dl/brand-assets"
+  },
+  {
+    "slug": "glincker",
+    "title": "GLINCKER",
+    "aliases": ["glinr"],
+    "hex": "6366F1",
+    "categories": [
+      "Software",
+      "Platform"
+    ],
+    "variants": {
+      "default": "/icons/glincker/default.svg",
+      "mono": "/icons/glincker/mono.svg",
+      "light": "/icons/glincker/light.svg",
+      "dark": "/icons/glincker/dark.svg",
+      "wordmark": "/icons/glincker/wordmark.svg",
+      "wordmarkLight": "/icons/glincker/wordmark-light.svg",
+      "wordmarkDark": "/icons/glincker/wordmark-dark.svg"
+    },
+    "license": "MIT",
+    "url": "https://glincker.com/"
   },
   {
     "slug": "glif",
@@ -23895,7 +23917,7 @@
       "default": "/icons/harbor/default.svg",
       "mono": "/icons/harbor/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://github.com/cncf/artwork/blob/ff2b2b5216e22f001ddd444ca580c484dd10302e/projects/harbor/icon/black/harbor-icon-black.svg",
     "guidelines": "https://github.com/cncf/artwork/blob/ff2b2b5216e22f001ddd444ca580c484dd10302e/README.md"
   },
@@ -28971,7 +28993,7 @@
       "default": "/icons/kedro/default.svg",
       "mono": "/icons/kedro/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://github.com/kedro-org/kedro-brand-identity/blob/7f7b380cb1a2951c06ca292f0d2b442db895f804/icon/black/kedro-icon-svgo-black.svg",
     "guidelines": "https://github.com/kedro-org/kedro-brand-identity/blob/7f7b380cb1a2951c06ca292f0d2b442db895f804/Kedro_Brand_Guidelines.pdf"
   },
@@ -29166,7 +29188,7 @@
       "default": "/icons/keycloak/default.svg",
       "mono": "/icons/keycloak/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://keycloak.org"
   },
   {
@@ -30908,7 +30930,7 @@
       "default": "/icons/lemmy/default.svg",
       "mono": "/icons/lemmy/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://join-lemmy.org"
   },
   {
@@ -35428,7 +35450,7 @@
       "default": "/icons/minimax/default.svg",
       "mono": "/icons/minimax/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://github.com/MiniMax-AI/MiniMax-01/blob/57cf223b177e99636c7711a0f179e9fdc9c38e8a/figures/minimax.svg"
   },
   {
@@ -43457,7 +43479,7 @@
       "default": "/icons/pleroma/default.svg",
       "mono": "/icons/pleroma/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://pleroma.social"
   },
   {
@@ -45538,7 +45560,7 @@
       "default": "/icons/qase/default.svg",
       "mono": "/icons/qase/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://qase.io"
   },
   {
@@ -45994,7 +46016,7 @@
       "default": "/icons/quasar/default.svg",
       "mono": "/icons/quasar/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://github.com/quasarframework/quasar-art/blob/6300e95687a923cd027dc4b8c356dd4e0cea618f/Brand/Logo/RGB/Icon/Monochrome/Cold%20Black/QUASAR_icon_mono_cold_black_RGB.svg"
   },
   {
@@ -61691,7 +61713,7 @@
       "default": "/icons/webex/default.svg",
       "mono": "/icons/webex/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://github.com/momentum-design/momentum-ui/blob/970c5bec962a3f72e17e0b7ed69f2c38d298c405/icons-rebrand/svg/webex-helix-filled.svg",
     "guidelines": "https://resources.webex.com/webex/brand-exchange-collection"
   },
@@ -61826,7 +61848,7 @@
       "default": "/icons/webpack/default.svg",
       "mono": "/icons/webpack/mono.svg"
     },
-    "license": "custom",
+    "license": "Custom",
     "url": "https://webpack.js.org/branding",
     "guidelines": "https://webpack.js.org/branding"
   },

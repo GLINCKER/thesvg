@@ -26,6 +26,7 @@
   <a href="#cdn">CDN</a> &nbsp;&bull;&nbsp;
   <a href="#api">API</a> &nbsp;&bull;&nbsp;
   <a href="#packages">Packages</a> &nbsp;&bull;&nbsp;
+  <a href="https://thesvg.org/compare">Compare</a> &nbsp;&bull;&nbsp;
   <a href="#contributing">Contribute</a>
 </p>
 
@@ -199,9 +200,9 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
 
 ## Disclaimer
 
-All brand names, logos, and trademarks are the property of their respective owners. theSVG provides these icons for development and design purposes only. Use of brand assets must comply with each brand's usage guidelines.
+All brand names, logos, and trademarks are the property of their respective owners. theSVG provides these icons for development and design purposes only under nominative fair use. Use of brand assets must comply with each brand's usage guidelines.
 
-If you are a brand owner and would like an icon updated or removed, please [open an issue](https://github.com/GLINCKER/thesvg/issues) or email **hello@thesvg.org**.
+If you are a brand owner and would like an icon updated or removed, please [open an issue](https://github.com/GLINCKER/thesvg/issues) or email **support@glincker.com**. See our [Legal Notice](https://thesvg.org/legal), [TRADEMARK.md](./TRADEMARK.md), and [LEGAL.md](./LEGAL.md) for full details.
 
 ## License
 

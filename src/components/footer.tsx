@@ -17,9 +17,15 @@ export function Footer() {
               <span className="hidden sm:inline">The Open SVG Brand Library</span>
             </div>
 
-            <div className="flex items-center gap-4 text-sm text-muted-foreground">
+            <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+              <Link href="/compare" className="transition-colors hover:text-foreground">
+                Compare
+              </Link>
               <Link href="/submit" className="transition-colors hover:text-foreground">
                 Submit
+              </Link>
+              <Link href="/legal" className="transition-colors hover:text-foreground">
+                Legal
               </Link>
               <Link href="/contact" className="transition-colors hover:text-foreground">
                 Contact
