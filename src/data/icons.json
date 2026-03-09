@@ -1,73 +1,5 @@
 [
   {
-    "slug": "thesvg",
-    "title": "theSVG",
-    "aliases": [
-      "The SVG",
-      "thesvg.org"
-    ],
-    "hex": "F97316",
-    "categories": [
-      "Design",
-      "Devtool",
-      "Library"
-    ],
-    "variants": {
-      "default": "/icons/thesvg/default.svg",
-      "light": "/icons/thesvg/light.svg",
-      "wordmark": "/icons/thesvg/wordmark.svg",
-      "wordmarkDark": "/icons/thesvg/wordmark-dark.svg"
-    },
-    "license": "MIT",
-    "url": "https://thesvg.org"
-  },
-  {
-    "slug": "dotenv",
-    "title": ".ENV",
-    "aliases": [
-      "Dotenv"
-    ],
-    "hex": "ECD53F",
-    "categories": [
-      "Config",
-      "Library",
-      "Devtool"
-    ],
-    "variants": {
-      "default": "/icons/dotenv/default.svg",
-      "mono": "/icons/dotenv/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://github.com/motdotla/dotenv"
-  },
-  {
-    "slug": "dotnet",
-    "title": ".NET",
-    "aliases": [],
-    "hex": "512BD4",
-    "categories": [],
-    "variants": {
-      "default": "/icons/dotnet/default.svg",
-      "mono": "/icons/dotnet/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/logo/dotnet-logo.svg",
-    "guidelines": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/dotnet-styleGuide-2024.pdf"
-  },
-  {
-    "slug": "e",
-    "title": "/e/",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [],
-    "variants": {
-      "default": "/icons/e/default.svg",
-      "mono": "/icons/e/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://doc.e.foundation"
-  },
-  {
     "slug": "01dotai",
     "title": "01.AI (零一万物)",
     "aliases": [],
@@ -82,32 +14,6 @@
     },
     "license": "MIT",
     "url": "https://lingyiwanwu.com/"
-  },
-  {
-    "slug": "1dot1dot1dot1",
-    "title": "1.1.1.1",
-    "aliases": [],
-    "hex": "221E68",
-    "categories": [],
-    "variants": {
-      "default": "/icons/1dot1dot1dot1/default.svg",
-      "mono": "/icons/1dot1dot1dot1/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://one.one.one.one"
-  },
-  {
-    "slug": "1and1",
-    "title": "1&1",
-    "aliases": [],
-    "hex": "003D8F",
-    "categories": [],
-    "variants": {
-      "default": "/icons/1and1/default.svg",
-      "mono": "/icons/1and1/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://www.united-internet.de/en/newsroom/media-center/logos.html"
   },
   {
     "slug": "1001tracklists",
@@ -136,6 +42,32 @@
     },
     "license": "MIT",
     "url": "https://11x.ai"
+  },
+  {
+    "slug": "1and1",
+    "title": "1&1",
+    "aliases": [],
+    "hex": "003D8F",
+    "categories": [],
+    "variants": {
+      "default": "/icons/1and1/default.svg",
+      "mono": "/icons/1and1/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.united-internet.de/en/newsroom/media-center/logos.html"
+  },
+  {
+    "slug": "1dot1dot1dot1",
+    "title": "1.1.1.1",
+    "aliases": [],
+    "hex": "221E68",
+    "categories": [],
+    "variants": {
+      "default": "/icons/1dot1dot1dot1/default.svg",
+      "mono": "/icons/1dot1dot1dot1/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://one.one.one.one"
   },
   {
     "slug": "1panel",
@@ -1712,19 +1644,6 @@
     "url": "https://www.alibabagroup.com/en/ir/reports"
   },
   {
-    "slug": "alibabadotcom",
-    "title": "Alibaba.com",
-    "aliases": [],
-    "hex": "FF6A00",
-    "categories": [],
-    "variants": {
-      "default": "/icons/alibabadotcom/default.svg",
-      "mono": "/icons/alibabadotcom/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://www.alibabagroup.com/en/ir/reports"
-  },
-  {
     "slug": "alibabacloud",
     "title": "AlibabaCloud (阿里云)",
     "aliases": [],
@@ -1739,6 +1658,19 @@
     },
     "license": "MIT",
     "url": "https://aliyun.com"
+  },
+  {
+    "slug": "alibabadotcom",
+    "title": "Alibaba.com",
+    "aliases": [],
+    "hex": "FF6A00",
+    "categories": [],
+    "variants": {
+      "default": "/icons/alibabadotcom/default.svg",
+      "mono": "/icons/alibabadotcom/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.alibabagroup.com/en/ir/reports"
   },
   {
     "slug": "alienware",
@@ -3420,6 +3352,21 @@
     "url": "https://archiveofourown.org"
   },
   {
+    "slug": "ard",
+    "title": "ARD",
+    "aliases": [],
+    "hex": "003D7F",
+    "categories": [
+      "Media",
+      "Broadcasting"
+    ],
+    "variants": {
+      "default": "/icons/ard/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://ard.de"
+  },
+  {
     "slug": "ardour",
     "title": "Ardour",
     "aliases": [],
@@ -3632,30 +3579,6 @@
     "url": "https://github.com/AsahiLinux/artwork/blob/292637c9658c1491ddc1128fb6134aec01d904dd/logos/svg/AsahiLinux_logomark_mono.svg"
   },
   {
-    "slug": "askverdict-ai",
-    "title": "AskVerdict AI",
-    "aliases": [
-      "askverdict",
-      "verdict"
-    ],
-    "hex": "E8A317",
-    "categories": [
-      "AI",
-      "Software"
-    ],
-    "variants": {
-      "default": "/icons/askverdict-ai/default.svg",
-      "mono": "/icons/askverdict-ai/mono.svg",
-      "light": "/icons/askverdict-ai/light.svg",
-      "dark": "/icons/askverdict-ai/dark.svg",
-      "wordmark": "/icons/askverdict-ai/wordmark.svg",
-      "wordmarkLight": "/icons/askverdict-ai/wordmarkLight.svg",
-      "wordmarkDark": "/icons/askverdict-ai/wordmarkDark.svg"
-    },
-    "license": "MIT",
-    "url": "https://askverdict.ai"
-  },
-  {
     "slug": "asana",
     "title": "Asana",
     "aliases": [],
@@ -3725,6 +3648,30 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.aseprite.org"
+  },
+  {
+    "slug": "askverdict-ai",
+    "title": "AskVerdict AI",
+    "aliases": [
+      "askverdict",
+      "verdict"
+    ],
+    "hex": "E8A317",
+    "categories": [
+      "AI",
+      "Software"
+    ],
+    "variants": {
+      "default": "/icons/askverdict-ai/default.svg",
+      "mono": "/icons/askverdict-ai/mono.svg",
+      "light": "/icons/askverdict-ai/light.svg",
+      "dark": "/icons/askverdict-ai/dark.svg",
+      "wordmark": "/icons/askverdict-ai/wordmark.svg",
+      "wordmarkLight": "/icons/askverdict-ai/wordmarkLight.svg",
+      "wordmarkDark": "/icons/askverdict-ai/wordmarkDark.svg"
+    },
+    "license": "MIT",
+    "url": "https://askverdict.ai"
   },
   {
     "slug": "assemblyai",
@@ -3867,6 +3814,36 @@
     },
     "license": "CC0-1.0",
     "url": "https://atarivcs.com"
+  },
+  {
+    "slug": "atcoder",
+    "title": "AtCoder",
+    "aliases": [],
+    "hex": "2D2D2D",
+    "categories": [
+      "Education",
+      "Programming"
+    ],
+    "variants": {
+      "default": "/icons/atcoder/default.svg"
+    },
+    "license": "Custom",
+    "url": "https://atcoder.jp"
+  },
+  {
+    "slug": "aternos",
+    "title": "Aternos",
+    "aliases": [],
+    "hex": "47C84A",
+    "categories": [
+      "Gaming",
+      "Hosting"
+    ],
+    "variants": {
+      "default": "/icons/aternos/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://aternos.org"
   },
   {
     "slug": "atlascloud",
@@ -4059,20 +4036,6 @@
     "url": "https://www.autentique.com.br"
   },
   {
-    "slug": "authdotjs",
-    "title": "Auth.js",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [
-      "Authentication"
-    ],
-    "variants": {
-      "default": "/icons/authdotjs/default.svg"
-    },
-    "license": "MIT",
-    "url": "https://authjs.dev"
-  },
-  {
     "slug": "auth0",
     "title": "Auth0",
     "aliases": [],
@@ -4087,6 +4050,20 @@
     },
     "license": "CC0-1.0",
     "url": "https://auth0.com/"
+  },
+  {
+    "slug": "authdotjs",
+    "title": "Auth.js",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Authentication"
+    ],
+    "variants": {
+      "default": "/icons/authdotjs/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://authjs.dev"
   },
   {
     "slug": "authelia",
@@ -6927,36 +6904,6 @@
     "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
   },
   {
-    "slug": "csharp",
-    "title": "C#",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [
-      "Language",
-      "Microsoft"
-    ],
-    "variants": {
-      "default": "/icons/csharp/default.svg"
-    },
-    "license": "MIT",
-    "url": "https://dotnet.microsoft.com/languages/csharp"
-  },
-  {
-    "slug": "cplusplus",
-    "title": "C++",
-    "aliases": [],
-    "hex": "00599C",
-    "categories": [
-      "Language"
-    ],
-    "variants": {
-      "default": "/icons/cplusplus/default.svg",
-      "mono": "/icons/cplusplus/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://en.wikipedia.org/wiki/C%2B%2B"
-  },
-  {
     "slug": "cachet",
     "title": "Cachet",
     "aliases": [],
@@ -7096,6 +7043,21 @@
     "guidelines": "https://calendly.com/newsroom"
   },
   {
+    "slug": "calibre",
+    "title": "calibre",
+    "aliases": [],
+    "hex": "964B00",
+    "categories": [
+      "Utility",
+      "Reading"
+    ],
+    "variants": {
+      "default": "/icons/calibre/default.svg"
+    },
+    "license": "GPL-3.0",
+    "url": "https://calibre-ebook.com"
+  },
+  {
     "slug": "calibre-web",
     "title": "Calibre-Web",
     "aliases": [],
@@ -7148,6 +7110,66 @@
     "license": "CC-BY-SA-3.0",
     "url": "https://design.ubuntu.com/resources",
     "guidelines": "https://design.ubuntu.com/brand/"
+  },
+  {
+    "slug": "canonical-juju",
+    "title": "Canonical Juju",
+    "aliases": [],
+    "hex": "E95420",
+    "categories": [
+      "DevOps",
+      "Canonical"
+    ],
+    "variants": {
+      "default": "/icons/canonical-juju/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://juju.is"
+  },
+  {
+    "slug": "canonical-landscape",
+    "title": "Canonical Landscape",
+    "aliases": [],
+    "hex": "E95420",
+    "categories": [
+      "DevOps",
+      "Canonical"
+    ],
+    "variants": {
+      "default": "/icons/canonical-landscape/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://ubuntu.com/landscape"
+  },
+  {
+    "slug": "canonical-microcloud",
+    "title": "Canonical MicroCloud",
+    "aliases": [],
+    "hex": "E95420",
+    "categories": [
+      "Cloud",
+      "Canonical"
+    ],
+    "variants": {
+      "default": "/icons/canonical-microcloud/default.svg"
+    },
+    "license": "AGPL-3.0",
+    "url": "https://canonical.com/microcloud"
+  },
+  {
+    "slug": "canonical-multipass",
+    "title": "Canonical Multipass",
+    "aliases": [],
+    "hex": "E95420",
+    "categories": [
+      "DevOps",
+      "Canonical"
+    ],
+    "variants": {
+      "default": "/icons/canonical-multipass/default.svg"
+    },
+    "license": "GPL-3.0",
+    "url": "https://multipass.run"
   },
   {
     "slug": "canva",
@@ -7872,6 +7894,21 @@
     "url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/shopping-tools/download-catalog/02-pdf/2019-chevrolet-corvette-catalog.pdf"
   },
   {
+    "slug": "chezmoi",
+    "title": "chezmoi",
+    "aliases": [],
+    "hex": "353D47",
+    "categories": [
+      "Devtool",
+      "Configuration"
+    ],
+    "variants": {
+      "default": "/icons/chezmoi/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://chezmoi.io"
+  },
+  {
     "slug": "chia-network",
     "title": "Chia Network",
     "aliases": [],
@@ -8083,6 +8120,21 @@
     "url": "https://circleci.com/press"
   },
   {
+    "slug": "circuitpython",
+    "title": "CircuitPython",
+    "aliases": [],
+    "hex": "AB47BC",
+    "categories": [
+      "Language",
+      "IoT"
+    ],
+    "variants": {
+      "default": "/icons/circuitpython/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://circuitpython.org"
+  },
+  {
     "slug": "circuitverse",
     "title": "CircuitVerse",
     "aliases": [],
@@ -8269,6 +8321,21 @@
     "url": "https://code.claude.com"
   },
   {
+    "slug": "clearml",
+    "title": "ClearML",
+    "aliases": [],
+    "hex": "3F51B5",
+    "categories": [
+      "AI",
+      "Machine Learning"
+    ],
+    "variants": {
+      "default": "/icons/clearml/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://clear.ml"
+  },
+  {
     "slug": "clerk",
     "title": "Clerk",
     "aliases": [],
@@ -8315,6 +8382,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://github.com/ClickHouse/ClickHouse/blob/12bd453a43819176d25ecf247033f6cb1af54beb/website/images/logo-clickhouse.svg"
+  },
+  {
+    "slug": "clickteam-fusion",
+    "title": "Clickteam Fusion",
+    "aliases": [],
+    "hex": "FF7C3C",
+    "categories": [
+      "Gaming",
+      "Development"
+    ],
+    "variants": {
+      "default": "/icons/clickteam-fusion/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://clickteam.com"
   },
   {
     "slug": "clickup",
@@ -8817,19 +8899,6 @@
     "url": "https://www.codacy.com/blog/"
   },
   {
-    "slug": "code-climate",
-    "title": "Code Climate",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [],
-    "variants": {
-      "default": "/icons/code-climate/default.svg",
-      "mono": "/icons/code-climate/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://codeclimate.com/github/codeclimate/python-test-reporter/badges/"
-  },
-  {
     "slug": "code-blocks",
     "title": "Code::Blocks",
     "aliases": [],
@@ -8841,6 +8910,19 @@
     },
     "license": "CC0-1.0",
     "url": "https://wiki.codeblocks.org/index.php/Main_Page"
+  },
+  {
+    "slug": "code-climate",
+    "title": "Code Climate",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [],
+    "variants": {
+      "default": "/icons/code-climate/default.svg",
+      "mono": "/icons/code-climate/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://codeclimate.com/github/codeclimate/python-test-reporter/badges/"
   },
   {
     "slug": "codeberg",
@@ -9748,6 +9830,20 @@
     "guidelines": "https://contao.org/en/media"
   },
   {
+    "slug": "contensis",
+    "title": "Contensis",
+    "aliases": [],
+    "hex": "2962FF",
+    "categories": [
+      "CMS"
+    ],
+    "variants": {
+      "default": "/icons/contensis/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://contensis.com"
+  },
+  {
     "slug": "contentful",
     "title": "Contentful",
     "aliases": [],
@@ -10123,6 +10219,21 @@
     "guidelines": "https://cpanel.net/company/cpanel-brand-guide/"
   },
   {
+    "slug": "cplusplus",
+    "title": "C++",
+    "aliases": [],
+    "hex": "00599C",
+    "categories": [
+      "Language"
+    ],
+    "variants": {
+      "default": "/icons/cplusplus/default.svg",
+      "mono": "/icons/cplusplus/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://en.wikipedia.org/wiki/C%2B%2B"
+  },
+  {
     "slug": "craft-cms",
     "title": "Craft CMS",
     "aliases": [],
@@ -10442,6 +10553,21 @@
     "url": "https://www.csdn.net/company/index.html"
   },
   {
+    "slug": "csharp",
+    "title": "C#",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Language",
+      "Microsoft"
+    ],
+    "variants": {
+      "default": "/icons/csharp/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://dotnet.microsoft.com/languages/csharp"
+  },
+  {
     "slug": "css",
     "title": "CSS",
     "aliases": [],
@@ -10456,20 +10582,6 @@
     "license": "CC0-1.0",
     "url": "https://es.wikipedia.org/wiki/CSS",
     "guidelines": "https://github.com/CSS-Next/logo.css"
-  },
-  {
-    "slug": "css-new",
-    "title": "CSS (New)",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [
-      "Language"
-    ],
-    "variants": {
-      "default": "/icons/css-new/default.svg"
-    },
-    "license": "MIT",
-    "url": "https://es.wikipedia.org/wiki/CSS"
   },
   {
     "slug": "css-design-awards",
@@ -10496,6 +10608,20 @@
     },
     "license": "CC0-1.0",
     "url": "https://github.com/css-modules/logos/blob/32e4717062e4328ed861fa92d5d9cfd47859362f/css-modules-logo.svg"
+  },
+  {
+    "slug": "css-new",
+    "title": "CSS (New)",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Language"
+    ],
+    "variants": {
+      "default": "/icons/css-new/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://es.wikipedia.org/wiki/CSS"
   },
   {
     "slug": "css-wizardry",
@@ -10784,6 +10910,21 @@
     "url": "https://www.daf.com/en"
   },
   {
+    "slug": "dagster",
+    "title": "Dagster",
+    "aliases": [],
+    "hex": "4F43DD",
+    "categories": [
+      "Data",
+      "Orchestration"
+    ],
+    "variants": {
+      "default": "/icons/dagster/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://dagster.io"
+  },
+  {
     "slug": "dailydotdev",
     "title": "daily.dev",
     "aliases": [],
@@ -10968,19 +11109,6 @@
     "url": "https://github.com/dask/dask/blob/67e648922512615f94f8a90726423e721d0e3eb2/docs/source/images/dask_icon_black.svg"
   },
   {
-    "slug": "datadotai",
-    "title": "data.ai",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [],
-    "variants": {
-      "default": "/icons/datadotai/default.svg",
-      "mono": "/icons/datadotai/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://www.data.ai/en/about/press/"
-  },
-  {
     "slug": "databricks",
     "title": "Databricks",
     "aliases": [],
@@ -11022,6 +11150,19 @@
     "license": "CC0-1.0",
     "url": "https://www.datadoghq.com/",
     "guidelines": "https://www.datadoghq.com/about/resources/"
+  },
+  {
+    "slug": "datadotai",
+    "title": "data.ai",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [],
+    "variants": {
+      "default": "/icons/datadotai/default.svg",
+      "mono": "/icons/datadotai/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.data.ai/en/about/press/"
   },
   {
     "slug": "datagrip",
@@ -11698,19 +11839,6 @@
     "url": "https://www.dw.com"
   },
   {
-    "slug": "devdotto",
-    "title": "dev.to",
-    "aliases": [],
-    "hex": "0A0A0A",
-    "categories": [],
-    "variants": {
-      "default": "/icons/devdotto/default.svg",
-      "mono": "/icons/devdotto/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://dev.to"
-  },
-  {
     "slug": "devbox",
     "title": "Devbox",
     "aliases": [],
@@ -11722,6 +11850,19 @@
     },
     "license": "CC0-1.0",
     "url": "https://github.com/jetify-com/devbox/blob/c3cab01d7375726f0121a25fc0f5c838484246f7/docs/app/static/img/devbox_logo_light.svg"
+  },
+  {
+    "slug": "devdotto",
+    "title": "dev.to",
+    "aliases": [],
+    "hex": "0A0A0A",
+    "categories": [],
+    "variants": {
+      "default": "/icons/devdotto/default.svg",
+      "mono": "/icons/devdotto/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://dev.to"
   },
   {
     "slug": "developer-student-club",
@@ -12518,6 +12659,20 @@
     "url": "https://dphn.ai"
   },
   {
+    "slug": "domo",
+    "title": "Domo",
+    "aliases": [],
+    "hex": "003068",
+    "categories": [
+      "Business Intelligence"
+    ],
+    "variants": {
+      "default": "/icons/domo/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://domo.com"
+  },
+  {
     "slug": "doordash",
     "title": "DoorDash",
     "aliases": [],
@@ -12544,6 +12699,25 @@
     "url": "https://commons.wikimedia.org/wiki/File:Dota_logo.svg"
   },
   {
+    "slug": "dotenv",
+    "title": ".ENV",
+    "aliases": [
+      "Dotenv"
+    ],
+    "hex": "ECD53F",
+    "categories": [
+      "Config",
+      "Library",
+      "Devtool"
+    ],
+    "variants": {
+      "default": "/icons/dotenv/default.svg",
+      "mono": "/icons/dotenv/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://github.com/motdotla/dotenv"
+  },
+  {
     "slug": "dotenvx",
     "title": "dotenvx",
     "aliases": [],
@@ -12558,6 +12732,20 @@
     },
     "license": "MIT",
     "url": "https://dotenvx.com"
+  },
+  {
+    "slug": "dotnet",
+    "title": ".NET",
+    "aliases": [],
+    "hex": "512BD4",
+    "categories": [],
+    "variants": {
+      "default": "/icons/dotnet/default.svg",
+      "mono": "/icons/dotnet/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/logo/dotnet-logo.svg",
+    "guidelines": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/dotnet-styleGuide-2024.pdf"
   },
   {
     "slug": "douban",
@@ -12653,6 +12841,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://github.com/doxygen/doxygen/blob/2e73e6a53abe00a57b7eb0ea5ed6474baf4ebab7/templates/html/doxygen.svg"
+  },
+  {
+    "slug": "dozzle",
+    "title": "Dozzle",
+    "aliases": [],
+    "hex": "1A1A2E",
+    "categories": [
+      "Devtool",
+      "Docker"
+    ],
+    "variants": {
+      "default": "/icons/dozzle/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://dozzle.dev"
   },
   {
     "slug": "dpd",
@@ -13044,17 +13247,17 @@
     "url": "https://www.dynatrace.com/company/press-kit/"
   },
   {
-    "slug": "edotleclerc",
-    "title": "E.Leclerc",
+    "slug": "e",
+    "title": "/e/",
     "aliases": [],
-    "hex": "0066CC",
+    "hex": "000000",
     "categories": [],
     "variants": {
-      "default": "/icons/edotleclerc/default.svg",
-      "mono": "/icons/edotleclerc/mono.svg"
+      "default": "/icons/e/default.svg",
+      "mono": "/icons/e/mono.svg"
     },
     "license": "CC0-1.0",
-    "url": "https://www.e.leclerc/assets/images/sue-logo.svg"
+    "url": "https://doc.e.foundation"
   },
   {
     "slug": "e3",
@@ -13319,6 +13522,19 @@
     "url": "https://editorconfig.org"
   },
   {
+    "slug": "edotleclerc",
+    "title": "E.Leclerc",
+    "aliases": [],
+    "hex": "0066CC",
+    "categories": [],
+    "variants": {
+      "default": "/icons/edotleclerc/default.svg",
+      "mono": "/icons/edotleclerc/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.e.leclerc/assets/images/sue-logo.svg"
+  },
+  {
     "slug": "educative",
     "title": "Educative",
     "aliases": [],
@@ -13520,19 +13736,6 @@
     "url": "https://www.electronjs.org"
   },
   {
-    "slug": "electron-fiddle",
-    "title": "Electron Fiddle",
-    "aliases": [],
-    "hex": "E79537",
-    "categories": [],
-    "variants": {
-      "default": "/icons/electron-fiddle/default.svg",
-      "mono": "/icons/electron-fiddle/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://github.com/electron/fiddle/blob/19360ade76354240630e5660469b082128e1e57e/assets/icons/fiddle.svg"
-  },
-  {
     "slug": "electron-builder",
     "title": "electron-builder",
     "aliases": [],
@@ -13544,6 +13747,19 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.electron.build"
+  },
+  {
+    "slug": "electron-fiddle",
+    "title": "Electron Fiddle",
+    "aliases": [],
+    "hex": "E79537",
+    "categories": [],
+    "variants": {
+      "default": "/icons/electron-fiddle/default.svg",
+      "mono": "/icons/electron-fiddle/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://github.com/electron/fiddle/blob/19360ade76354240630e5660469b082128e1e57e/assets/icons/fiddle.svg"
   },
   {
     "slug": "elegoo",
@@ -14514,22 +14730,6 @@
     "url": "https://f-droid.org"
   },
   {
-    "slug": "fsharp",
-    "title": "F#",
-    "aliases": [
-      "F sharp"
-    ],
-    "hex": "378BBA",
-    "categories": [],
-    "variants": {
-      "default": "/icons/fsharp/default.svg",
-      "mono": "/icons/fsharp/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://foundation.fsharp.org/logo",
-    "guidelines": "https://foundation.fsharp.org/logo"
-  },
-  {
     "slug": "f1",
     "title": "F1",
     "aliases": [],
@@ -14944,6 +15144,21 @@
     "url": "https://newsroom.fedex.com"
   },
   {
+    "slug": "fediverse",
+    "title": "Fediverse",
+    "aliases": [],
+    "hex": "6639BA",
+    "categories": [
+      "Social",
+      "Protocol"
+    ],
+    "variants": {
+      "default": "/icons/fediverse/default.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://fediverse.info"
+  },
+  {
     "slug": "fedora",
     "title": "Fedora",
     "aliases": [],
@@ -15050,6 +15265,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.fcaci.com/x/FIATv15"
+  },
+  {
+    "slug": "fiber",
+    "title": "Fiber",
+    "aliases": [],
+    "hex": "00ACD7",
+    "categories": [
+      "Framework",
+      "Go"
+    ],
+    "variants": {
+      "default": "/icons/fiber/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://gofiber.io"
   },
   {
     "slug": "fido-alliance",
@@ -16553,6 +16783,22 @@
     "guidelines": "https://brand.frontify.com"
   },
   {
+    "slug": "fsharp",
+    "title": "F#",
+    "aliases": [
+      "F sharp"
+    ],
+    "hex": "378BBA",
+    "categories": [],
+    "variants": {
+      "default": "/icons/fsharp/default.svg",
+      "mono": "/icons/fsharp/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://foundation.fsharp.org/logo",
+    "guidelines": "https://foundation.fsharp.org/logo"
+  },
+  {
     "slug": "fubo",
     "title": "Fubo",
     "aliases": [],
@@ -16890,6 +17136,21 @@
     "license": "CC0-1.0",
     "url": "https://www.gatsbyjs.org/",
     "guidelines": "https://www.gatsbyjs.com/guidelines/logo"
+  },
+  {
+    "slug": "gatus",
+    "title": "Gatus",
+    "aliases": [],
+    "hex": "41B883",
+    "categories": [
+      "Monitoring",
+      "Self-Hosted"
+    ],
+    "variants": {
+      "default": "/icons/gatus/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://gatus.io"
   },
   {
     "slug": "gcore",
@@ -17481,19 +17742,6 @@
     "url": "https://gitter.im"
   },
   {
-    "slug": "gldotinet",
-    "title": "GL.iNet",
-    "aliases": [],
-    "hex": "636363",
-    "categories": [],
-    "variants": {
-      "default": "/icons/gldotinet/default.svg",
-      "mono": "/icons/gldotinet/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://www.gl-inet.com/press/"
-  },
-  {
     "slug": "glama",
     "title": "Glama",
     "aliases": [],
@@ -17534,6 +17782,19 @@
     "license": "CC0-1.0",
     "url": "https://www.glassdoor.com/about/newsroom",
     "guidelines": "https://www.glassdoor.com/about/newsroom"
+  },
+  {
+    "slug": "gldotinet",
+    "title": "GL.iNet",
+    "aliases": [],
+    "hex": "636363",
+    "categories": [],
+    "variants": {
+      "default": "/icons/gldotinet/default.svg",
+      "mono": "/icons/gldotinet/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.gl-inet.com/press/"
   },
   {
     "slug": "gleam",
@@ -17766,6 +18027,20 @@
     },
     "license": "CC0-1.0",
     "url": "https://git.savannah.gnu.org/cgit/gnuzilla.git/plain/artwork/simple.svg"
+  },
+  {
+    "slug": "gnu-nano",
+    "title": "GNU nano",
+    "aliases": [],
+    "hex": "4A90D9",
+    "categories": [
+      "Editor"
+    ],
+    "variants": {
+      "default": "/icons/gnu-nano/default.svg"
+    },
+    "license": "GPL-3.0",
+    "url": "https://nano-editor.org"
   },
   {
     "slug": "gnu-privacy-guard",
@@ -18624,6 +18899,21 @@
     "url": "https://ai.google/discover/palm2/"
   },
   {
+    "slug": "google-password-manager",
+    "title": "Google Password Manager",
+    "aliases": [],
+    "hex": "4285F4",
+    "categories": [
+      "Security",
+      "Google"
+    ],
+    "variants": {
+      "default": "/icons/google-password-manager/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://passwords.google.com"
+  },
+  {
     "slug": "google-pay",
     "title": "Google Pay",
     "aliases": [],
@@ -18671,6 +18961,21 @@
     "license": "CC0-1.0",
     "url": "https://play.google.com",
     "guidelines": "https://partnermarketinghub.withgoogle.com/brands/google-play/visual-identity/primary-logos/"
+  },
+  {
+    "slug": "google-play-games",
+    "title": "Google Play Games",
+    "aliases": [],
+    "hex": "34A853",
+    "categories": [
+      "Gaming",
+      "Google"
+    ],
+    "variants": {
+      "default": "/icons/google-play-games/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://play.google.com/games"
   },
   {
     "slug": "google-pub-sub",
@@ -18883,6 +19188,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.gnu.org/graphics/license-logos.html"
+  },
+  {
+    "slug": "gpt4all",
+    "title": "GPT4All",
+    "aliases": [],
+    "hex": "4AA87F",
+    "categories": [
+      "AI",
+      "Machine Learning"
+    ],
+    "variants": {
+      "default": "/icons/gpt4all/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://gpt4all.io"
   },
   {
     "slug": "grab",
@@ -19497,19 +19817,6 @@
     "url": "https://github.com/WordPress/gutenberg/blob/7829913ae117dfb561d14c600eea7b281afd6556/docs/final-g-wapuu-black.svg"
   },
   {
-    "slug": "handm",
-    "title": "H&M",
-    "aliases": [],
-    "hex": "E50010",
-    "categories": [],
-    "variants": {
-      "default": "/icons/handm/default.svg",
-      "mono": "/icons/handm/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://www2.hm.com/en_gb/index.html"
-  },
-  {
     "slug": "h2-database",
     "title": "H2 Database",
     "aliases": [],
@@ -19732,6 +20039,19 @@
     },
     "license": "CC0-1.0",
     "url": "https://github.com/handlebars-lang/docs/blob/13a2e2d9e31ebff4295924ea366abf3062e47ede/src/.vuepress/public/icons/handlebarsjs-icon.svg"
+  },
+  {
+    "slug": "handm",
+    "title": "H&M",
+    "aliases": [],
+    "hex": "E50010",
+    "categories": [],
+    "variants": {
+      "default": "/icons/handm/default.svg",
+      "mono": "/icons/handm/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www2.hm.com/en_gb/index.html"
   },
   {
     "slug": "handshake",
@@ -22947,6 +23267,21 @@
     "guidelines": "https://jellyfin.org/docs/general/contributing/branding.html"
   },
   {
+    "slug": "jellyseerr",
+    "title": "Jellyseerr",
+    "aliases": [],
+    "hex": "9333EA",
+    "categories": [
+      "Media",
+      "Self-Hosted"
+    ],
+    "variants": {
+      "default": "/icons/jellyseerr/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://github.com/Fallenbagel/jellyseerr"
+  },
+  {
     "slug": "jenkins",
     "title": "Jenkins",
     "aliases": [],
@@ -23932,6 +24267,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.kaufland.com"
+  },
+  {
+    "slug": "kavita",
+    "title": "Kavita",
+    "aliases": [],
+    "hex": "4B53B3",
+    "categories": [
+      "Media",
+      "Self-Hosted"
+    ],
+    "variants": {
+      "default": "/icons/kavita/default.svg"
+    },
+    "license": "GPL-3.0",
+    "url": "https://kavitareader.com"
   },
   {
     "slug": "kde",
@@ -25527,6 +25877,20 @@
     "guidelines": "https://leanpub.com/press"
   },
   {
+    "slug": "leantime",
+    "title": "Leantime",
+    "aliases": [],
+    "hex": "1B75BB",
+    "categories": [
+      "Project Management"
+    ],
+    "variants": {
+      "default": "/icons/leantime/default.svg"
+    },
+    "license": "AGPL-3.0",
+    "url": "https://leantime.io"
+  },
+  {
     "slug": "leap-wallet",
     "title": "Leap Wallet",
     "aliases": [],
@@ -26299,6 +26663,21 @@
     "url": "https://linkvertise.com/assets/img/linkvertise_logo_big.svg"
   },
   {
+    "slug": "linkwarden",
+    "title": "Linkwarden",
+    "aliases": [],
+    "hex": "6B52FF",
+    "categories": [
+      "Utility",
+      "Self-Hosted"
+    ],
+    "variants": {
+      "default": "/icons/linkwarden/default.svg"
+    },
+    "license": "AGPL-3.0",
+    "url": "https://linkwarden.app"
+  },
+  {
     "slug": "linphone",
     "title": "Linphone",
     "aliases": [],
@@ -26703,6 +27082,21 @@
     "url": "https://localwp.com"
   },
   {
+    "slug": "localai",
+    "title": "LocalAI",
+    "aliases": [],
+    "hex": "1E88E5",
+    "categories": [
+      "AI",
+      "Self-Hosted"
+    ],
+    "variants": {
+      "default": "/icons/localai/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://localai.io"
+  },
+  {
     "slug": "localsend",
     "title": "LocalSend",
     "aliases": [],
@@ -26741,6 +27135,21 @@
     },
     "license": "MIT",
     "url": "https://www.locofy.ai/"
+  },
+  {
+    "slug": "locust",
+    "title": "Locust",
+    "aliases": [],
+    "hex": "4B9E4E",
+    "categories": [
+      "Testing",
+      "Performance"
+    ],
+    "variants": {
+      "default": "/icons/locust/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://locust.io"
   },
   {
     "slug": "lodash",
@@ -27244,6 +27653,21 @@
     "url": "https://www.lyft.com/press"
   },
   {
+    "slug": "m5stack",
+    "title": "M5Stack",
+    "aliases": [],
+    "hex": "FF0000",
+    "categories": [
+      "IoT",
+      "Hardware"
+    ],
+    "variants": {
+      "default": "/icons/m5stack/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://m5stack.com"
+  },
+  {
     "slug": "maas",
     "title": "MAAS",
     "aliases": [],
@@ -27380,33 +27804,6 @@
     "guidelines": "https://www.mahindra.com/newsroom/logos"
   },
   {
-    "slug": "maildotcom",
-    "title": "mail.com",
-    "aliases": [],
-    "hex": "004788",
-    "categories": [],
-    "variants": {
-      "default": "/icons/maildotcom/default.svg",
-      "mono": "/icons/maildotcom/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://www.mail.com",
-    "guidelines": "https://www.mail.com/company/terms/"
-  },
-  {
-    "slug": "maildotru",
-    "title": "Mail.Ru",
-    "aliases": [],
-    "hex": "005FF9",
-    "categories": [],
-    "variants": {
-      "default": "/icons/maildotru/default.svg",
-      "mono": "/icons/maildotru/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://my.mail.ru"
-  },
-  {
     "slug": "mailbox",
     "title": "mailbox",
     "aliases": [],
@@ -27432,6 +27829,33 @@
     "license": "CC0-1.0",
     "url": "https://mailchimp.com/about/brand-assets",
     "guidelines": "https://mailchimp.com/about/brand-assets"
+  },
+  {
+    "slug": "maildotcom",
+    "title": "mail.com",
+    "aliases": [],
+    "hex": "004788",
+    "categories": [],
+    "variants": {
+      "default": "/icons/maildotcom/default.svg",
+      "mono": "/icons/maildotcom/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://www.mail.com",
+    "guidelines": "https://www.mail.com/company/terms/"
+  },
+  {
+    "slug": "maildotru",
+    "title": "Mail.Ru",
+    "aliases": [],
+    "hex": "005FF9",
+    "categories": [],
+    "variants": {
+      "default": "/icons/maildotru/default.svg",
+      "mono": "/icons/maildotru/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://my.mail.ru"
   },
   {
     "slug": "mailgun",
@@ -28023,6 +28447,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://matrix.org/"
+  },
+  {
+    "slug": "matter",
+    "title": "Matter",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "IoT",
+      "Protocol"
+    ],
+    "variants": {
+      "default": "/icons/matter/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://csa-iot.org/all-solutions/matter/"
   },
   {
     "slug": "matterdotjs",
@@ -28806,19 +29245,6 @@
     "guidelines": "https://www.mg.co.uk/terms-and-conditions"
   },
   {
-    "slug": "micro-editor",
-    "title": "Micro Editor",
-    "aliases": [],
-    "hex": "2E3192",
-    "categories": [],
-    "variants": {
-      "default": "/icons/micro-editor/default.svg",
-      "mono": "/icons/micro-editor/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://github.com/zyedidia/micro/blob/48645907ec55798b75723019dad75dba51bd97d7/assets/micro-logo-mark.svg"
-  },
-  {
     "slug": "micro-bit",
     "title": "micro:bit",
     "aliases": [],
@@ -28830,6 +29256,19 @@
     },
     "license": "CC0-1.0",
     "url": "https://microbit.org"
+  },
+  {
+    "slug": "micro-editor",
+    "title": "Micro Editor",
+    "aliases": [],
+    "hex": "2E3192",
+    "categories": [],
+    "variants": {
+      "default": "/icons/micro-editor/default.svg",
+      "mono": "/icons/micro-editor/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://github.com/zyedidia/micro/blob/48645907ec55798b75723019dad75dba51bd97d7/assets/micro-logo-mark.svg"
   },
   {
     "slug": "microdotblog",
@@ -28871,23 +29310,6 @@
     },
     "license": "MIT",
     "url": "https://www.microsoft.com/"
-  },
-  {
-    "slug": "microsoft-dotnet",
-    "title": "Microsoft .NET",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [
-      "Framework",
-      "Library",
-      "Devtool",
-      "Microsoft"
-    ],
-    "variants": {
-      "default": "/icons/microsoft-dotnet/default.svg"
-    },
-    "license": "MIT",
-    "url": "https://dotnet.microsoft.com"
   },
   {
     "slug": "microsoft-access",
@@ -29001,6 +29423,23 @@
     },
     "license": "MIT",
     "url": "https://designer.microsoft.com/"
+  },
+  {
+    "slug": "microsoft-dotnet",
+    "title": "Microsoft .NET",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Framework",
+      "Library",
+      "Devtool",
+      "Microsoft"
+    ],
+    "variants": {
+      "default": "/icons/microsoft-dotnet/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://dotnet.microsoft.com"
   },
   {
     "slug": "microsoft-editor",
@@ -30404,6 +30843,20 @@
     "url": "https://myanimelist.net/wrap-up/anime-logo-mobile.svg"
   },
   {
+    "slug": "mybb",
+    "title": "MyBB",
+    "aliases": [],
+    "hex": "2D73BF",
+    "categories": [
+      "Forum"
+    ],
+    "variants": {
+      "default": "/icons/mybb/default.svg"
+    },
+    "license": "LGPL-3.0",
+    "url": "https://mybb.com"
+  },
+  {
     "slug": "myget",
     "title": "MyGet",
     "aliases": [],
@@ -30428,6 +30881,22 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.myob.com"
+  },
+  {
+    "slug": "mypy",
+    "title": "mypy",
+    "aliases": [
+      "Mypy"
+    ],
+    "hex": "2A6DB2",
+    "categories": [
+      "Devtool"
+    ],
+    "variants": {
+      "default": "/icons/mypy/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://mypy-lang.org"
   },
   {
     "slug": "myshell",
@@ -30689,6 +31158,21 @@
     "guidelines": "https://www.nationalrailguidelines.co.uk"
   },
   {
+    "slug": "nativephp",
+    "title": "NativePHP",
+    "aliases": [],
+    "hex": "FF2D20",
+    "categories": [
+      "Framework",
+      "PHP"
+    ],
+    "variants": {
+      "default": "/icons/nativephp/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://nativephp.com"
+  },
+  {
     "slug": "nativescript",
     "title": "NativeScript",
     "aliases": [],
@@ -30700,6 +31184,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://docs.nativescript.org"
+  },
+  {
+    "slug": "nativewind",
+    "title": "NativeWind",
+    "aliases": [],
+    "hex": "38BDF8",
+    "categories": [
+      "Framework",
+      "React Native"
+    ],
+    "variants": {
+      "default": "/icons/nativewind/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://nativewind.dev"
   },
   {
     "slug": "natsdotio",
@@ -30730,6 +31229,21 @@
     "license": "CC0-1.0",
     "url": "https://developers.naver.com/docs/login/bi/bi.md",
     "guidelines": "https://developers.naver.com/docs/login/bi/bi.md"
+  },
+  {
+    "slug": "navidrome",
+    "title": "Navidrome",
+    "aliases": [],
+    "hex": "0084FF",
+    "categories": [
+      "Media",
+      "Self-Hosted"
+    ],
+    "variants": {
+      "default": "/icons/navidrome/default.svg"
+    },
+    "license": "GPL-3.0",
+    "url": "https://navidrome.org"
   },
   {
     "slug": "nba",
@@ -31232,26 +31746,6 @@
     "guidelines": "https://brand.nexon.com"
   },
   {
-    "slug": "nextdotjs",
-    "title": "Next.js",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [
-      "Framework",
-      "Vercel"
-    ],
-    "variants": {
-      "default": "/icons/nextdotjs/default.svg",
-      "mono": "/icons/nextdotjs/mono.svg",
-      "wordmark": "/icons/nextdotjs/wordmark.svg",
-      "wordmarkLight": "/icons/nextdotjs/wordmark-light.svg",
-      "wordmarkDark": "/icons/nextdotjs/wordmark-dark.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://nextjs.org/",
-    "guidelines": "https://vercel.com/design/brands#next-js"
-  },
-  {
     "slug": "nextbike",
     "title": "nextbike",
     "aliases": [],
@@ -31317,6 +31811,26 @@
     },
     "license": "CC0-1.0",
     "url": "https://about.nextdoor.com/us-media/"
+  },
+  {
+    "slug": "nextdotjs",
+    "title": "Next.js",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Framework",
+      "Vercel"
+    ],
+    "variants": {
+      "default": "/icons/nextdotjs/default.svg",
+      "mono": "/icons/nextdotjs/mono.svg",
+      "wordmark": "/icons/nextdotjs/wordmark.svg",
+      "wordmarkLight": "/icons/nextdotjs/wordmark-light.svg",
+      "wordmarkDark": "/icons/nextdotjs/wordmark-dark.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://nextjs.org/",
+    "guidelines": "https://vercel.com/design/brands#next-js"
   },
   {
     "slug": "nextflow",
@@ -31596,6 +32110,19 @@
     "url": "https://nodered.org/about/resources/"
   },
   {
+    "slug": "nodebb",
+    "title": "NodeBB",
+    "aliases": [],
+    "hex": "1E5EBC",
+    "categories": [],
+    "variants": {
+      "default": "/icons/nodebb/default.svg",
+      "mono": "/icons/nodebb/mono.svg"
+    },
+    "license": "CC-BY-NC-4.0",
+    "url": "https://github.com/NodeBB/assets/blob/c59a6d8db0d1be9b2666419e49b330d7b780f2b3/bb-svg/bb.svg"
+  },
+  {
     "slug": "nodedotjs",
     "title": "Node.js",
     "aliases": [],
@@ -31610,19 +32137,6 @@
     "license": "CC0-1.0",
     "url": "https://nodejs.org/",
     "guidelines": "https://nodejs.org/en/about/branding"
-  },
-  {
-    "slug": "nodebb",
-    "title": "NodeBB",
-    "aliases": [],
-    "hex": "1E5EBC",
-    "categories": [],
-    "variants": {
-      "default": "/icons/nodebb/default.svg",
-      "mono": "/icons/nodebb/mono.svg"
-    },
-    "license": "CC-BY-NC-4.0",
-    "url": "https://github.com/NodeBB/assets/blob/c59a6d8db0d1be9b2666419e49b330d7b780f2b3/bb-svg/bb.svg"
   },
   {
     "slug": "nodegui",
@@ -31797,6 +32311,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/blob/1f2c63cce173e3e1dc5922637c81a851693e2856/PowerEditor/misc/chameleon/chameleon-pencil.eps"
+  },
+  {
+    "slug": "notesnook",
+    "title": "Notesnook",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Productivity",
+      "Privacy"
+    ],
+    "variants": {
+      "default": "/icons/notesnook/default.svg"
+    },
+    "license": "GPL-3.0",
+    "url": "https://notesnook.com"
   },
   {
     "slug": "notion",
@@ -33274,6 +33803,23 @@
     "url": "https://opennebula.io/docs/"
   },
   {
+    "slug": "openobserve",
+    "title": "OpenObserve",
+    "aliases": [
+      "O2"
+    ],
+    "hex": "5C62F0",
+    "categories": [
+      "Analytics",
+      "Cloud"
+    ],
+    "variants": {
+      "default": "/icons/openobserve/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://openobserve.ai"
+  },
+  {
     "slug": "openproject",
     "title": "OpenProject",
     "aliases": [],
@@ -33346,6 +33892,21 @@
     "guidelines": "https://opensearch.org/trademark-brand-policy.html"
   },
   {
+    "slug": "openspeedtest",
+    "title": "OpenSpeedTest",
+    "aliases": [],
+    "hex": "141526",
+    "categories": [
+      "Utility",
+      "Networking"
+    ],
+    "variants": {
+      "default": "/icons/openspeedtest/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://openspeedtest.com"
+  },
+  {
     "slug": "openssl",
     "title": "OpenSSL",
     "aliases": [],
@@ -33399,6 +33960,36 @@
     "license": "CC0-1.0",
     "url": "https://github.com/openSUSE/artwork/blob/33e94aa76837c09f03d1712705949b71a246a53b/logos/buttons/button-colour.svg",
     "guidelines": "https://en.opensuse.org/Portal:Artwork"
+  },
+  {
+    "slug": "opensuse-leap",
+    "title": "openSUSE Leap",
+    "aliases": [],
+    "hex": "73BA25",
+    "categories": [
+      "OS",
+      "Linux"
+    ],
+    "variants": {
+      "default": "/icons/opensuse-leap/default.svg"
+    },
+    "license": "GPL-2.0",
+    "url": "https://get.opensuse.org/leap/"
+  },
+  {
+    "slug": "opensuse-tumbleweed",
+    "title": "openSUSE Tumbleweed",
+    "aliases": [],
+    "hex": "73BA25",
+    "categories": [
+      "OS",
+      "Linux"
+    ],
+    "variants": {
+      "default": "/icons/opensuse-tumbleweed/default.svg"
+    },
+    "license": "GPL-2.0",
+    "url": "https://get.opensuse.org/tumbleweed/"
   },
   {
     "slug": "opentelemetry",
@@ -33503,6 +34094,21 @@
     "license": "CC0-1.0",
     "url": "https://openwrt.org/docs/guide-graphic-designer/openwrt-logo",
     "guidelines": "https://openwrt.org/docs/guide-graphic-designer/openwrt-logo"
+  },
+  {
+    "slug": "openxr",
+    "title": "OpenXR",
+    "aliases": [],
+    "hex": "1E8CFF",
+    "categories": [
+      "VR/AR",
+      "Standard"
+    ],
+    "variants": {
+      "default": "/icons/openxr/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://khronos.org/openxr/"
   },
   {
     "slug": "openzeppelin",
@@ -33881,6 +34487,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.overleaf.com/for/press/media-resources"
+  },
+  {
+    "slug": "overseerr",
+    "title": "Overseerr",
+    "aliases": [],
+    "hex": "5366CF",
+    "categories": [
+      "Entertainment",
+      "Software"
+    ],
+    "variants": {
+      "default": "/icons/overseerr/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://overseerr.dev"
   },
   {
     "slug": "ovh",
@@ -34306,6 +34927,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://github.com/paperless-ngx/paperless-ngx/blob/e16645b146da24f07004eb772a455450354a37a7/resources/logo/web/svg/square.svg"
+  },
+  {
+    "slug": "papermc",
+    "title": "PaperMC",
+    "aliases": [],
+    "hex": "353E48",
+    "categories": [
+      "Gaming",
+      "Minecraft"
+    ],
+    "variants": {
+      "default": "/icons/papermc/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://papermc.io"
   },
   {
     "slug": "papers-with-code",
@@ -34792,6 +35428,21 @@
     "url": "https://percy.io"
   },
   {
+    "slug": "perfecto",
+    "title": "Perfecto",
+    "aliases": [],
+    "hex": "6236FF",
+    "categories": [
+      "Testing",
+      "Mobile"
+    ],
+    "variants": {
+      "default": "/icons/perfecto/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://perfecto.io"
+  },
+  {
     "slug": "perforce",
     "title": "Perforce",
     "aliases": [],
@@ -34960,6 +35611,21 @@
     "license": "CC0-1.0",
     "url": "https://github.com/phacility/phabricator/blob/0a3093ef9c1898913196564435346e4daa9d2538/webroot/rsrc/image/logo/light-eye.png",
     "guidelines": "https://phacility.com/trademarks/"
+  },
+  {
+    "slug": "phaser",
+    "title": "Phaser",
+    "aliases": [],
+    "hex": "252850",
+    "categories": [
+      "Framework",
+      "Gaming"
+    ],
+    "variants": {
+      "default": "/icons/phaser/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://phaser.io"
   },
   {
     "slug": "phidata",
@@ -35154,6 +35820,21 @@
     "url": "https://github.com/phpmyadmin/data/blob/b7d3bdb9bb973beff4726541b87d3a4c8a950b4b/brand/phpMyAdmin-Logo-Symbol.svg"
   },
   {
+    "slug": "phpstan",
+    "title": "PHPStan",
+    "aliases": [],
+    "hex": "6340BA",
+    "categories": [
+      "Devtool",
+      "PHP"
+    ],
+    "variants": {
+      "default": "/icons/phpstan/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://phpstan.org"
+  },
+  {
     "slug": "phpstorm",
     "title": "PhpStorm",
     "aliases": [],
@@ -35168,19 +35849,6 @@
     "guidelines": "https://www.jetbrains.com/company/brand/"
   },
   {
-    "slug": "pi-network",
-    "title": "Pi Network",
-    "aliases": [],
-    "hex": "F4AF47",
-    "categories": [],
-    "variants": {
-      "default": "/icons/pi-network/default.svg",
-      "mono": "/icons/pi-network/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://blockexplorer.minepi.com"
-  },
-  {
     "slug": "pi-hole",
     "title": "Pi-hole",
     "aliases": [],
@@ -35193,6 +35861,19 @@
     "license": "CC0-1.0",
     "url": "https://docs.pi-hole.net",
     "guidelines": "https://pi-hole.net/trademark-rules-and-brand-guidelines/"
+  },
+  {
+    "slug": "pi-network",
+    "title": "Pi Network",
+    "aliases": [],
+    "hex": "F4AF47",
+    "categories": [],
+    "variants": {
+      "default": "/icons/pi-network/default.svg",
+      "mono": "/icons/pi-network/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://blockexplorer.minepi.com"
   },
   {
     "slug": "piaggio-group",
@@ -35754,19 +36435,6 @@
     "url": "https://player.fm"
   },
   {
-    "slug": "playerdotme",
-    "title": "Player.me",
-    "aliases": [],
-    "hex": "C0379A",
-    "categories": [],
-    "variants": {
-      "default": "/icons/playerdotme/default.svg",
-      "mono": "/icons/playerdotme/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://player.me/p/about-us"
-  },
-  {
     "slug": "player2",
     "title": "Player2",
     "aliases": [],
@@ -35781,6 +36449,19 @@
     },
     "license": "MIT",
     "url": "https://player2.game"
+  },
+  {
+    "slug": "playerdotme",
+    "title": "Player.me",
+    "aliases": [],
+    "hex": "C0379A",
+    "categories": [],
+    "variants": {
+      "default": "/icons/playerdotme/default.svg",
+      "mono": "/icons/playerdotme/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://player.me/p/about-us"
   },
   {
     "slug": "playstation",
@@ -37048,6 +37729,21 @@
     "url": "https://pronouns.page/design"
   },
   {
+    "slug": "prosemirror",
+    "title": "ProseMirror",
+    "aliases": [],
+    "hex": "1A1A1A",
+    "categories": [
+      "Library",
+      "JavaScript"
+    ],
+    "variants": {
+      "default": "/icons/prosemirror/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://prosemirror.net"
+  },
+  {
     "slug": "prosieben",
     "title": "ProSieben",
     "aliases": [],
@@ -37074,19 +37770,6 @@
     "url": "https://www.labcenter.com"
   },
   {
-    "slug": "protodotio",
-    "title": "Proto.io",
-    "aliases": [],
-    "hex": "34A7C1",
-    "categories": [],
-    "variants": {
-      "default": "/icons/protodotio/default.svg",
-      "mono": "/icons/protodotio/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://proto.io/en/presskit"
-  },
-  {
     "slug": "protocolsdotio",
     "title": "protocols.io",
     "aliases": [],
@@ -37099,6 +37782,19 @@
     "license": "CC0-1.0",
     "url": "https://www.protocols.io/brand",
     "guidelines": "https://www.protocols.io/brand"
+  },
+  {
+    "slug": "protodotio",
+    "title": "Proto.io",
+    "aliases": [],
+    "hex": "34A7C1",
+    "categories": [],
+    "variants": {
+      "default": "/icons/protodotio/default.svg",
+      "mono": "/icons/protodotio/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://proto.io/en/presskit"
   },
   {
     "slug": "proton",
@@ -37410,6 +38106,21 @@
     },
     "license": "MIT",
     "url": "https://put.io/"
+  },
+  {
+    "slug": "putty",
+    "title": "PuTTY",
+    "aliases": [],
+    "hex": "0000FC",
+    "categories": [
+      "Utility",
+      "Networking"
+    ],
+    "variants": {
+      "default": "/icons/putty/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://putty.org"
   },
   {
     "slug": "pwa",
@@ -39432,6 +40143,21 @@
     "url": "https://rog.asus.com"
   },
   {
+    "slug": "reqable",
+    "title": "Reqable",
+    "aliases": [],
+    "hex": "1E88E5",
+    "categories": [
+      "Devtool",
+      "API"
+    ],
+    "variants": {
+      "default": "/icons/reqable/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://reqable.com"
+  },
+  {
     "slug": "rescript",
     "title": "ReScript",
     "aliases": [],
@@ -40506,6 +41232,20 @@
     "url": "https://astral.sh/ruff"
   },
   {
+    "slug": "ruffle",
+    "title": "Ruffle",
+    "aliases": [],
+    "hex": "FF6F00",
+    "categories": [
+      "Emulator"
+    ],
+    "variants": {
+      "default": "/icons/ruffle/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://ruffle.rs"
+  },
+  {
     "slug": "rumahweb",
     "title": "Rumahweb",
     "aliases": [],
@@ -40629,6 +41369,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://github.com/rustdesk/rustdesk/blob/80857c22c9ee1578b4329aec3250c3e6f285a7d2/res/logo.svg"
+  },
+  {
+    "slug": "rustfs",
+    "title": "RustFS",
+    "aliases": [],
+    "hex": "DEA584",
+    "categories": [
+      "Storage",
+      "Rust"
+    ],
+    "variants": {
+      "default": "/icons/rustfs/default.svg"
+    },
+    "license": "AGPL-3.0",
+    "url": "https://rustfs.com"
   },
   {
     "slug": "rwkv",
@@ -41490,6 +42245,19 @@
     "url": "https://sellfy.com/about/"
   },
   {
+    "slug": "semantic-release",
+    "title": "semantic-release",
+    "aliases": [],
+    "hex": "494949",
+    "categories": [],
+    "variants": {
+      "default": "/icons/semantic-release/default.svg",
+      "mono": "/icons/semantic-release/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://github.com/semantic-release/semantic-release/blob/85bc213f04445a9bb8f19e5d45d6ecd7acccf841/media/semantic-release-logo.svg"
+  },
+  {
     "slug": "semantic-scholar",
     "title": "Semantic Scholar",
     "aliases": [],
@@ -41540,19 +42308,6 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.w3.org/2007/10/sw-logos.html"
-  },
-  {
-    "slug": "semantic-release",
-    "title": "semantic-release",
-    "aliases": [],
-    "hex": "494949",
-    "categories": [],
-    "variants": {
-      "default": "/icons/semantic-release/default.svg",
-      "mono": "/icons/semantic-release/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://github.com/semantic-release/semantic-release/blob/85bc213f04445a9bb8f19e5d45d6ecd7acccf841/media/semantic-release-logo.svg"
   },
   {
     "slug": "semaphore-ci",
@@ -42723,6 +43478,21 @@
     "url": "https://commons.wikimedia.org/wiki/File:Snapdragon_Logo.svg"
   },
   {
+    "slug": "snapdrop",
+    "title": "Snapdrop",
+    "aliases": [],
+    "hex": "3366CC",
+    "categories": [
+      "Utility",
+      "File Sharing"
+    ],
+    "variants": {
+      "default": "/icons/snapdrop/default.svg"
+    },
+    "license": "GPL-3.0",
+    "url": "https://snapdrop.net"
+  },
+  {
     "slug": "sncf",
     "title": "SNCF",
     "aliases": [],
@@ -43512,6 +44282,21 @@
     "url": "https://github.com/sphinx-doc/sphinx/blob/ed84d63e6f2c4fd43b97fc43ee8be4156a13af9e/doc/_static/favicon.svg"
   },
   {
+    "slug": "spidermonkey",
+    "title": "SpiderMonkey",
+    "aliases": [],
+    "hex": "FF9500",
+    "categories": [
+      "JavaScript",
+      "Engine"
+    ],
+    "variants": {
+      "default": "/icons/spidermonkey/default.svg"
+    },
+    "license": "MPL-2.0",
+    "url": "https://spidermonkey.dev"
+  },
+  {
     "slug": "spigotmc",
     "title": "SpigotMC",
     "aliases": [],
@@ -43578,6 +44363,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://spond.com"
+  },
+  {
+    "slug": "sponge",
+    "title": "Sponge",
+    "aliases": [],
+    "hex": "F7CF0D",
+    "categories": [
+      "Gaming",
+      "Minecraft"
+    ],
+    "variants": {
+      "default": "/icons/sponge/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://spongepowered.org"
   },
   {
     "slug": "spotify",
@@ -43807,6 +44607,20 @@
     "guidelines": "https://github.com/serverless-stack/identity"
   },
   {
+    "slug": "stability-ai",
+    "title": "Stability AI",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "AI"
+    ],
+    "variants": {
+      "default": "/icons/stability-ai/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://stability.ai/"
+  },
+  {
     "slug": "stability-stablediffusion",
     "title": "Stability (StableDiffusion)",
     "aliases": [],
@@ -43821,20 +44635,6 @@
     },
     "license": "MIT",
     "url": "https://deepmind.google/technologies/gemini"
-  },
-  {
-    "slug": "stability-ai",
-    "title": "Stability AI",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [
-      "AI"
-    ],
-    "variants": {
-      "default": "/icons/stability-ai/default.svg"
-    },
-    "license": "MIT",
-    "url": "https://stability.ai/"
   },
   {
     "slug": "stack-exchange",
@@ -44370,6 +45170,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://stimulus.hotwired.dev/"
+  },
+  {
+    "slug": "stirling-pdf",
+    "title": "Stirling-PDF",
+    "aliases": [],
+    "hex": "1B6AC6",
+    "categories": [
+      "Utility",
+      "Self-Hosted"
+    ],
+    "variants": {
+      "default": "/icons/stirling-pdf/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://stirlingpdf.com"
   },
   {
     "slug": "stmicroelectronics",
@@ -46092,6 +46907,38 @@
     "guidelines": "https://brand.hashicorp.com"
   },
   {
+    "slug": "terragrunt",
+    "title": "Terragrunt",
+    "aliases": [
+      "Gruntwork"
+    ],
+    "hex": "5C4EE5",
+    "categories": [
+      "Cloud",
+      "Devtool"
+    ],
+    "variants": {
+      "default": "/icons/terragrunt/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://terragrunt.gruntwork.io"
+  },
+  {
+    "slug": "terser",
+    "title": "Terser",
+    "aliases": [],
+    "hex": "F1D300",
+    "categories": [
+      "Devtool",
+      "JavaScript"
+    ],
+    "variants": {
+      "default": "/icons/terser/default.svg"
+    },
+    "license": "BSD-2-Clause",
+    "url": "https://terser.org"
+  },
+  {
     "slug": "tesco",
     "title": "Tesco",
     "aliases": [],
@@ -46492,6 +47339,28 @@
     },
     "license": "CC0-1.0",
     "url": "https://weather.com"
+  },
+  {
+    "slug": "thesvg",
+    "title": "theSVG",
+    "aliases": [
+      "The SVG",
+      "thesvg.org"
+    ],
+    "hex": "F97316",
+    "categories": [
+      "Design",
+      "Devtool",
+      "Library"
+    ],
+    "variants": {
+      "default": "/icons/thesvg/default.svg",
+      "light": "/icons/thesvg/light.svg",
+      "wordmark": "/icons/thesvg/wordmark.svg",
+      "wordmarkDark": "/icons/thesvg/wordmark-dark.svg"
+    },
+    "license": "MIT",
+    "url": "https://thesvg.org"
   },
   {
     "slug": "thingiverse",
@@ -47155,19 +48024,6 @@
     "guidelines": "https://ton.org/en/brand-assets"
   },
   {
-    "slug": "topdotgg",
-    "title": "Top.gg",
-    "aliases": [],
-    "hex": "FF3366",
-    "categories": [],
-    "variants": {
-      "default": "/icons/topdotgg/default.svg",
-      "mono": "/icons/topdotgg/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://top.gg"
-  },
-  {
     "slug": "topazlabs",
     "title": "TopazLabs",
     "aliases": [],
@@ -47195,6 +48051,19 @@
     "license": "CC0-1.0",
     "url": "https://www.topcoder.com/thrive/articles/How%20to%20use%20the%20Topcoder%20GUI%20KIT",
     "guidelines": "https://www.topcoder.com/thrive/articles/How%20to%20use%20the%20Topcoder%20GUI%20KIT"
+  },
+  {
+    "slug": "topdotgg",
+    "title": "Top.gg",
+    "aliases": [],
+    "hex": "FF3366",
+    "categories": [],
+    "variants": {
+      "default": "/icons/topdotgg/default.svg",
+      "mono": "/icons/topdotgg/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://top.gg"
   },
   {
     "slug": "toptal",
@@ -47368,6 +48237,20 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.traccar.org"
+  },
+  {
+    "slug": "trade-republic",
+    "title": "Trade Republic",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/trade-republic/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://traderepublic.com"
   },
   {
     "slug": "tradingview",
@@ -47712,19 +48595,6 @@
     "url": "https://github.com/trinodb/docs.trino.io/blob/653a46f6bdc64b5f67302dc9ab8a0c432ca25e70/352/_static/trino.svg"
   },
   {
-    "slug": "tripdotcom",
-    "title": "Trip.com",
-    "aliases": [],
-    "hex": "287DFA",
-    "categories": [],
-    "variants": {
-      "default": "/icons/tripdotcom/default.svg",
-      "mono": "/icons/tripdotcom/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://careers.trip.com"
-  },
-  {
     "slug": "tripadvisor",
     "title": "Tripadvisor",
     "aliases": [],
@@ -47737,6 +48607,19 @@
     "license": "CC0-1.0",
     "url": "https://tripadvisor.mediaroom.com/logo-guidelines",
     "guidelines": "https://tripadvisor.mediaroom.com/logo-guidelines"
+  },
+  {
+    "slug": "tripdotcom",
+    "title": "Trip.com",
+    "aliases": [],
+    "hex": "287DFA",
+    "categories": [],
+    "variants": {
+      "default": "/icons/tripdotcom/default.svg",
+      "mono": "/icons/tripdotcom/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://careers.trip.com"
   },
   {
     "slug": "tripo",
@@ -47949,6 +48832,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://typestrong.org/ts-node"
+  },
+  {
+    "slug": "tube-archivist",
+    "title": "Tube Archivist",
+    "aliases": [],
+    "hex": "FF0000",
+    "categories": [
+      "Media",
+      "Self-Hosted"
+    ],
+    "variants": {
+      "default": "/icons/tube-archivist/default.svg"
+    },
+    "license": "GPL-3.0",
+    "url": "https://tubearchivist.com"
   },
   {
     "slug": "tubi",
@@ -48356,6 +49254,21 @@
     "license": "CC0-1.0",
     "url": "https://styleguide.typo3.com/styleguide/logo",
     "guidelines": "https://styleguide.typo3.com"
+  },
+  {
+    "slug": "typora",
+    "title": "Typora",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Productivity",
+      "Editor"
+    ],
+    "variants": {
+      "default": "/icons/typora/default.svg"
+    },
+    "license": "Proprietary",
+    "url": "https://typora.io"
   },
   {
     "slug": "typst",
@@ -49295,6 +50208,22 @@
     "url": "https://valibot.dev"
   },
   {
+    "slug": "valkey",
+    "title": "Valkey",
+    "aliases": [
+      "Valkey DB"
+    ],
+    "hex": "FF6600",
+    "categories": [
+      "Database"
+    ],
+    "variants": {
+      "default": "/icons/valkey/default.svg"
+    },
+    "license": "BSD-3-Clause",
+    "url": "https://valkey.io"
+  },
+  {
     "slug": "valorant",
     "title": "Valorant",
     "aliases": [],
@@ -49817,6 +50746,21 @@
     },
     "license": "MIT",
     "url": "https://viggle.ai"
+  },
+  {
+    "slug": "vike",
+    "title": "Vike",
+    "aliases": [],
+    "hex": "0077FF",
+    "categories": [
+      "Framework",
+      "JavaScript"
+    ],
+    "variants": {
+      "default": "/icons/vike/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://vike.dev"
   },
   {
     "slug": "vikunja",
@@ -50900,33 +51844,6 @@
     "url": "https://www.webcomponents.org/"
   },
   {
-    "slug": "webdotde",
-    "title": "WEB.DE",
-    "aliases": [],
-    "hex": "FFD800",
-    "categories": [],
-    "variants": {
-      "default": "/icons/webdotde/default.svg",
-      "mono": "/icons/webdotde/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://web.de"
-  },
-  {
-    "slug": "webdotdev",
-    "title": "Web.dev",
-    "aliases": [],
-    "hex": "000000",
-    "categories": [
-      "Education"
-    ],
-    "variants": {
-      "default": "/icons/webdotdev/default.svg"
-    },
-    "license": "MIT",
-    "url": "https://web.dev/"
-  },
-  {
     "slug": "web3dotjs",
     "title": "Web3.js",
     "aliases": [],
@@ -50980,6 +51897,33 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.webcomponents.org"
+  },
+  {
+    "slug": "webdotde",
+    "title": "WEB.DE",
+    "aliases": [],
+    "hex": "FFD800",
+    "categories": [],
+    "variants": {
+      "default": "/icons/webdotde/default.svg",
+      "mono": "/icons/webdotde/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://web.de"
+  },
+  {
+    "slug": "webdotdev",
+    "title": "Web.dev",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "Education"
+    ],
+    "variants": {
+      "default": "/icons/webdotdev/default.svg"
+    },
+    "license": "MIT",
+    "url": "https://web.dev/"
   },
   {
     "slug": "webdriverio",
@@ -51402,6 +52346,32 @@
     "url": "https://whop.com/"
   },
   {
+    "slug": "wikibooks",
+    "title": "Wikibooks",
+    "aliases": [],
+    "hex": "006699",
+    "categories": [],
+    "variants": {
+      "default": "/icons/wikibooks/default.svg",
+      "mono": "/icons/wikibooks/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Wikibooks-logo-white.svg"
+  },
+  {
+    "slug": "wikidata",
+    "title": "Wikidata",
+    "aliases": [],
+    "hex": "006699",
+    "categories": [],
+    "variants": {
+      "default": "/icons/wikidata/default.svg",
+      "mono": "/icons/wikidata/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Wikidata-logo-en.svg"
+  },
+  {
     "slug": "wikidotgg",
     "title": "wiki.gg",
     "aliases": [],
@@ -51428,30 +52398,19 @@
     "url": "https://cdn.js.wiki/images/wikijs-butterfly-mono.svg"
   },
   {
-    "slug": "wikibooks",
-    "title": "Wikibooks",
+    "slug": "wikiloc",
+    "title": "Wikiloc",
     "aliases": [],
-    "hex": "006699",
-    "categories": [],
+    "hex": "71C000",
+    "categories": [
+      "Outdoor",
+      "Maps"
+    ],
     "variants": {
-      "default": "/icons/wikibooks/default.svg",
-      "mono": "/icons/wikibooks/mono.svg"
+      "default": "/icons/wikiloc/default.svg"
     },
-    "license": "CC0-1.0",
-    "url": "https://commons.wikimedia.org/wiki/File:Wikibooks-logo-white.svg"
-  },
-  {
-    "slug": "wikidata",
-    "title": "Wikidata",
-    "aliases": [],
-    "hex": "006699",
-    "categories": [],
-    "variants": {
-      "default": "/icons/wikidata/default.svg",
-      "mono": "/icons/wikidata/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://commons.wikimedia.org/wiki/File:Wikidata-logo-en.svg"
+    "license": "Proprietary",
+    "url": "https://wikiloc.com"
   },
   {
     "slug": "wikimedia-commons",
@@ -51840,6 +52799,20 @@
     "guidelines": "https://woocommerce.com/trademark-guidelines"
   },
   {
+    "slug": "woodpecker",
+    "title": "Woodpecker CI",
+    "aliases": [],
+    "hex": "00C851",
+    "categories": [
+      "CI/CD"
+    ],
+    "variants": {
+      "default": "/icons/woodpecker/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://woodpecker-ci.org"
+  },
+  {
     "slug": "wordpress",
     "title": "WordPress",
     "aliases": [],
@@ -52070,19 +53043,6 @@
     "guidelines": "https://about.x.com/en/who-we-are/brand-toolkit"
   },
   {
-    "slug": "xdotorg",
-    "title": "X.Org",
-    "aliases": [],
-    "hex": "F28834",
-    "categories": [],
-    "variants": {
-      "default": "/icons/xdotorg/default.svg",
-      "mono": "/icons/xdotorg/mono.svg"
-    },
-    "license": "CC0-1.0",
-    "url": "https://commons.wikimedia.org/wiki/File:X.Org_Logo.svg"
-  },
-  {
     "slug": "xai",
     "title": "xAI",
     "aliases": [],
@@ -52179,6 +53139,19 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.xda-developers.com"
+  },
+  {
+    "slug": "xdotorg",
+    "title": "X.Org",
+    "aliases": [],
+    "hex": "F28834",
+    "categories": [],
+    "variants": {
+      "default": "/icons/xdotorg/default.svg",
+      "mono": "/icons/xdotorg/mono.svg"
+    },
+    "license": "CC0-1.0",
+    "url": "https://commons.wikimedia.org/wiki/File:X.Org_Logo.svg"
   },
   {
     "slug": "xendit",
@@ -52405,6 +53378,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://commons.wikimedia.org/wiki/File:Xubuntu_Icon.svg"
+  },
+  {
+    "slug": "xwiki",
+    "title": "XWiki",
+    "aliases": [],
+    "hex": "222222",
+    "categories": [
+      "Wiki",
+      "Collaboration"
+    ],
+    "variants": {
+      "default": "/icons/xwiki/default.svg"
+    },
+    "license": "LGPL-2.1",
+    "url": "https://xwiki.org"
   },
   {
     "slug": "xyflow",
@@ -52857,21 +53845,6 @@
     "url": "https://github.com/YunoHost/doc/blob/0157b052481407b3c06cc2892de225f14c42520b/images/ynh_logo_black.svg"
   },
   {
-    "slug": "zdotai",
-    "title": "Z.ai",
-    "aliases": [],
-    "hex": "000",
-    "categories": [
-      "Software"
-    ],
-    "variants": {
-      "default": "/icons/zdotai/mono.svg",
-      "mono": "/icons/zdotai/mono.svg"
-    },
-    "license": "MIT",
-    "url": "https://z.ai"
-  },
-  {
     "slug": "zaim",
     "title": "Zaim",
     "aliases": [],
@@ -53009,6 +53982,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.zdf.de"
+  },
+  {
+    "slug": "zdotai",
+    "title": "Z.ai",
+    "aliases": [],
+    "hex": "000",
+    "categories": [
+      "Software"
+    ],
+    "variants": {
+      "default": "/icons/zdotai/mono.svg",
+      "mono": "/icons/zdotai/mono.svg"
+    },
+    "license": "MIT",
+    "url": "https://z.ai"
   },
   {
     "slug": "zeabur",
@@ -53214,6 +54202,21 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.zensar.com/about/our-story/our-brand/#logo"
+  },
+  {
+    "slug": "zephyr",
+    "title": "Zephyr Project",
+    "aliases": [],
+    "hex": "3C2E7E",
+    "categories": [
+      "OS",
+      "IoT"
+    ],
+    "variants": {
+      "default": "/icons/zephyr/default.svg"
+    },
+    "license": "Apache-2.0",
+    "url": "https://zephyrproject.org"
   },
   {
     "slug": "zerodha",
