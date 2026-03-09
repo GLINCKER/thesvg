@@ -135,7 +135,7 @@ import { Github, Figma } from "@thesvg/vue";
 ### CDN
 
 ```html
-<img src="https://thesvg.org/icons/github/default.svg" width="32" height="32" alt="GitHub" />
+<img src="https://cdn.jsdelivr.net/gh/GLINCKER/thesvg@main/public/icons/github/default.svg" width="32" height="32" alt="GitHub" />
 ```
 
 ### CLI
