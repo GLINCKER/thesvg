@@ -391,7 +391,6 @@ export function IconDetailPage({ icon, relatedIcons = [] }: IconDetailPageProps)
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
                   >
-                    { }
                     <img
                       src={`https://www.google.com/s2/favicons?domain=${hostname}&sz=32`}
                       alt=""

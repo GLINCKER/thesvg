@@ -46,14 +46,9 @@ export function HomeContent({ icons, categoryCounts, count }: HomeContentProps) 
     setGlobalQuery(queryParam);
   }, [queryParam, setGlobalQuery]);
 
-  const searchParamsRef = useRef(searchParams);
-  useEffect(() => {
-    searchParamsRef.current = searchParams;
-  }, [searchParams]);
-
   const updateUrl = useCallback(
     (updates: Record<string, string | null>) => {
-      const params = new URLSearchParams(searchParamsRef.current.toString());
+      const params = new URLSearchParams(searchParams.toString());
       for (const [key, value] of Object.entries(updates)) {
         if (value === null || value === "") {
           params.delete(key);
@@ -64,13 +59,13 @@ export function HomeContent({ icons, categoryCounts, count }: HomeContentProps) 
       const qs = params.toString();
       router.replace(qs ? `/?${qs}` : "/", { scroll: false });
     },
-    [router]
+    [router, searchParams]
   );
 
   // Sync global search store changes to URL with debounce
   useEffect(() => {
     // Skip if query already matches URL to avoid loops
-    const currentUrlQuery = searchParamsRef.current.get("q") || "";
+    const currentUrlQuery = searchParams.get("q") || "";
     if (globalQuery === currentUrlQuery) return;
 
     if (debounceRef.current) clearTimeout(debounceRef.current);
@@ -80,7 +75,7 @@ export function HomeContent({ icons, categoryCounts, count }: HomeContentProps) 
     return () => {
       if (debounceRef.current) clearTimeout(debounceRef.current);
     };
-  }, [globalQuery, updateUrl]);
+  }, [globalQuery, updateUrl, searchParams]);
 
   const handleCategorySelect = useCallback(
     (category: string | null) => {

@@ -151,7 +151,6 @@ export function Header() {
             </Button>
 
             <Link href="/" className="group/logo flex items-center gap-1.5">
-              { }
               <img
                 src="/logo-transparent.svg"
                 alt="theSVG"
@@ -277,7 +276,6 @@ export function Header() {
                 aria-label="npm"
                 className="inline-flex h-7 w-7 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground"
               >
-                { }
                 <img
                   src="/icons/npm/default.svg"
                   alt="npm"

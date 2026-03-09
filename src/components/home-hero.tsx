@@ -190,9 +190,7 @@ export function HomeHero({
                 }}
               >
                 <div className={`${pos.size} rounded-xl bg-background/30 p-1.5 backdrop-blur-sm`}>
-                  { }
                   <img src={icon.variants.light || icon.variants.default} alt="" className="h-full w-full object-contain dark:hidden" />
-                  { }
                   <img src={icon.variants.dark || icon.variants.default} alt="" className="hidden h-full w-full object-contain dark:block" />
                 </div>
               </div>
