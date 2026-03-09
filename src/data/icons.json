@@ -559,8 +559,8 @@
     "aliases": [],
     "hex": "83B81A",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/acer/default.svg",
@@ -704,7 +704,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -981,7 +981,7 @@
     "aliases": [],
     "hex": "02458D",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1395,7 +1395,7 @@
     "aliases": [],
     "hex": "F01428",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1411,7 +1411,7 @@
     "aliases": [],
     "hex": "E30E17",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1427,7 +1427,7 @@
     "aliases": [],
     "hex": "002157",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1443,7 +1443,7 @@
     "aliases": [],
     "hex": "DA0E29",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1459,7 +1459,7 @@
     "aliases": [],
     "hex": "0E203F",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1475,7 +1475,7 @@
     "aliases": [],
     "hex": "172B54",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1491,7 +1491,7 @@
     "aliases": [],
     "hex": "FF0000",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1540,7 +1540,7 @@
     "aliases": [],
     "hex": "00205B",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1639,8 +1639,8 @@
     "aliases": [],
     "hex": "E40000",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/airtel/default.svg",
@@ -1687,7 +1687,7 @@
     "aliases": [],
     "hex": "FF6300",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -1784,7 +1784,7 @@
     "aliases": [],
     "hex": "04ACE6",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -1833,7 +1833,7 @@
     "aliases": [],
     "hex": "2490D7",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -1981,8 +1981,8 @@
     "aliases": [],
     "hex": "541BAE",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/alienware/default.svg",
@@ -2208,8 +2208,8 @@
     "aliases": [],
     "hex": "ED1C24",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/amd/default.svg",
@@ -2244,7 +2244,7 @@
     "aliases": [],
     "hex": "0078D2",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -2293,7 +2293,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -2325,7 +2325,7 @@
     "aliases": [],
     "hex": "ED1D24",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -2341,7 +2341,7 @@
     "aliases": [],
     "hex": "13448F",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -2551,8 +2551,8 @@
     "aliases": [],
     "hex": "88F387",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/ankermake/default.svg",
@@ -2648,7 +2648,7 @@
     "aliases": [],
     "hex": "D70010",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -4133,8 +4133,8 @@
     "aliases": [],
     "hex": "0091BD",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/arm/default.svg",
@@ -4315,7 +4315,7 @@
     "aliases": [],
     "hex": "68A51C",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -4420,7 +4420,7 @@
     "aliases": [],
     "hex": "00665E",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -4491,8 +4491,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/asus/default.svg",
@@ -4507,8 +4507,8 @@
     "aliases": [],
     "hex": "009FDB",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/atandt/default.svg",
@@ -4649,7 +4649,7 @@
     "aliases": [],
     "hex": "D6180B",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -4681,7 +4681,7 @@
     "aliases": [],
     "hex": "BB0A30",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -4714,8 +4714,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/audio-technica/default.svg",
@@ -5051,7 +5051,7 @@
     "aliases": [],
     "hex": "D52B1E",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -5117,7 +5117,7 @@
     "aliases": [],
     "hex": "FF0000",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -6115,7 +6115,7 @@
     "aliases": [],
     "hex": "333333",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -7046,7 +7046,7 @@
     "aliases": [],
     "hex": "0066B1",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -7142,7 +7142,7 @@
     "aliases": [],
     "hex": "1D439C",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -7403,8 +7403,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/bose/default.svg",
@@ -7679,7 +7679,7 @@
     "aliases": [],
     "hex": "2E5C99",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -7695,8 +7695,8 @@
     "aliases": [],
     "hex": "E31837",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/broadcom/default.svg",
@@ -7840,7 +7840,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -8051,7 +8051,7 @@
     "aliases": [],
     "hex": "D62300",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -8265,7 +8265,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -8636,7 +8636,7 @@
     "aliases": [],
     "hex": "FF9C42",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -9427,7 +9427,7 @@
     "aliases": [],
     "hex": "CD9834",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -9601,7 +9601,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -9760,8 +9760,8 @@
     "aliases": [],
     "hex": "1BA0D7",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/cisco/default.svg",
@@ -10532,7 +10532,7 @@
     "aliases": [],
     "hex": "D00013",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -12078,8 +12078,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/corsair/default.svg",
@@ -12096,7 +12096,7 @@
     "hex": "E31837",
     "categories": [
       "Shopping",
-      "Software"
+      "Platform"
     ],
     "variants": {
       "default": "/icons/costco/default.svg"
@@ -13007,7 +13007,7 @@
     "aliases": [],
     "hex": "646B52",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -13023,7 +13023,7 @@
     "aliases": [],
     "hex": "00529B",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -13846,7 +13846,7 @@
     "aliases": [],
     "hex": "00CCBC",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -13862,8 +13862,8 @@
     "aliases": [],
     "hex": "007DB8",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/dell/default.svg",
@@ -13896,7 +13896,7 @@
     "aliases": [],
     "hex": "003366",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -15121,7 +15121,7 @@
     "aliases": [],
     "hex": "FF3008",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -15547,7 +15547,7 @@
     "aliases": [],
     "hex": "1D1717",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -15617,7 +15617,7 @@
     "aliases": [],
     "hex": "CC0000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -15885,7 +15885,7 @@
     "aliases": [],
     "hex": "FF6600",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -15901,7 +15901,7 @@
     "aliases": [],
     "hex": "E53238",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -16691,7 +16691,7 @@
     "aliases": [],
     "hex": "D71921",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -16919,8 +16919,8 @@
     "aliases": [],
     "hex": "0082F0",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/ericsson/default.svg",
@@ -17185,7 +17185,7 @@
     "aliases": [],
     "hex": "BD8B13",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -17201,7 +17201,7 @@
     "aliases": [],
     "hex": "F16521",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -18087,7 +18087,7 @@
     "aliases": [],
     "hex": "D40000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -18170,7 +18170,7 @@
     "aliases": [],
     "hex": "941711",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -19327,7 +19327,7 @@
     "aliases": [],
     "hex": "D70F64",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -19343,7 +19343,7 @@
     "aliases": [],
     "hex": "00274E",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -20570,7 +20570,7 @@
     "aliases": [],
     "hex": "0170CE",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -24849,7 +24849,7 @@
     "aliases": [],
     "hex": "E40521",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -25110,8 +25110,8 @@
     "aliases": [],
     "hex": "0096D6",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/hp/default.svg",
@@ -25256,7 +25256,7 @@
     "aliases": [],
     "hex": "FF0000",
     "categories": [
-      "AI",
+      "Hardware",
       "Software"
     ],
     "variants": {
@@ -25567,7 +25567,7 @@
     "aliases": [],
     "hex": "002C5E",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -25647,7 +25647,7 @@
     "aliases": [],
     "hex": "D7192D",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -25953,7 +25953,7 @@
     "aliases": [],
     "hex": "EA1D2C",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -26035,7 +26035,7 @@
     "aliases": [],
     "hex": "0058A3",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -26356,7 +26356,7 @@
     "aliases": [],
     "hex": "09009B",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -26455,7 +26455,7 @@
     "aliases": [],
     "hex": "020B24",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -26885,8 +26885,8 @@
     "aliases": [],
     "hex": "0071C5",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/intel/default.svg",
@@ -27417,7 +27417,7 @@
     "aliases": [],
     "hex": "1554FF",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -27610,7 +27610,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -27724,7 +27724,7 @@
     "aliases": [],
     "hex": "001E59",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -27993,8 +27993,8 @@
     "aliases": [],
     "hex": "0A2885",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/jio/default.svg",
@@ -28494,7 +28494,7 @@
     ],
     "hex": "FF8000",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -29183,7 +29183,7 @@
     ],
     "hex": "F40027",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -29233,7 +29233,7 @@
     "aliases": [],
     "hex": "05141F",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -29551,7 +29551,7 @@
     "aliases": [],
     "hex": "00A1DE",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -29796,7 +29796,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -30058,7 +30058,7 @@
     "aliases": [],
     "hex": "FF6600",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -30370,7 +30370,7 @@
     "aliases": [],
     "hex": "B6A272",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -30923,8 +30923,8 @@
     "aliases": [],
     "hex": "E2231A",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/lenovo/default.svg",
@@ -31102,8 +31102,8 @@
     "aliases": [],
     "hex": "A50034",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/lg/default.svg",
@@ -31416,7 +31416,7 @@
     "aliases": [],
     "hex": "0050AA",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -32489,7 +32489,7 @@
     "aliases": [],
     "hex": "11397E",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -32672,8 +32672,8 @@
     "aliases": [],
     "hex": "282C33",
     "categories": [
-      "Software",
-      "Platform"
+      "Design",
+      "Software"
     ],
     "variants": {
       "default": "/icons/lucid/default.svg",
@@ -32721,7 +32721,7 @@
     "aliases": [],
     "hex": "05164D",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -33275,7 +33275,7 @@
     "aliases": [],
     "hex": "E40045",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -33592,7 +33592,7 @@
     "aliases": [],
     "hex": "0C2340",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -33932,7 +33932,7 @@
     "aliases": [],
     "hex": "101010",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -33999,7 +33999,7 @@
     "hex": "FBC817",
     "categories": [
       "Food",
-      "Software"
+      "Platform"
     ],
     "variants": {
       "default": "/icons/mcdonalds/default.svg"
@@ -34013,7 +34013,7 @@
     "aliases": [],
     "hex": "FF0000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -34407,7 +34407,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Marketplace",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -34443,7 +34443,7 @@
     "hex": "00ADEF",
     "categories": [
       "Automotive",
-      "Software"
+      "Platform"
     ],
     "variants": {
       "default": "/icons/mercedes-benz/default.svg"
@@ -35395,7 +35395,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -35561,7 +35561,7 @@
     "aliases": [],
     "hex": "E60012",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -36290,8 +36290,8 @@
     "aliases": [],
     "hex": "E1140A",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/motorola/default.svg",
@@ -38067,7 +38067,7 @@
     "aliases": [],
     "hex": "C3002F",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -38196,8 +38196,8 @@
     "aliases": [],
     "hex": "005AFF",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/nokia/default.svg",
@@ -38881,8 +38881,8 @@
     "aliases": [],
     "hex": "76B900",
     "categories": [
-      "AI",
-      "Hardware"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/nvidia/default.svg",
@@ -39005,8 +39005,8 @@
     "aliases": [],
     "hex": "0050FF",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/o2/default.svg",
@@ -39449,8 +39449,8 @@
     "aliases": [],
     "hex": "F5010C",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/oneplus/default.svg",
@@ -39547,7 +39547,7 @@
     "aliases": [],
     "hex": "F7FF14",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -40554,7 +40554,7 @@
     "aliases": [],
     "hex": "2D683D",
     "categories": [
-      "Design",
+      "Hardware",
       "Software"
     ],
     "variants": {
@@ -40651,8 +40651,8 @@
     "aliases": [],
     "hex": "FF7900",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/orange/default.svg",
@@ -41321,8 +41321,8 @@
     "aliases": [],
     "hex": "0049AB",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/panasonic/default.svg",
@@ -41972,7 +41972,7 @@
     "aliases": [],
     "hex": "FDC43E",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -42220,7 +42220,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -43066,7 +43066,7 @@
     "hex": "EE3A43",
     "categories": [
       "Food",
-      "Software"
+      "Platform"
     ],
     "variants": {
       "default": "/icons/pizza-hut/default.svg"
@@ -43735,7 +43735,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -43931,7 +43931,7 @@
     "aliases": [],
     "hex": "B12B28",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -44103,7 +44103,7 @@
     "aliases": [],
     "hex": "FFDF18",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -44865,8 +44865,8 @@
     "aliases": [],
     "hex": "6D4AFF",
     "categories": [
-      "Software",
-      "Privacy"
+      "Privacy",
+      "Software"
     ],
     "variants": {
       "default": "/icons/proton/default.svg",
@@ -45501,7 +45501,7 @@
     "aliases": [],
     "hex": "E40000",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -45533,7 +45533,7 @@
     "aliases": [],
     "hex": "5C0D34",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -45857,8 +45857,8 @@
     "aliases": [],
     "hex": "3253DC",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/qualcomm/default.svg",
@@ -46450,7 +46450,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -46664,8 +46664,8 @@
     "aliases": [],
     "hex": "00FF00",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/razer/default.svg",
@@ -47008,7 +47008,7 @@
     "aliases": [],
     "hex": "DB0A40",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -47506,7 +47506,7 @@
     "aliases": [],
     "hex": "FFCC33",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -48432,7 +48432,7 @@
     "aliases": [],
     "hex": "281432",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -49178,7 +49178,7 @@
     "aliases": [],
     "hex": "073590",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -49423,8 +49423,8 @@
     "aliases": [],
     "hex": "1428A0",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/samsung/default.svg",
@@ -49591,7 +49591,7 @@
     "aliases": [],
     "hex": "EB680B",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -49623,7 +49623,7 @@
     "aliases": [],
     "hex": "026938",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -49704,7 +49704,7 @@
     "aliases": [],
     "hex": "041E42",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -50044,7 +50044,7 @@
     "aliases": [],
     "hex": "33302E",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -50302,8 +50302,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/sennheiser/default.svg",
@@ -50724,7 +50724,7 @@
     "aliases": [],
     "hex": "EE4D2D",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -50740,8 +50740,8 @@
     "aliases": [],
     "hex": "7AB55C",
     "categories": [
-      "CMS",
-      "Software"
+      "Shopping",
+      "Platform"
     ],
     "variants": {
       "default": "/icons/shopify/default.svg",
@@ -51103,7 +51103,7 @@
     "aliases": [],
     "hex": "F99F1C",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -51467,7 +51467,7 @@
     "aliases": [],
     "hex": "D7E600",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -52149,8 +52149,8 @@
     "aliases": [],
     "hex": "FFFFFF",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/sony/default.svg",
@@ -52333,7 +52333,7 @@
     "aliases": [],
     "hex": "304CB2",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -53215,7 +53215,7 @@
     "aliases": [],
     "hex": "006241",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -54013,7 +54013,7 @@
     "aliases": [],
     "hex": "013C74",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -54111,7 +54111,7 @@
     "hex": "008C15",
     "categories": [
       "Food",
-      "Software"
+      "Platform"
     ],
     "variants": {
       "default": "/icons/subway/default.svg"
@@ -54378,7 +54378,7 @@
     "aliases": [],
     "hex": "E30613",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -54574,7 +54574,7 @@
     "aliases": [],
     "hex": "FC8019",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -54852,7 +54852,7 @@
     "aliases": [],
     "hex": "38096C",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -55129,7 +55129,7 @@
     "aliases": [],
     "hex": "CC0000",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -55715,7 +55715,7 @@
     "aliases": [],
     "hex": "00539F",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -55731,7 +55731,7 @@
     "aliases": [],
     "hex": "CC0000",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -57202,7 +57202,7 @@
     "aliases": [],
     "hex": "EB0A1E",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -58147,7 +58147,7 @@
     "aliases": [],
     "hex": "C70A0C",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -58515,7 +58515,7 @@
     "aliases": [],
     "hex": "06C167",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
@@ -58944,7 +58944,7 @@
     "aliases": [],
     "hex": "002244",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -59720,7 +59720,7 @@
     "aliases": [],
     "hex": "EB001E",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -60032,8 +60032,8 @@
     "aliases": [],
     "hex": "CD040B",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/verizon/default.svg",
@@ -60379,7 +60379,7 @@
     "aliases": [],
     "hex": "DA0530",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -60655,8 +60655,8 @@
     "aliases": [],
     "hex": "415FFF",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/vivo/default.svg",
@@ -60737,8 +60737,8 @@
     "aliases": [],
     "hex": "E60000",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/vodafone/default.svg",
@@ -60850,7 +60850,7 @@
     "aliases": [],
     "hex": "151F5D",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -60883,7 +60883,7 @@
     "aliases": [],
     "hex": "003057",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -62000,7 +62000,7 @@
     "hex": "E2203C",
     "categories": [
       "Food",
-      "Software"
+      "Platform"
     ],
     "variants": {
       "default": "/icons/wendys/default.svg"
@@ -62540,7 +62540,7 @@
     "aliases": [],
     "hex": "32E476",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -62590,7 +62590,7 @@
     "aliases": [],
     "hex": "C6007E",
     "categories": [
-      "Software",
+      "Aviation",
       "Platform"
     ],
     "variants": {
@@ -63196,8 +63196,8 @@
     "aliases": [],
     "hex": "FF6900",
     "categories": [
-      "Software",
-      "Platform"
+      "Hardware",
+      "Software"
     ],
     "variants": {
       "default": "/icons/xiaomi/default.svg",
@@ -63508,7 +63508,7 @@
     "aliases": [],
     "hex": "E60012",
     "categories": [
-      "Software",
+      "Automotive",
       "Platform"
     ],
     "variants": {
@@ -63968,7 +63968,7 @@
     "aliases": [],
     "hex": "FF6900",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -64035,7 +64035,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Software",
+      "Shopping",
       "Platform"
     ],
     "variants": {
@@ -64662,7 +64662,7 @@
     "aliases": [],
     "hex": "E23744",
     "categories": [
-      "Software",
+      "Food",
       "Platform"
     ],
     "variants": {
