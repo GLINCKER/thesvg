@@ -794,14 +794,6 @@ export function IconDetailPage({ icon, relatedIcons = [] }: IconDetailPageProps)
       {/* Trademark disclaimer */}
       <p className="mt-8 text-center text-xs leading-relaxed text-muted-foreground">
         &ldquo;{icon.title}&rdquo; is a trademark of its respective owner. This icon is provided for identification purposes only.{" "}
-        {icon.url && (
-          <>
-            For official brand assets, visit{" "}
-            <a
-              href={icon.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-2 hover:text-muted-foreground"
         {icon.url &&
           (() => {
             try {

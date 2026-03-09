@@ -1,5 +1,6 @@
 import { Github, Heart } from "lucide-react";
 import Link from "next/link";
+import { TRADEMARK_POLICY_URL } from "@/lib/constants";
 
 export function Footer() {
   return (
@@ -51,7 +52,7 @@ export function Footer() {
               This project is not affiliated with or endorsed by any of the brands listed.
               For official assets, visit the brand&apos;s website.{" "}
               <a
-                href="https://github.com/GLINCKER/thesvg/blob/main/TRADEMARK.md"
+                href={TRADEMARK_POLICY_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline underline-offset-2 transition-colors hover:text-muted-foreground"

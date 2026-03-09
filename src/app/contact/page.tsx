@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Github, Mail, MessageSquare, Shield } from "lucide-react";
+import { TRADEMARK_POLICY_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -112,12 +112,14 @@ export default function ContactPage() {
               email us
             </a>{" "}
             or read our full{" "}
-            <Link
-              href="https://github.com/GLINCKER/thesvg/blob/main/TRADEMARK.md"
+            <a
+              href={TRADEMARK_POLICY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-medium text-foreground underline underline-offset-2"
             >
               Trademark Policy
-            </Link>
+            </a>
             . Removal requests are honored within 24 hours.
           </p>
         </div>
