@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://thesvg.org">
-    <img src="https://raw.githubusercontent.com/GLINCKER/thesvg/main/public/logo-github.png" alt="theSVG" width="120" height="120" />
+  <a href="https://github.com/GLINCKER/thesvg">
+    <img src="https://raw.githubusercontent.com/GLINCKER/thesvg/main/public/og-image.png" alt="theSVG - 3,847 Brand SVG Icons" width="700" />
   </a>
 </p>
 

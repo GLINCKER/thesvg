@@ -4,6 +4,13 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/thesvg"><img src="https://img.shields.io/npm/v/thesvg?color=F97316&label=npm" alt="npm" /></a>
+  <a href="https://www.npmjs.com/package/thesvg"><img src="https://img.shields.io/npm/dm/thesvg?color=F97316" alt="downloads" /></a>
+  <a href="https://github.com/GLINCKER/thesvg/blob/main/LICENSE"><img src="https://img.shields.io/github/license/GLINCKER/thesvg" alt="MIT license" /></a>
+  <a href="https://github.com/GLINCKER/thesvg/stargazers"><img src="https://img.shields.io/github/stars/GLINCKER/thesvg?style=social" alt="GitHub stars" /></a>
+</p>
+
 <h3 align="center">theSVG</h3>
 
 <p align="center">
@@ -12,18 +19,17 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/thesvg"><img src="https://img.shields.io/npm/v/thesvg?color=F97316&label=npm" alt="npm" /></a>
-  <a href="https://www.npmjs.com/package/thesvg"><img src="https://img.shields.io/npm/dm/thesvg?color=F97316" alt="downloads" /></a>
-  <a href="https://github.com/GLINCKER/thesvg/blob/main/LICENSE"><img src="https://img.shields.io/github/license/GLINCKER/thesvg" alt="MIT license" /></a>
-  <a href="https://github.com/GLINCKER/thesvg/stargazers"><img src="https://img.shields.io/github/stars/GLINCKER/thesvg?style=social" alt="GitHub stars" /></a>
-</p>
-
-<p align="center">
   <a href="https://thesvg.org"><strong>Browse Icons</strong></a> &middot;
   <a href="#install">Install</a> &middot;
   <a href="#cdn">CDN</a> &middot;
   <a href="#api">API</a> &middot;
   <a href="#contributing">Contribute</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/GLINCKER/thesvg">
+    <img src="https://raw.githubusercontent.com/GLINCKER/thesvg/main/public/og-image.png" alt="theSVG - The Open SVG Brand Library" width="800" />
+  </a>
 </p>
 
 ---
@@ -185,6 +191,12 @@ If you are a brand owner and would like an icon updated or removed, please [open
 ## License
 
 [MIT](./LICENSE) for the codebase and tooling. Individual brand icons and logos remain the intellectual property of their respective trademark holders.
+
+<p align="center">
+  <a href="https://thesvg.org">
+    <img src="https://raw.githubusercontent.com/GLINCKER/thesvg/main/public/og-image.png" alt="theSVG - The Open SVG Brand Library" width="800" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://thesvg.org">thesvg.org</a>

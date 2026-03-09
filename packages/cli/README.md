@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/GLINCKER/thesvg">
+    <img src="https://raw.githubusercontent.com/GLINCKER/thesvg/main/public/og-image.png" alt="theSVG - 3,847 Brand SVG Icons" width="700" />
+  </a>
+</p>
+
 # @thesvg/cli
 
 CLI tool to add SVG icons from [thesvg.org](https://thesvg.org) directly into your project - shadcn-style.

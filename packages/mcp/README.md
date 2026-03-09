@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/GLINCKER/thesvg">
+    <img src="https://raw.githubusercontent.com/GLINCKER/thesvg/main/public/og-image.png" alt="theSVG - 3,847 Brand SVG Icons" width="700" />
+  </a>
+</p>
+
 # @thesvg/mcp-server
 
 MCP (Model Context Protocol) server for [thesvg.org](https://thesvg.org) - gives AI agents (Claude, etc.) direct access to 3,800+ brand SVG icons.

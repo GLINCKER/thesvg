@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/GLINCKER/thesvg">
+    <img src="https://raw.githubusercontent.com/GLINCKER/thesvg/main/public/og-image.png" alt="theSVG - 3,847 Brand SVG Icons" width="700" />
+  </a>
+</p>
+
 # @thesvg/react
 
 Typed React SVG components for all 3,800+ brand icons from [thesvg.org](https://thesvg.org).

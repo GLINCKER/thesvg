@@ -47,3 +47,7 @@ docs-local/
 CLAUDE.md
 .claude/
 .env.local
+
+# marketing assets (exported PNGs - too large for OSS repo)
+public/banners/
+posthog-setup-report.md
