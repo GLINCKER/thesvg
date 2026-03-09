@@ -3357,8 +3357,8 @@
     "aliases": [],
     "hex": "003D7F",
     "categories": [
-      "Media",
-      "Broadcasting"
+      "Entertainment",
+      "Media"
     ],
     "variants": {
       "default": "/icons/ard/default.svg"
@@ -3822,7 +3822,7 @@
     "hex": "2D2D2D",
     "categories": [
       "Education",
-      "Programming"
+      "Community"
     ],
     "variants": {
       "default": "/icons/atcoder/default.svg"
@@ -7048,8 +7048,8 @@
     "aliases": [],
     "hex": "964B00",
     "categories": [
-      "Utility",
-      "Reading"
+      "Software",
+      "Library"
     ],
     "variants": {
       "default": "/icons/calibre/default.svg"
@@ -7117,8 +7117,8 @@
     "aliases": [],
     "hex": "E95420",
     "categories": [
-      "DevOps",
-      "Canonical"
+      "Canonical",
+      "DevOps"
     ],
     "variants": {
       "default": "/icons/canonical-juju/default.svg"
@@ -7132,8 +7132,8 @@
     "aliases": [],
     "hex": "E95420",
     "categories": [
-      "DevOps",
-      "Canonical"
+      "Canonical",
+      "Software"
     ],
     "variants": {
       "default": "/icons/canonical-landscape/default.svg"
@@ -7147,8 +7147,8 @@
     "aliases": [],
     "hex": "E95420",
     "categories": [
-      "Cloud",
-      "Canonical"
+      "Canonical",
+      "Cloud"
     ],
     "variants": {
       "default": "/icons/canonical-microcloud/default.svg"
@@ -7162,8 +7162,8 @@
     "aliases": [],
     "hex": "E95420",
     "categories": [
-      "DevOps",
-      "Canonical"
+      "Canonical",
+      "Software"
     ],
     "variants": {
       "default": "/icons/canonical-multipass/default.svg"
@@ -7900,7 +7900,7 @@
     "hex": "353D47",
     "categories": [
       "Devtool",
-      "Configuration"
+      "Software"
     ],
     "variants": {
       "default": "/icons/chezmoi/default.svg"
@@ -8327,7 +8327,7 @@
     "hex": "3F51B5",
     "categories": [
       "AI",
-      "Machine Learning"
+      "Software"
     ],
     "variants": {
       "default": "/icons/clearml/default.svg"
@@ -8390,7 +8390,7 @@
     "hex": "FF7C3C",
     "categories": [
       "Gaming",
-      "Development"
+      "Software"
     ],
     "variants": {
       "default": "/icons/clickteam-fusion/default.svg"
@@ -9835,7 +9835,8 @@
     "aliases": [],
     "hex": "2962FF",
     "categories": [
-      "CMS"
+      "CMS",
+      "Software"
     ],
     "variants": {
       "default": "/icons/contensis/default.svg"
@@ -10915,8 +10916,8 @@
     "aliases": [],
     "hex": "4F43DD",
     "categories": [
-      "Data",
-      "Orchestration"
+      "Software",
+      "Analytics"
     ],
     "variants": {
       "default": "/icons/dagster/default.svg"
@@ -12664,7 +12665,8 @@
     "aliases": [],
     "hex": "003068",
     "categories": [
-      "Business Intelligence"
+      "Analytics",
+      "Software"
     ],
     "variants": {
       "default": "/icons/domo/default.svg"
@@ -12849,7 +12851,7 @@
     "hex": "1A1A2E",
     "categories": [
       "Devtool",
-      "Docker"
+      "Self-Hosted"
     ],
     "variants": {
       "default": "/icons/dozzle/default.svg"
@@ -15150,7 +15152,7 @@
     "hex": "6639BA",
     "categories": [
       "Social",
-      "Protocol"
+      "Community"
     ],
     "variants": {
       "default": "/icons/fediverse/default.svg"
@@ -15273,7 +15275,7 @@
     "hex": "00ACD7",
     "categories": [
       "Framework",
-      "Go"
+      "Library"
     ],
     "variants": {
       "default": "/icons/fiber/default.svg"
@@ -17143,7 +17145,7 @@
     "aliases": [],
     "hex": "41B883",
     "categories": [
-      "Monitoring",
+      "Software",
       "Self-Hosted"
     ],
     "variants": {
@@ -18034,6 +18036,7 @@
     "aliases": [],
     "hex": "4A90D9",
     "categories": [
+      "Software",
       "Editor"
     ],
     "variants": {
@@ -18904,8 +18907,8 @@
     "aliases": [],
     "hex": "4285F4",
     "categories": [
-      "Security",
-      "Google"
+      "Google",
+      "Software"
     ],
     "variants": {
       "default": "/icons/google-password-manager/default.svg"
@@ -18968,8 +18971,8 @@
     "aliases": [],
     "hex": "34A853",
     "categories": [
-      "Gaming",
-      "Google"
+      "Google",
+      "Gaming"
     ],
     "variants": {
       "default": "/icons/google-play-games/default.svg"
@@ -19196,7 +19199,7 @@
     "hex": "4AA87F",
     "categories": [
       "AI",
-      "Machine Learning"
+      "Software"
     ],
     "variants": {
       "default": "/icons/gpt4all/default.svg"
@@ -23272,7 +23275,7 @@
     "aliases": [],
     "hex": "9333EA",
     "categories": [
-      "Media",
+      "Software",
       "Self-Hosted"
     ],
     "variants": {
@@ -24274,7 +24277,7 @@
     "aliases": [],
     "hex": "4B53B3",
     "categories": [
-      "Media",
+      "Software",
       "Self-Hosted"
     ],
     "variants": {
@@ -25882,7 +25885,8 @@
     "aliases": [],
     "hex": "1B75BB",
     "categories": [
-      "Project Management"
+      "Software",
+      "Self-Hosted"
     ],
     "variants": {
       "default": "/icons/leantime/default.svg"
@@ -26668,7 +26672,7 @@
     "aliases": [],
     "hex": "6B52FF",
     "categories": [
-      "Utility",
+      "Software",
       "Self-Hosted"
     ],
     "variants": {
@@ -27143,7 +27147,7 @@
     "hex": "4B9E4E",
     "categories": [
       "Testing",
-      "Performance"
+      "Software"
     ],
     "variants": {
       "default": "/icons/locust/default.svg"
@@ -28455,7 +28459,7 @@
     "hex": "000000",
     "categories": [
       "IoT",
-      "Protocol"
+      "Software"
     ],
     "variants": {
       "default": "/icons/matter/default.svg"
@@ -30848,7 +30852,8 @@
     "aliases": [],
     "hex": "2D73BF",
     "categories": [
-      "Forum"
+      "CMS",
+      "Community"
     ],
     "variants": {
       "default": "/icons/mybb/default.svg"
@@ -31164,7 +31169,7 @@
     "hex": "FF2D20",
     "categories": [
       "Framework",
-      "PHP"
+      "Language"
     ],
     "variants": {
       "default": "/icons/nativephp/default.svg"
@@ -31192,7 +31197,7 @@
     "hex": "38BDF8",
     "categories": [
       "Framework",
-      "React Native"
+      "Library"
     ],
     "variants": {
       "default": "/icons/nativewind/default.svg"
@@ -31236,7 +31241,7 @@
     "aliases": [],
     "hex": "0084FF",
     "categories": [
-      "Media",
+      "Music",
       "Self-Hosted"
     ],
     "variants": {
@@ -32318,7 +32323,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Productivity",
+      "Software",
       "Privacy"
     ],
     "variants": {
@@ -33897,8 +33902,8 @@
     "aliases": [],
     "hex": "141526",
     "categories": [
-      "Utility",
-      "Networking"
+      "Software",
+      "Self-Hosted"
     ],
     "variants": {
       "default": "/icons/openspeedtest/default.svg"
@@ -33967,7 +33972,7 @@
     "aliases": [],
     "hex": "73BA25",
     "categories": [
-      "OS",
+      "Software",
       "Linux"
     ],
     "variants": {
@@ -33982,7 +33987,7 @@
     "aliases": [],
     "hex": "73BA25",
     "categories": [
-      "OS",
+      "Software",
       "Linux"
     ],
     "variants": {
@@ -34101,8 +34106,8 @@
     "aliases": [],
     "hex": "1E8CFF",
     "categories": [
-      "VR/AR",
-      "Standard"
+      "Software",
+      "Gaming"
     ],
     "variants": {
       "default": "/icons/openxr/default.svg"
@@ -34935,7 +34940,7 @@
     "hex": "353E48",
     "categories": [
       "Gaming",
-      "Minecraft"
+      "Community"
     ],
     "variants": {
       "default": "/icons/papermc/default.svg"
@@ -35434,7 +35439,7 @@
     "hex": "6236FF",
     "categories": [
       "Testing",
-      "Mobile"
+      "Software"
     ],
     "variants": {
       "default": "/icons/perfecto/default.svg"
@@ -35826,7 +35831,7 @@
     "hex": "6340BA",
     "categories": [
       "Devtool",
-      "PHP"
+      "Language"
     ],
     "variants": {
       "default": "/icons/phpstan/default.svg"
@@ -37735,7 +37740,7 @@
     "hex": "1A1A1A",
     "categories": [
       "Library",
-      "JavaScript"
+      "Framework"
     ],
     "variants": {
       "default": "/icons/prosemirror/default.svg"
@@ -38113,7 +38118,7 @@
     "aliases": [],
     "hex": "0000FC",
     "categories": [
-      "Utility",
+      "Software",
       "Networking"
     ],
     "variants": {
@@ -40149,7 +40154,7 @@
     "hex": "1E88E5",
     "categories": [
       "Devtool",
-      "API"
+      "Software"
     ],
     "variants": {
       "default": "/icons/reqable/default.svg"
@@ -41237,7 +41242,8 @@
     "aliases": [],
     "hex": "FF6F00",
     "categories": [
-      "Emulator"
+      "Software",
+      "Entertainment"
     ],
     "variants": {
       "default": "/icons/ruffle/default.svg"
@@ -41376,8 +41382,8 @@
     "aliases": [],
     "hex": "DEA584",
     "categories": [
-      "Storage",
-      "Rust"
+      "Database",
+      "Software"
     ],
     "variants": {
       "default": "/icons/rustfs/default.svg"
@@ -43483,8 +43489,8 @@
     "aliases": [],
     "hex": "3366CC",
     "categories": [
-      "Utility",
-      "File Sharing"
+      "Software",
+      "Community"
     ],
     "variants": {
       "default": "/icons/snapdrop/default.svg"
@@ -44287,8 +44293,8 @@
     "aliases": [],
     "hex": "FF9500",
     "categories": [
-      "JavaScript",
-      "Engine"
+      "Compiler",
+      "Software"
     ],
     "variants": {
       "default": "/icons/spidermonkey/default.svg"
@@ -44371,7 +44377,7 @@
     "hex": "F7CF0D",
     "categories": [
       "Gaming",
-      "Minecraft"
+      "Community"
     ],
     "variants": {
       "default": "/icons/sponge/default.svg"
@@ -45177,7 +45183,7 @@
     "aliases": [],
     "hex": "1B6AC6",
     "categories": [
-      "Utility",
+      "Software",
       "Self-Hosted"
     ],
     "variants": {
@@ -46930,7 +46936,7 @@
     "hex": "F1D300",
     "categories": [
       "Devtool",
-      "JavaScript"
+      "Compiler"
     ],
     "variants": {
       "default": "/icons/terser/default.svg"
@@ -48244,7 +48250,8 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Finance"
+      "Finance",
+      "Software"
     ],
     "variants": {
       "default": "/icons/trade-republic/default.svg"
@@ -48839,7 +48846,7 @@
     "aliases": [],
     "hex": "FF0000",
     "categories": [
-      "Media",
+      "Software",
       "Self-Hosted"
     ],
     "variants": {
@@ -49261,7 +49268,7 @@
     "aliases": [],
     "hex": "000000",
     "categories": [
-      "Productivity",
+      "Software",
       "Editor"
     ],
     "variants": {
@@ -50754,7 +50761,7 @@
     "hex": "0077FF",
     "categories": [
       "Framework",
-      "JavaScript"
+      "Library"
     ],
     "variants": {
       "default": "/icons/vike/default.svg"
@@ -52403,8 +52410,8 @@
     "aliases": [],
     "hex": "71C000",
     "categories": [
-      "Outdoor",
-      "Maps"
+      "Software",
+      "Community"
     ],
     "variants": {
       "default": "/icons/wikiloc/default.svg"
@@ -52804,7 +52811,8 @@
     "aliases": [],
     "hex": "00C851",
     "categories": [
-      "CI/CD"
+      "DevOps",
+      "Self-Hosted"
     ],
     "variants": {
       "default": "/icons/woodpecker/default.svg"
@@ -53385,8 +53393,8 @@
     "aliases": [],
     "hex": "222222",
     "categories": [
-      "Wiki",
-      "Collaboration"
+      "CMS",
+      "Community"
     ],
     "variants": {
       "default": "/icons/xwiki/default.svg"
@@ -54209,7 +54217,7 @@
     "aliases": [],
     "hex": "3C2E7E",
     "categories": [
-      "OS",
+      "Software",
       "IoT"
     ],
     "variants": {
@@ -54560,5 +54568,102 @@
     },
     "license": "CC0-1.0",
     "url": "https://www.zyte.com"
+  },
+  {
+    "slug": "zabbix",
+    "title": "Zabbix",
+    "aliases": [],
+    "hex": "D40000",
+    "categories": [
+      "Analytics"
+    ],
+    "variants": {
+      "default": "/icons/zabbix/default.svg"
+    },
+    "license": "GPL-2.0",
+    "url": "https://www.zabbix.com"
+  },
+  {
+    "slug": "openbao",
+    "title": "OpenBao",
+    "aliases": [],
+    "hex": "FFEC6E",
+    "categories": [
+      "Security",
+      "Cloud"
+    ],
+    "variants": {
+      "default": "/icons/openbao/default.svg"
+    },
+    "license": "MPL-2.0",
+    "url": "https://openbao.org"
+  },
+  {
+    "slug": "capital-one",
+    "title": "Capital One",
+    "aliases": [
+      "CapitalOne"
+    ],
+    "hex": "004977",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/capital-one/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.capitalone.com"
+  },
+  {
+    "slug": "ameriprise-financial",
+    "title": "Ameriprise Financial",
+    "aliases": [
+      "Ameriprise"
+    ],
+    "hex": "006DB6",
+    "categories": [
+      "Finance"
+    ],
+    "variants": {
+      "default": "/icons/ameriprise-financial/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.ameriprise.com"
+  },
+  {
+    "slug": "pizza-hut",
+    "title": "Pizza Hut",
+    "aliases": [
+      "PizzaHut"
+    ],
+    "hex": "EE3A43",
+    "categories": [
+      "Food"
+    ],
+    "variants": {
+      "default": "/icons/pizza-hut/default.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.pizzahut.com"
+  },
+  {
+    "slug": "dominos",
+    "title": "Domino's",
+    "aliases": [
+      "Dominos Pizza",
+      "DPZ"
+    ],
+    "hex": "006491",
+    "categories": [
+      "Food"
+    ],
+    "variants": {
+      "default": "/icons/dominos/default.svg",
+      "light": "/icons/dominos/light.svg",
+      "wordmark": "/icons/dominos/wordmark.svg",
+      "wordmarkDark": "/icons/dominos/wordmark-dark.svg"
+    },
+    "license": "Fair Use",
+    "url": "https://www.dominos.com"
   }
 ]
