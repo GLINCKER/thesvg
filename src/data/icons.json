@@ -35520,6 +35520,21 @@
     "url": "https://miro.com"
   },
   {
+    "slug": "mindstudio",
+    "title": "MindStudio",
+    "aliases": [],
+    "hex": "000000",
+    "categories": [
+      "AI",
+      "Automation"
+    ],
+    "variants": {
+      "default": "/icons/mindstudio/default.svg"
+    },
+    "license": "TODO",
+    "url": "https://www.mindstudio.ai"
+  },
+  {
     "slug": "misskey",
     "title": "Misskey",
     "aliases": [],
