@@ -294,12 +294,28 @@ function toSafeIdentifier(slug: string): string {
 // Code generators
 // ---------------------------------------------------------------------------
 
-function generateEsmComponent(icon: RawIcon): string {
+/** Pre-parsed SVG data shared between ESM and CJS generators to avoid double work. */
+interface ParsedSvg {
+  viewBox: string;
+  fill: string;
+  stroke?: string;
+  childNodes: (CjsNode | string)[];
+}
+
+/** Parse an icon's SVG once for reuse by both ESM and CJS generators. */
+function parseSvgForIcon(icon: RawIcon): ParsedSvg | null {
   const svgContent = primarySvg(icon.slug, icon.variants);
+  if (!svgContent) return null;
+
+  const { inner, viewBox, fill, stroke } = svgToJsxInner(svgContent);
+  const childNodes = convertJsxToCjs(inner);
+  return { viewBox, fill, stroke, childNodes };
+}
+
+function generateEsmComponent(icon: RawIcon, parsed: ParsedSvg | null): string {
   const componentName = toPascalCase(icon.slug);
 
-  if (!svgContent) {
-    // Emit a minimal placeholder if the SVG file is missing
+  if (!parsed) {
     return [
       `// @thesvg/react — ${icon.title}`,
       `// Auto-generated. Do not edit.`,
@@ -318,33 +334,24 @@ function generateEsmComponent(icon: RawIcon): string {
     ].join("\n");
   }
 
-  const { inner, viewBox, fill, stroke } = svgToJsxInner(svgContent);
-
-  // Indent the inner SVG content for readability
-  const indentedInner = inner
-    .split("\n")
-    .map((line) => (line.trim() ? `      ${line}` : ""))
-    .join("\n");
+  const { viewBox, fill, stroke, childNodes } = parsed;
 
   return [
     `// @thesvg/react — ${icon.title}`,
     `// Auto-generated. Do not edit.`,
     ``,
-    `import { forwardRef } from 'react';`,
+    `import { forwardRef, createElement } from 'react';`,
     ``,
     `const ${componentName} = forwardRef(`,
     `  function ${componentName}({ viewBox = '${viewBox}', ...props }, ref) {`,
-    `    return (`,
-    `      <svg`,
-    `        ref={ref}`,
-    `        viewBox={viewBox}`,
-    `        fill="${fill}"`,
-    ...(stroke ? [`        stroke="${stroke}"`] : []),
-    `        xmlns="http://www.w3.org/2000/svg"`,
-    `        {...props}`,
-    `      >`,
-    indentedInner,
-    `      </svg>`,
+    `    return createElement(`,
+    `      'svg',`,
+    `      Object.assign({ ref, viewBox, fill: '${fill}',${stroke ? ` stroke: '${stroke}',` : ""} xmlns: 'http://www.w3.org/2000/svg' }, props),`,
+    `      ...${JSON.stringify(childNodes)}`,
+    `        .map(function _c(el) {`,
+    `          if (typeof el === 'string') return el;`,
+    `          return createElement(el.type, el.props, ...(el.children || []).map(_c));`,
+    `        })`,
     `    );`,
     `  }`,
     `);`,
@@ -354,11 +361,10 @@ function generateEsmComponent(icon: RawIcon): string {
   ].join("\n");
 }
 
-function generateCjsComponent(icon: RawIcon): string {
-  const svgContent = primarySvg(icon.slug, icon.variants);
+function generateCjsComponent(icon: RawIcon, parsed: ParsedSvg | null): string {
   const componentName = toPascalCase(icon.slug);
 
-  if (!svgContent) {
+  if (!parsed) {
     return [
       `"use strict";`,
       `// @thesvg/react — ${icon.title}`,
@@ -378,11 +384,7 @@ function generateCjsComponent(icon: RawIcon): string {
     ].join("\n");
   }
 
-  const { inner, viewBox, fill, stroke } = svgToJsxInner(svgContent);
-
-  // For CJS we emit pre-compiled JSX using React.createElement calls.
-  // This avoids requiring a JSX transform in the CJS output.
-  const innerJsxToCjs = convertJsxToCjs(inner);
+  const { viewBox, fill, stroke, childNodes } = parsed;
 
   return [
     `"use strict";`,
@@ -397,10 +399,10 @@ function generateCjsComponent(icon: RawIcon): string {
     `  return react_1.createElement(`,
     `    'svg',`,
     `    Object.assign({ ref, viewBox, fill: '${fill}',${stroke ? ` stroke: '${stroke}',` : ""} xmlns: 'http://www.w3.org/2000/svg' }, props),`,
-    `    ...${JSON.stringify(innerJsxToCjs, null, 2)}`,
-    `      .map(function(el) {`,
+    `    ...${JSON.stringify(childNodes)}`,
+    `      .map(function _c(el) {`,
     `        if (typeof el === 'string') return el;`,
-    `        return react_1.createElement(el.type, el.props, ...(el.children || []));`,
+    `        return react_1.createElement(el.type, el.props, ...(el.children || []).map(_c));`,
     `      })`,
     `  );`,
     `});`,
@@ -411,37 +413,42 @@ function generateCjsComponent(icon: RawIcon): string {
 }
 
 /**
- * Very lightweight JSX->createElement-descriptor converter for CJS output.
+ * Very lightweight JSX->createElement-descriptor converter.
  *
  * Returns a plain-object tree that can be JSON-serialised and then
  * reconstructed with React.createElement at runtime.
  *
- * Supports the subset of SVG elements produced by typical icon exports:
- * self-closing tags and simple nesting (no mixed text+element content).
+ * Supports self-closing tags, nested same-type elements (e.g. nested <g>),
+ * and text nodes (e.g. <text>Hello</text>).
  */
 interface CjsNode {
   type: string;
   props: Record<string, string | Record<string, string>>;
-  children: CjsNode[];
+  children: (CjsNode | string)[];
 }
 
-function convertJsxToCjs(jsxInner: string): CjsNode[] {
-  const nodes: CjsNode[] = [];
-  // Regex for a self-closing tag or an open tag — handles multi-line via [^]
+function convertJsxToCjs(jsxInner: string): (CjsNode | string)[] {
+  const nodes: (CjsNode | string)[] = [];
   const tagRe = /<([a-zA-Z][a-zA-Z0-9:.-]*)([^>]*?)(\/?)>/g;
-  const closeRe = /<\/([a-zA-Z][a-zA-Z0-9:.-]*)>/;
 
-  const stack: CjsNode[] = [];
   let remaining = jsxInner;
 
   while (remaining.length > 0) {
     const tagMatch = tagRe.exec(remaining);
-    if (!tagMatch) break;
+    if (!tagMatch) {
+      // Remaining text with no more tags - capture as text node
+      const text = remaining.trim();
+      if (text) nodes.push(text);
+      break;
+    }
+
+    // Capture text before this tag as a text node
+    const textBefore = remaining.slice(0, tagMatch.index).trim();
+    if (textBefore) nodes.push(textBefore);
 
     const tagName = tagMatch[1];
     const attrsRaw = tagMatch[2].trim();
     const isSelfClosing = tagMatch[3] === "/";
-    const matchStart = tagMatch.index;
     const matchEnd = tagMatch.index + tagMatch[0].length;
 
     // Parse attributes from the raw attr string
@@ -470,28 +477,22 @@ function convertJsxToCjs(jsxInner: string): CjsNode[] {
     const node: CjsNode = { type: tagName, props, children: [] };
 
     if (isSelfClosing) {
-      if (stack.length > 0) {
-        stack[stack.length - 1].children.push(node);
-      } else {
-        nodes.push(node);
-      }
+      nodes.push(node);
     } else {
-      // Find the matching close tag
-      const closeSearchStr = remaining.slice(matchEnd);
-      const closeMatch = closeRe.exec(closeSearchStr);
-      if (closeMatch) {
-        const innerContent = closeSearchStr.slice(0, closeMatch.index);
+      // Find matching close tag with depth tracking for nested same-type elements
+      const afterOpen = remaining.slice(matchEnd);
+      const closeIdx = findMatchingCloseTag(afterOpen, tagName);
+      if (closeIdx >= 0) {
+        const innerContent = afterOpen.slice(0, closeIdx);
+        const closeTagLen = `</${tagName}>`.length;
         node.children = convertJsxToCjs(innerContent);
-        if (stack.length > 0) {
-          stack[stack.length - 1].children.push(node);
-        } else {
-          nodes.push(node);
-        }
-        remaining = closeSearchStr.slice(closeMatch.index + closeMatch[0].length);
+        nodes.push(node);
+        remaining = afterOpen.slice(closeIdx + closeTagLen);
         tagRe.lastIndex = 0;
         continue;
       } else {
-        stack.push(node);
+        // No matching close tag found - treat as self-closing
+        nodes.push(node);
       }
     }
 
@@ -499,12 +500,43 @@ function convertJsxToCjs(jsxInner: string): CjsNode[] {
     tagRe.lastIndex = 0;
   }
 
-  // Flush anything remaining on the stack
-  for (const s of stack) {
-    nodes.push(s);
+  return nodes;
+}
+
+/**
+ * Find the index of the matching close tag in `html` for a given `tagName`,
+ * correctly handling nested elements of the same type.
+ * Returns -1 if no matching close tag is found.
+ */
+function findMatchingCloseTag(html: string, tagName: string): number {
+  const openRe = new RegExp(`<${tagName}(?:\\s[^>]*)?>`, "g");
+  const closeRe = new RegExp(`</${tagName}>`, "g");
+  let depth = 1;
+  let pos = 0;
+
+  while (depth > 0 && pos < html.length) {
+    openRe.lastIndex = pos;
+    closeRe.lastIndex = pos;
+
+    const openMatch = openRe.exec(html);
+    const closeMatch = closeRe.exec(html);
+
+    if (!closeMatch) return -1; // No more close tags
+
+    if (openMatch && openMatch.index < closeMatch.index) {
+      // Check if the open tag is self-closing
+      if (!openMatch[0].endsWith("/>")) {
+        depth++;
+      }
+      pos = openMatch.index + openMatch[0].length;
+    } else {
+      depth--;
+      if (depth === 0) return closeMatch.index;
+      pos = closeMatch.index + closeMatch[0].length;
+    }
   }
 
-  return nodes;
+  return -1;
 }
 
 function generateDtsComponent(icon: RawIcon): string {
@@ -591,68 +623,84 @@ function generateTypesDeclaration(): string {
 
 function validateOutput(): boolean {
   console.log("\nValidating output...");
-  const files = readdirSync(DIST).filter((f) => f.endsWith(".js"));
   let errors = 0;
+  let totalSampled = 0;
 
-  // Sample up to 20 files plus always check index.js
-  const sampled = new Set<string>(["index.js", "types.js"]);
-  const candidates = files.filter((f) => f !== "index.js" && f !== "types.js");
-  const step = Math.max(1, Math.floor(candidates.length / 18));
-  for (let i = 0; i < candidates.length && sampled.size < 20; i += step) {
-    sampled.add(candidates[i]);
-  }
+  // Validate both ESM (.js) and CJS (.cjs) files
+  for (const ext of [".js", ".cjs"] as const) {
+    const files = readdirSync(DIST).filter((f) => f.endsWith(ext));
+    const isEsm = ext === ".js";
+    const skipFiles = isEsm
+      ? new Set(["index.js", "types.js"])
+      : new Set(["index.cjs", "types.cjs"]);
 
-  for (const file of sampled) {
-    const content = readFileSync(join(DIST, file), "utf8");
-
-    // Check for TypeScript-only syntax in .js files
-    if (/\bimport\s+type\b/.test(content)) {
-      console.error(`  FAIL: ${file} contains "import type"`);
-      errors++;
-    }
-    if (/\bexport\s+type\s*\{/.test(content)) {
-      console.error(`  FAIL: ${file} contains "export type {}"`);
-      errors++;
-    }
-    if (/forwardRef</.test(content)) {
-      console.error(`  FAIL: ${file} contains generic type params on forwardRef`);
-      errors++;
+    // Sample up to 20 files per extension plus always check barrels
+    const sampled = new Set<string>([...skipFiles].filter((f) => files.includes(f)));
+    const candidates = files.filter((f) => !skipFiles.has(f));
+    const step = Math.max(1, Math.floor(candidates.length / 18));
+    for (let i = 0; i < candidates.length && sampled.size < 20; i += step) {
+      sampled.add(candidates[i]);
     }
 
-    // Check for string-form style attributes (style="...") in JSX
-    // Skip types.js which has no components
-    if (file !== "types.js" && file !== "index.js" && /style="[^"]*"/.test(content)) {
-      console.error(`  FAIL: ${file} contains style="..." string attribute`);
-      errors++;
+    for (const file of sampled) {
+      const content = readFileSync(join(DIST, file), "utf8");
+      const isComponent = !skipFiles.has(file);
+
+      if (isEsm) {
+        // Check for TypeScript-only syntax in .js files
+        if (/\bimport\s+type\b/.test(content)) {
+          console.error(`  FAIL: ${file} contains "import type"`);
+          errors++;
+        }
+        if (/\bexport\s+type\s*\{/.test(content)) {
+          console.error(`  FAIL: ${file} contains "export type {}"`);
+          errors++;
+        }
+      }
+
+      if (/forwardRef</.test(content)) {
+        console.error(`  FAIL: ${file} contains generic type params on forwardRef`);
+        errors++;
+      }
+
+      if (isComponent) {
+        // Check for raw JSX syntax (should use createElement)
+        if (/return\s*\(?\s*<[a-zA-Z]/.test(content)) {
+          console.error(`  FAIL: ${file} contains raw JSX syntax (should use createElement)`);
+          errors++;
+        }
+
+        // Check for malformed nested <svg> tags (from Inkscape exports)
+        if (/<svg=/.test(content)) {
+          console.error(`  FAIL: ${file} contains malformed <svg= (broken namespace cleanup)`);
+          errors++;
+        }
+
+        // Check for XML prolog or Inkscape metadata
+        if (/<\?xml/.test(content)) {
+          console.error(`  FAIL: ${file} contains XML prolog`);
+          errors++;
+        }
+
+        // Check for DOCTYPE declarations
+        if (/<!DOCTYPE/i.test(content)) {
+          console.error(`  FAIL: ${file} contains DOCTYPE declaration`);
+          errors++;
+        }
+
+        // Check for inline <style> blocks
+        if (/<style[\s>]/i.test(content)) {
+          console.error(`  FAIL: ${file} contains <style> element`);
+          errors++;
+        }
+      }
     }
 
-    // Check for malformed nested <svg> tags (from Inkscape exports)
-    if (file !== "types.js" && file !== "index.js" && /<svg=/.test(content)) {
-      console.error(`  FAIL: ${file} contains malformed <svg= (broken namespace cleanup)`);
-      errors++;
-    }
-
-    // Check for XML prolog or Inkscape metadata in JSX
-    if (file !== "types.js" && file !== "index.js" && /<\?xml/.test(content)) {
-      console.error(`  FAIL: ${file} contains XML prolog`);
-      errors++;
-    }
-
-    // Check for DOCTYPE declarations
-    if (file !== "types.js" && file !== "index.js" && /<!DOCTYPE/i.test(content)) {
-      console.error(`  FAIL: ${file} contains DOCTYPE declaration`);
-      errors++;
-    }
-
-    // Check for inline <style> blocks (not valid React JSX)
-    if (file !== "types.js" && file !== "index.js" && /<style[\s>]/i.test(content)) {
-      console.error(`  FAIL: ${file} contains <style> element`);
-      errors++;
-    }
+    totalSampled += sampled.size;
   }
 
   if (errors === 0) {
-    console.log(`  PASS: Validated ${sampled.size} files, no issues found.`);
+    console.log(`  PASS: Validated ${totalSampled} files (ESM + CJS), no issues found.`);
     return true;
   }
   console.error(`  ${errors} validation error(s) found.`);
@@ -676,15 +724,16 @@ function main(): void {
   for (const icon of rawIcons) {
     const componentName = toPascalCase(icon.slug);
 
-    // Write ESM component (JSX — requires a JSX transform / bundler or tsc)
-    writeFileSync(join(DIST, `${icon.slug}.js`), generateEsmComponent(icon) + "\n");
+    // Parse SVG once, reuse for both ESM and CJS output
+    const parsed = parseSvgForIcon(icon);
+    if (!parsed) skipped++;
+
+    // Write ESM component (pre-compiled createElement calls)
+    writeFileSync(join(DIST, `${icon.slug}.js`), generateEsmComponent(icon, parsed) + "\n");
     // Write CJS component (pre-compiled to createElement calls)
-    writeFileSync(join(DIST, `${icon.slug}.cjs`), generateCjsComponent(icon) + "\n");
+    writeFileSync(join(DIST, `${icon.slug}.cjs`), generateCjsComponent(icon, parsed) + "\n");
     // Write type declarations
     writeFileSync(join(DIST, `${icon.slug}.d.ts`), generateDtsComponent(icon) + "\n");
-
-    const svgExists = Boolean(primarySvg(icon.slug, icon.variants));
-    if (!svgExists) skipped++;
 
     entries.push({ slug: icon.slug, componentName });
 
