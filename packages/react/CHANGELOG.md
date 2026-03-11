@@ -1,5 +1,11 @@
 # @thesvg/react
 
+## 1.0.3
+
+### Patch Changes
+
+- [`90be98a`](https://github.com/GLINCKER/thesvg/commit/90be98a4ff5fb66b4bc3345f0a7463994011b09a) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - fix(react): emit createElement in ESM output instead of raw JSX ([#20](https://github.com/GLINCKER/thesvg/issues/20))
+
 ## 1.0.2
 
 ### Patch Changes
