@@ -1,31 +1,33 @@
-name: Release - Version
+name: Release - Publish
 
 on:
-  push:
+  # Triggers when Version Packages PR is merged
+  pull_request:
     branches: [main]
+    types: [closed]
+  # Manual trigger for retrying failed publishes
+  workflow_dispatch:
 
 permissions:
   contents: write
-  pull-requests: write
-
-concurrency:
-  group: release-${{ github.ref }}
-  cancel-in-progress: false
+  id-token: write
 
 env:
   NODE_VERSION: "20"
 
 jobs:
-  version:
-    name: Version
+  publish:
+    name: Publish to npm
     runs-on: ubuntu-latest
-    # Skip version commits to avoid infinite loops
-    if: "!startsWith(github.event.head_commit.message, 'chore(release)')"
+    environment: npm-publish
+    # Only run when a Version PR is merged, or on manual trigger
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true &&
+       startsWith(github.event.pull_request.title, 'chore(release)'))
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -37,84 +39,42 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: pnpm
 
+      - name: Upgrade npm for OIDC
+        run: npm install -g npm@latest
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Auto-generate changeset if missing
+      - name: Build all packages
         run: |
-          # Check if there are already pending changesets
-          EXISTING=$(ls .changeset/*.md 2>/dev/null | grep -v README.md | head -1 || true)
-          if [ -n "$EXISTING" ]; then
-            echo "Changeset already exists, skipping auto-generation"
-            exit 0
-          fi
+          cd packages/icons && npm run build && cd ../..
+          cd packages/thesvg && node scripts/build-reexports.mjs && cd ../..
+          cd packages/cli && npm run build && cd ../..
+          cd packages/mcp && npm run build && cd ../..
+          cd packages/react && npm run build && cd ../..
+          cd packages/vue && npm run build && cd ../..
+          cd packages/svelte && npm run build && cd ../..
 
-          # Detect which packages changed in the last commit
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
-          if [ -z "$CHANGED_FILES" ]; then
-            echo "No changed files detected"
-            exit 0
-          fi
-
-          # Map changed directories to package names
-          PACKAGES=""
-          if echo "$CHANGED_FILES" | grep -q "^packages/icons/\|^icons/\|^public/icons/\|^src/data/icons\.json"; then
-            PACKAGES="$PACKAGES \"@thesvg/icons\": patch"$'\n'
-          fi
-          if echo "$CHANGED_FILES" | grep -q "^packages/react/"; then
-            PACKAGES="$PACKAGES \"@thesvg/react\": patch"$'\n'
-          fi
-          if echo "$CHANGED_FILES" | grep -q "^packages/vue/"; then
-            PACKAGES="$PACKAGES \"@thesvg/vue\": patch"$'\n'
-          fi
-          if echo "$CHANGED_FILES" | grep -q "^packages/svelte/"; then
-            PACKAGES="$PACKAGES \"@thesvg/svelte\": patch"$'\n'
-          fi
-          if echo "$CHANGED_FILES" | grep -q "^packages/thesvg/"; then
-            PACKAGES="$PACKAGES \"thesvg\": patch"$'\n'
-          fi
-          if echo "$CHANGED_FILES" | grep -q "^packages/cli/"; then
-            PACKAGES="$PACKAGES \"@thesvg/cli\": patch"$'\n'
-          fi
-          if echo "$CHANGED_FILES" | grep -q "^packages/mcp/"; then
-            PACKAGES="$PACKAGES \"@thesvg/mcp-server\": patch"$'\n'
-          fi
-
-          # If icons changed, also bump framework packages (they re-export icons)
-          if echo "$CHANGED_FILES" | grep -q "^packages/icons/\|^icons/\|^public/icons/\|^src/data/icons\.json"; then
-            for PKG in "@thesvg/react" "@thesvg/vue" "@thesvg/svelte" "thesvg"; do
-              if ! echo "$PACKAGES" | grep -q "$PKG"; then
-                PACKAGES="$PACKAGES \"$PKG\": patch"$'\n'
-              fi
-            done
-          fi
-
-          if [ -z "$PACKAGES" ]; then
-            echo "No publishable package changes detected"
-            exit 0
-          fi
-
-          COMMIT_MSG=$(git log -1 --pretty=format:"%s")
-          CHANGESET_FILE=".changeset/auto-$(date +%s).md"
-          {
-            echo "---"
-            echo "$PACKAGES"
-            echo "---"
-            echo ""
-            echo "$COMMIT_MSG"
-          } > "$CHANGESET_FILE"
-
-          echo "Generated changeset: $CHANGESET_FILE"
-          cat "$CHANGESET_FILE"
+      - name: Publish to npm
+        run: pnpm changeset publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_CONFIG_PROVENANCE: "true"
 
-      # changesets/action creates a "Version Packages" PR when changesets exist.
-      # It does NOT publish here - publishing happens in publish.yml after PR merge.
-      - name: Create Version PR
-        uses: changesets/action@v1
-        with:
-          commit: "chore(release): version packages"
-          title: "chore(release): version packages"
+      - name: Create git tags
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Tag each package with its current version if not already tagged
+          for PKG_DIR in packages/icons packages/thesvg packages/cli packages/mcp packages/react packages/vue packages/svelte; do
+            if [ ! -d "$PKG_DIR" ]; then continue; fi
+            PKG_NAME=$(node -p "require('./$PKG_DIR/package.json').name")
+            PKG_VERSION=$(node -p "require('./$PKG_DIR/package.json').version")
+            TAG="$PKG_NAME@$PKG_VERSION"
+            if ! git rev-parse "$TAG" >/dev/null 2>&1; then
+              echo "Creating tag: $TAG"
+              git tag "$TAG"
+              git push origin "$TAG" || true
+            fi
+          done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
