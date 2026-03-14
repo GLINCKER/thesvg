@@ -1,14 +1,11 @@
-name: Release
+name: Release - Version
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:
 
 permissions:
   contents: write
-  packages: write
-  id-token: write
   pull-requests: write
 
 concurrency:
@@ -19,15 +16,11 @@ env:
   NODE_VERSION: "20"
 
 jobs:
-  release:
-    name: Release
+  version:
+    name: Version
     runs-on: ubuntu-latest
-    environment: npm-publish
-    # Skip version commits to avoid infinite loops.
-    # workflow_dispatch always runs so you can manually trigger publish.
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      !startsWith(github.event.head_commit.message, 'chore(release)')
+    # Skip version commits to avoid infinite loops
+    if: "!startsWith(github.event.head_commit.message, 'chore(release)')"
 
     steps:
       - uses: actions/checkout@v4
@@ -44,41 +37,22 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: pnpm
 
-      - name: Configure npm for OIDC publishing
-        run: |
-          npm install -g npm@latest
-          npm config set registry https://registry.npmjs.org/
-          npm config set provenance true
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build all packages
-        run: |
-          cd packages/icons && npm run build && cd ../..
-          cd packages/thesvg && node scripts/build-reexports.mjs && cd ../..
-          cd packages/cli && npm run build && cd ../..
-          cd packages/mcp && npm run build && cd ../..
-          cd packages/react && npm run build && cd ../..
-          cd packages/vue && npm run build && cd ../..
-          cd packages/svelte && npm run build && cd ../..
-
       - name: Auto-generate changeset if missing
-        id: auto-changeset
         run: |
           # Check if there are already pending changesets
           EXISTING=$(ls .changeset/*.md 2>/dev/null | grep -v README.md | head -1 || true)
           if [ -n "$EXISTING" ]; then
             echo "Changeset already exists, skipping auto-generation"
-            echo "generated=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           # Detect which packages changed in the last commit
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || git diff --name-only HEAD HEAD 2>/dev/null || echo "")
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
           if [ -z "$CHANGED_FILES" ]; then
             echo "No changed files detected"
-            echo "generated=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -108,30 +82,19 @@ jobs:
 
           # If icons changed, also bump framework packages (they re-export icons)
           if echo "$CHANGED_FILES" | grep -q "^packages/icons/\|^icons/\|^public/icons/\|^src/data/icons\.json"; then
-            if ! echo "$PACKAGES" | grep -q "@thesvg/react"; then
-              PACKAGES="$PACKAGES \"@thesvg/react\": patch"$'\n'
-            fi
-            if ! echo "$PACKAGES" | grep -q "@thesvg/vue"; then
-              PACKAGES="$PACKAGES \"@thesvg/vue\": patch"$'\n'
-            fi
-            if ! echo "$PACKAGES" | grep -q "@thesvg/svelte"; then
-              PACKAGES="$PACKAGES \"@thesvg/svelte\": patch"$'\n'
-            fi
-            if ! echo "$PACKAGES" | grep -q "\"thesvg\""; then
-              PACKAGES="$PACKAGES \"thesvg\": patch"$'\n'
-            fi
+            for PKG in "@thesvg/react" "@thesvg/vue" "@thesvg/svelte" "thesvg"; do
+              if ! echo "$PACKAGES" | grep -q "$PKG"; then
+                PACKAGES="$PACKAGES \"$PKG\": patch"$'\n'
+              fi
+            done
           fi
 
           if [ -z "$PACKAGES" ]; then
             echo "No publishable package changes detected"
-            echo "generated=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          # Extract commit summary for changelog
           COMMIT_MSG=$(git log -1 --pretty=format:"%s")
-
-          # Generate changeset file
           CHANGESET_FILE=".changeset/auto-$(date +%s).md"
           {
             echo "---"
@@ -143,44 +106,15 @@ jobs:
 
           echo "Generated changeset: $CHANGESET_FILE"
           cat "$CHANGESET_FILE"
-
-          echo "generated=true" >> "$GITHUB_OUTPUT"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Run unconditionally - changesets/action handles both cases:
-      # 1. Pending changesets -> creates Version Packages PR
-      # 2. No pending changesets but bumped versions -> publishes to npm
-      - name: Create Release PR or Publish
-        id: changesets
+      # changesets/action creates a "Version Packages" PR when changesets exist.
+      # It does NOT publish here - publishing happens in publish.yml after PR merge.
+      - name: Create Version PR
         uses: changesets/action@v1
         with:
-          publish: pnpm changeset publish
           commit: "chore(release): version packages"
           title: "chore(release): version packages"
-          createGithubReleases: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create git tag for release
-        if: steps.changesets.outputs.published == 'true'
-        run: |
-          # Create per-package tags from publishedPackages
-          PUBLISHED='${{ steps.changesets.outputs.publishedPackages }}'
-          if [ -n "$PUBLISHED" ] && [ "$PUBLISHED" != "[]" ]; then
-            echo "$PUBLISHED" | jq -r '.[] | "\(.name)@\(.version)"' | while read TAG; do
-              if ! git rev-parse "$TAG" >/dev/null 2>&1; then
-                git tag "$TAG"
-                git push origin "$TAG" || true
-              fi
-            done
-          fi
-
-      - name: Auto-merge Version Packages PR
-        if: steps.changesets.outputs.pullRequestNumber != ''
-        run: |
-          PR_NUMBER='${{ steps.changesets.outputs.pullRequestNumber }}'
-          echo "Enabling auto-merge on Version Packages PR #$PR_NUMBER"
-          gh pr merge "$PR_NUMBER" --squash --auto
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

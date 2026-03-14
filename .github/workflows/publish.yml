@@ -1,0 +1,80 @@
+name: Release - Publish
+
+on:
+  # Triggers when Version Packages PR is merged
+  pull_request:
+    branches: [main]
+    types: [closed]
+  # Manual trigger for retrying failed publishes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  publish:
+    name: Publish to npm
+    runs-on: ubuntu-latest
+    environment: npm-publish
+    # Only run when a Version PR is merged, or on manual trigger
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true &&
+       startsWith(github.event.pull_request.title, 'chore(release)'))
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Upgrade npm for OIDC
+        run: npm install -g npm@latest
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build all packages
+        run: |
+          cd packages/icons && npm run build && cd ../..
+          cd packages/thesvg && node scripts/build-reexports.mjs && cd ../..
+          cd packages/cli && npm run build && cd ../..
+          cd packages/mcp && npm run build && cd ../..
+          cd packages/react && npm run build && cd ../..
+          cd packages/vue && npm run build && cd ../..
+          cd packages/svelte && npm run build && cd ../..
+
+      - name: Publish to npm
+        run: pnpm changeset publish
+        env:
+          NPM_CONFIG_PROVENANCE: "true"
+
+      - name: Create git tags
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Tag each package with its current version if not already tagged
+          for PKG_DIR in packages/icons packages/thesvg packages/cli packages/mcp packages/react packages/vue packages/svelte; do
+            if [ ! -d "$PKG_DIR" ]; then continue; fi
+            PKG_NAME=$(node -p "require('./$PKG_DIR/package.json').name")
+            PKG_VERSION=$(node -p "require('./$PKG_DIR/package.json').version")
+            TAG="$PKG_NAME@$PKG_VERSION"
+            if ! git rev-parse "$TAG" >/dev/null 2>&1; then
+              echo "Creating tag: $TAG"
+              git tag "$TAG"
+              git push origin "$TAG" || true
+            fi
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
