@@ -42,13 +42,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+          registry-url: 'https://registry.npmjs.org'
           cache: pnpm
 
-      - name: Configure npm for OIDC publishing
-        run: |
-          npm install -g npm@latest
-          npm config set registry https://registry.npmjs.org/
-          npm config set provenance true
+      - name: Upgrade npm for OIDC provenance
+        run: npm install -g npm@latest
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -177,12 +175,28 @@ jobs:
         run: |
           # OIDC provenance: npm authenticates via GitHub Actions OIDC token.
           # No NPM_TOKEN needed - packages are linked as trusted publishers.
-          npm config set access public
-          OUTPUT=$(pnpm changeset publish 2>&1) || true
-          echo "$OUTPUT"
-          if echo "$OUTPUT" | grep -q "New tag:"; then
+          # We publish each package directly with --provenance (pnpm changeset publish doesn't pass it).
+          PUBLISHED=false
+          TAGS=""
+          for PKG_DIR in packages/icons packages/thesvg packages/cli packages/mcp packages/react packages/vue packages/svelte; do
+            if [ ! -d "$PKG_DIR" ]; then continue; fi
+            PKG_NAME=$(node -p "require('./$PKG_DIR/package.json').name")
+            PKG_VERSION=$(node -p "require('./$PKG_DIR/package.json').version")
+            # Check if this version is already published
+            if npm view "$PKG_NAME@$PKG_VERSION" version 2>/dev/null; then
+              echo "Skipping $PKG_NAME@$PKG_VERSION (already published)"
+              continue
+            fi
+            echo "Publishing $PKG_NAME@$PKG_VERSION..."
+            cd "$PKG_DIR"
+            npm publish --provenance --access public || { echo "Failed to publish $PKG_NAME"; cd -; continue; }
+            cd -
+            PUBLISHED=true
+            TAGS="$TAGS $PKG_NAME@$PKG_VERSION"
+          done
+          if [ "$PUBLISHED" = "true" ]; then
             echo "published=true" >> "$GITHUB_OUTPUT"
-            echo "$OUTPUT" | grep "New tag:" | sed 's/.*New tag: *//' > /tmp/published-tags.txt
+            echo "$TAGS" | tr ' ' '\n' | grep -v '^$' > /tmp/published-tags.txt
           else
             echo "No new packages to publish"
             echo "published=false" >> "$GITHUB_OUTPUT"
